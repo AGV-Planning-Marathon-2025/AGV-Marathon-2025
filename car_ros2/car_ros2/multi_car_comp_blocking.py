@@ -276,11 +276,11 @@ if args.rel :
 suffix = ""
 if args.mpc :
     suffix = "_mpc"
-model.load_state_dict(torch.load(folder+'/model_multi_myopic'+suffix+'.pth'))
+model.load_state_dict(torch.load(folder+'/model_multi_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
 model.eval()
-V1.load_state_dict(torch.load('q'+folder[1:]+'/model_multi0_myopic'+suffix+'.pth'))
-V2.load_state_dict(torch.load('q'+folder[1:]+'/model_multi1_myopic'+suffix+'.pth'))
-V3.load_state_dict(torch.load('q'+folder[1:]+'/model_multi2_myopic'+suffix+'.pth'))
+V1.load_state_dict(torch.load('q'+folder[1:]+'/model_multi0_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
+V2.load_state_dict(torch.load('q'+folder[1:]+'/model_multi1_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
+V3.load_state_dict(torch.load('q'+folder[1:]+'/model_multi2_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
 # model = model
 V1.eval()
 V2.eval()
@@ -291,22 +291,22 @@ model_opp1 = SimpleModel(39,[3*fs,3*fs,3*64],1)
 # print(torch.load('model_haha.pth').keys())
 # model.load_state_dict(torch.load('model_p.pth'))
 if OPP_Stretegy == 'ours-low_data' :
-    model_opp.load_state_dict(torch.load(folder+'/model_multi_small_myopic'+suffix+'.pth'))
+    model_opp.load_state_dict(torch.load(folder+'/model_multi_small_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'ours-low_p' :
-    model_opp.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth'))
+    model_opp.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'ours-high_p' :
-    model_opp.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth'))
+    model_opp.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'rl' :
     model_opp = PPO.load("trained_policy"+str(9))
 if OPP_Stretegy != 'rl' :
     model_opp.eval()
 
 if OPP1_Stretegy == 'ours-low_data' :
-    model_opp1.load_state_dict(torch.load(folder+'/model_multi_small_myopic'+suffix+'.pth'))
+    model_opp1.load_state_dict(torch.load(folder+'/model_multi_small_myopic'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP1_Stretegy == 'ours-low_p' :
-    model_opp1.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth'))
+    model_opp1.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP1_Stretegy == 'ours-high_p' :
-    model_opp1.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth'))
+    model_opp1.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'rl' :
     model_opp1 = PPO.load("trained_policy"+str(9))
 if OPP_Stretegy != 'rl' :

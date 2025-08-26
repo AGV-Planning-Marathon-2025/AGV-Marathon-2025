@@ -1,1 +1,1 @@
-/root/ros_ws_aux/src/novatel_oem7_msgs/msg/SolutionStatus.msg
+unsupported reparse tag 0xa000000c

@@ -1,1 +1,1 @@
-/root/ros_ws_aux/src/schemas/ros_foxglove_msgs/msg/Color.msg
+unsupported reparse tag 0xa000000c

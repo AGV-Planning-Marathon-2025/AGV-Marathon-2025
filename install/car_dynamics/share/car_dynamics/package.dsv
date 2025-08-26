@@ -1,0 +1,3 @@
+source;share/car_dynamics/hook/pythonpath.ps1
+source;share/car_dynamics/hook/pythonpath.dsv
+source;share/car_dynamics/hook/pythonpath.sh

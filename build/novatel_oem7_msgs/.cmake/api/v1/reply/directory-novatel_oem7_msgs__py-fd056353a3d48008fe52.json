@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "novatel_oem7_msgs__py",
+		"source" : "/home/dvij/multi-car-racing/build/novatel_oem7_msgs/novatel_oem7_msgs__py"
+	}
+}

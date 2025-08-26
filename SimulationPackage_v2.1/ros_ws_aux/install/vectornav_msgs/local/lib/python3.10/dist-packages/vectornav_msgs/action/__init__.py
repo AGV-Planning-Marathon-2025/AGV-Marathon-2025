@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/vectornav_msgs/rosidl_generator_py/vectornav_msgs/action/__init__.py
+unsupported reparse tag 0xa000000c

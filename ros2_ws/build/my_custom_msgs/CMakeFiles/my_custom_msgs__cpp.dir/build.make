@@ -70,6 +70,8 @@ CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/policy_p
 CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__builder.hpp
 CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__struct.hpp
 CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__traits.hpp
+CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__type_support.hpp
+CMakeFiles/my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -131,10 +133,14 @@ rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__struct.hpp: rosidl
 rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__traits.hpp: rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__traits.hpp
 
+rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__type_support.hpp: rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__type_support.hpp
+
 my_custom_msgs__cpp: CMakeFiles/my_custom_msgs__cpp
 my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__builder.hpp
 my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__struct.hpp
 my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__traits.hpp
+my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__type_support.hpp
 my_custom_msgs__cpp: rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp
 my_custom_msgs__cpp: CMakeFiles/my_custom_msgs__cpp.dir/build.make
 .PHONY : my_custom_msgs__cpp

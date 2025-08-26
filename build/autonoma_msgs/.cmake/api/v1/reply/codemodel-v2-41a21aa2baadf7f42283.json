@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d3b1e11f15621367092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "autonoma_msgs__py",
+					"jsonFile" : "directory-autonoma_msgs__py-bd4ab62a485caba5d43b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dvij/multi-car-racing/build/autonoma_msgs/autonoma_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "autonoma_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autonoma_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autonoma_msgs_egg-33b31a3ca5c25236231b.json",
+					"name" : "ament_cmake_python_build_autonoma_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_autonoma_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_autonoma_msgs-34306a80e68507395826.json",
+					"name" : "ament_cmake_python_copy_autonoma_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs-671b2dfd30ec9ff40fa3.json",
+					"name" : "autonoma_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__cpp-88eb91fc9528b535682f.json",
+					"name" : "autonoma_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autonoma_msgs__py::@d3d6c6bb303c3dbdbd57",
+					"jsonFile" : "target-autonoma_msgs__py-1dc084ec51efc2f3bdc4.json",
+					"name" : "autonoma_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_generator_c-e534de50ac885816dde7.json",
+					"name" : "autonoma_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_generator_py-3a90488cc9043e3e957e.json",
+					"name" : "autonoma_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_c-b628bcbfe8b20352b782.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_c__pyext-fd1fc4191043b252e254.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_cpp-c3274c56589450cca9cf.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_fastrtps_c-a4632c89fef4189e08c6.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_fastrtps_c__pyext-ea5061431ec2f3ea3ca5.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_fastrtps_cpp-fb28dfe496bcc6fc099c.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_introspection_c-f3d03acfc3206139fc27.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_introspection_c__pyext-d2cb4c70304af2297637.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs__rosidl_typesupport_introspection_cpp-34dc467f38b9f2355c36.json",
+					"name" : "autonoma_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonoma_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonoma_msgs_uninstall-cdeb4fece4beedb4fe7b.json",
+					"name" : "autonoma_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-172f36340b374f322e0b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dvij/multi-car-racing/build/autonoma_msgs",
+		"source" : "/home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/autonoma_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

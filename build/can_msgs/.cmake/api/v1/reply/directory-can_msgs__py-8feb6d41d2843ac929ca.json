@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "can_msgs__py",
+		"source" : "/home/dvij/multi-car-racing/build/can_msgs/can_msgs__py"
+	}
+}

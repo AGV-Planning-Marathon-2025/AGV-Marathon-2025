@@ -1,0 +1,53 @@
+[0.483s] Invoking command in '/home/dvij/multi-car-racing/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/my_robot_description
+[0.543s] -- The C compiler identification is GNU 11.4.0
+[0.603s] -- The CXX compiler identification is GNU 11.4.0
+[0.612s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.683s] -- Detecting C compile features
+[0.683s] -- Detecting C compile features - done
+[0.687s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.777s] -- Detecting CXX compile features
+[0.777s] -- Detecting CXX compile features - done
+[0.777s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.917s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.111s] -- Configuring done
+[1.116s] -- Generating done
+[1.118s] -- Build files have been written to: /home/dvij/multi-car-racing/build/my_robot_description
+[1.129s] Invoked command in '/home/dvij/multi-car-racing/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/my_robot_description
+[1.130s] Invoking command in '/home/dvij/multi-car-racing/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/my_robot_description -- -j12 -l12
+[1.168s] Invoked command in '/home/dvij/multi-car-racing/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/my_robot_description -- -j12 -l12
+[1.177s] Invoking command in '/home/dvij/multi-car-racing/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/my_robot_description
+[1.389s] -- Install configuration: ""
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/urdf
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/urdf/car.urdf
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/urdf/car1.urdf
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/urdf/car2.urdf
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes/il15_body.stl
+[1.389s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes/il15_tyre_fl.stl
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes/il15_tyre_fr.stl
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes/il15_tyre_rl.stl
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/meshes/il15_tyre_rr.stl
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/launch
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[1.390s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/launch/display1.launch.py
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/launch/display2.launch.py
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/environment/path.sh
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/local_setup.bash
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/local_setup.sh
+[1.391s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/package.dsv
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.392s] -- Installing: /home/dvij/multi-car-racing/install/my_robot_description/share/my_robot_description/package.xml
+[1.401s] Invoked command in '/home/dvij/multi-car-racing/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/my_robot_description

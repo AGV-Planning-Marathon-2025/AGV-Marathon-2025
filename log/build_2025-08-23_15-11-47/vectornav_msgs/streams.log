@@ -1,0 +1,564 @@
+[0.024s] Invoking command in '/home/dvij/multi-car-racing/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/vectornav_msgs
+[0.507s] -- The C compiler identification is GNU 11.4.0
+[0.507s] -- The CXX compiler identification is GNU 11.4.0
+[0.507s] -- Detecting C compiler ABI info
+[0.507s] -- Detecting C compiler ABI info - done
+[0.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.508s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.508s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.508s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.584s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.623s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.630s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.640s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.745s] [0mGrabbing messages action/MagCal.action[0m
+[1.248s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.903s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.926s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.927s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.950s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.951s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.951s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.970s] -- Found PythonExtra: .so  
+[2.086s] -- Configuring done
+[2.246s] -- Generating done
+[2.286s] -- Build files have been written to: /home/dvij/multi-car-racing/build/vectornav_msgs
+[2.299s] Invoked command in '/home/dvij/multi-car-racing/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/vectornav_msgs
+[2.300s] Invoking command in '/home/dvij/multi-car-racing/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/vectornav_msgs -- -j12 -l12
+[2.385s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.416s] [  1%] Built target ament_cmake_python_copy_vectornav_msgs
+[2.428s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.811s] running egg_info
+[2.816s] creating vectornav_msgs.egg-info
+[2.817s] writing vectornav_msgs.egg-info/PKG-INFO
+[2.817s] writing dependency_links to vectornav_msgs.egg-info/dependency_links.txt
+[2.817s] writing top-level names to vectornav_msgs.egg-info/top_level.txt
+[2.817s] writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.828s] reading manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.828s] writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[2.918s] [  1%] Built target ament_cmake_python_build_vectornav_msgs_egg
+[7.609s] [  2%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/common_group__functions.c.o[0m
+[7.614s] [  3%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/dop__functions.c.o[0m
+[7.620s] [  3%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/gps_group__functions.c.o[0m
+[7.624s] [  5%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_status__functions.c.o[0m
+[7.625s] [  5%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_utc__functions.c.o[0m
+[7.629s] [  5%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/attitude_group__functions.c.o[0m
+[7.635s] [  6%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/imu_group__functions.c.o[0m
+[7.635s] [  7%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_group__functions.c.o[0m
+[7.635s] [  8%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_group__functions.c.o[0m
+[7.640s] [  9%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/vpe_status__functions.c.o[0m
+[7.651s] [ 10%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_status__functions.c.o[0m
+[7.945s] [ 11%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/action/detail/mag_cal__functions.c.o[0m
+[8.560s] [ 12%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_generator_c.so[0m
+[8.673s] [ 12%] Built target vectornav_msgs__rosidl_generator_c
+[8.719s] [ 13%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.725s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.726s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.406s] [ 15%] Built target vectornav_msgs__cpp
+[9.448s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.453s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.465s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.889s] [ 18%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/attitude_group__type_support.c.o[0m
+[11.889s] [ 18%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/gps_group__type_support.c.o[0m
+[11.896s] [ 19%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/dop__type_support.c.o[0m
+[11.898s] [ 20%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/common_group__type_support.c.o[0m
+[11.898s] [ 21%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/imu_group__type_support.c.o[0m
+[11.903s] [ 22%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_group__type_support.c.o[0m
+[11.909s] [ 23%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_status__type_support.c.o[0m
+[12.013s] [ 24%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_group__type_support.c.o[0m
+[12.017s] [ 25%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_status__type_support.c.o[0m
+[12.024s] [ 26%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_utc__type_support.c.o[0m
+[12.053s] [ 26%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/vpe_status__type_support.c.o[0m
+[12.090s] [ 27%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/action/detail/mag_cal__type_support.c.o[0m
+[12.263s] [ 28%] [32m[1mLinking C shared library libvectornav_msgs__rosidl_typesupport_introspection_c.so[0m
+[12.277s] [ 29%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/common_group__type_support_c.cpp.o[0m
+[12.288s] [ 30%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/gps_group__type_support_c.cpp.o[0m
+[12.288s] [ 31%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/attitude_group__type_support_c.cpp.o[0m
+[12.288s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/imu_group__type_support_c.cpp.o[0m
+[12.288s] [ 32%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/dop__type_support_c.cpp.o[0m
+[12.299s] [ 33%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_status__type_support_c.cpp.o[0m
+[12.305s] [ 34%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_group__type_support_c.cpp.o[0m
+[12.360s] [ 34%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[12.384s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_group__type_support_c.cpp.o[0m
+[12.937s] [ 35%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_status__type_support_c.cpp.o[0m
+[13.539s] [ 36%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_utc__type_support_c.cpp.o[0m
+[13.631s] [ 37%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/vpe_status__type_support_c.cpp.o[0m
+[14.004s] [ 38%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/action/detail/mag_cal__type_support_c.cpp.o[0m
+[14.138s] [ 39%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[14.163s] [ 39%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[14.240s] [ 40%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[14.272s] [ 41%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[14.307s] [ 42%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[14.328s] [ 43%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[14.328s] [ 44%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[14.366s] [ 44%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[14.398s] [ 45%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[14.410s] [ 46%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[14.425s] [ 47%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/action/mag_cal__type_support.cpp.o[0m
+[14.426s] [ 48%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[14.554s] [ 49%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_c.so[0m
+[14.772s] [ 49%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/attitude_group__type_support.cpp.o[0m
+[14.775s] [ 50%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/dop__type_support.cpp.o[0m
+[14.784s] [ 50%] Built target vectornav_msgs__rosidl_typesupport_c
+[14.801s] [ 51%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/common_group__type_support.cpp.o[0m
+[14.815s] [ 52%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_group__type_support.cpp.o[0m
+[14.822s] [ 52%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_status__type_support.cpp.o[0m
+[14.822s] [ 53%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_group__type_support.cpp.o[0m
+[14.822s] [ 54%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/imu_group__type_support.cpp.o[0m
+[14.823s] [ 55%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/gps_group__type_support.cpp.o[0m
+[14.991s] [ 56%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_status__type_support.cpp.o[0m
+[15.024s] [ 57%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.643s] [ 58%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_utc__type_support.cpp.o[0m
+[15.672s] [ 59%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__type_support.cpp.o[0m
+[15.780s] [ 59%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[15.809s] [ 60%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/action/detail/mag_cal__type_support.cpp.o[0m
+[16.456s] [ 61%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/common_group__type_support.cpp.o[0m
+[16.477s] [ 62%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/attitude_group__type_support.cpp.o[0m
+[16.615s] [ 63%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/dop__type_support.cpp.o[0m
+[16.710s] [ 64%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/gps_group__type_support.cpp.o[0m
+[17.358s] [ 64%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_group__type_support.cpp.o[0m
+[17.370s] [ 65%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/imu_group__type_support.cpp.o[0m
+[17.406s] [ 66%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/attitude_group__type_support.cpp.o[0m
+[17.477s] [ 67%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/common_group__type_support.cpp.o[0m
+[17.484s] [ 68%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_status__type_support.cpp.o[0m
+[17.828s] [ 69%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_group__type_support.cpp.o[0m
+[18.060s] [ 70%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/dop__type_support.cpp.o[0m
+[18.096s] [ 71%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_status__type_support.cpp.o[0m
+[18.304s] [ 72%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_utc__type_support.cpp.o[0m
+[18.862s] [ 73%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/gps_group__type_support.cpp.o[0m
+[18.863s] [ 73%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/imu_group__type_support.cpp.o[0m
+[18.981s] [ 74%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[19.032s] [ 75%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_group__type_support.cpp.o[0m
+[19.245s] [ 75%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[19.256s] [ 76%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/vpe_status__type_support.cpp.o[0m
+[19.313s] [ 77%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_status__type_support.cpp.o[0m
+[19.386s] [ 78%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_group__type_support.cpp.o[0m
+[19.730s] [ 78%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/action/detail/dds_fastrtps/mag_cal__type_support.cpp.o[0m
+[19.741s] [ 79%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_status__type_support.cpp.o[0m
+[19.745s] [ 80%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_utc__type_support.cpp.o[0m
+[19.904s] [ 80%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/vpe_status__type_support.cpp.o[0m
+[20.157s] [ 81%] [32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/action/mag_cal__type_support.cpp.o[0m
+[22.731s] [ 82%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_cpp.so[0m
+[22.869s] [ 82%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[23.606s] [ 83%] [32m[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.909s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[23.994s] [ 83%] Built target vectornav_msgs
+[24.078s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.978s] [ 84%] Built target vectornav_msgs__py
+[35.007s] [ 85%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c.o[0m
+[35.188s] [ 86%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/action/_mag_cal_s.c.o[0m
+[35.429s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_vpe_status_s.c.o[0m
+[35.603s] [ 87%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_utc_s.c.o[0m
+[35.762s] [ 88%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_status_s.c.o[0m
+[35.901s] [ 89%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_group_s.c.o[0m
+[36.024s] [ 90%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_status_s.c.o[0m
+[36.181s] [ 91%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_group_s.c.o[0m
+[36.327s] [ 92%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_imu_group_s.c.o[0m
+[36.480s] [ 93%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_gps_group_s.c.o[0m
+[36.592s] [ 93%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_dop_s.c.o[0m
+[36.714s] [ 94%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_common_group_s.c.o[0m
+[36.886s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so[0m
+[36.952s] [ 95%] Built target vectornav_msgs__rosidl_generator_py
+[36.979s] [ 96%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.210s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.277s] [ 97%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[37.304s] [ 97%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[37.525s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.590s] [ 98%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[37.617s] [ 99%] [32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.788s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.852s] [100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[37.868s] Invoked command in '/home/dvij/multi-car-racing/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/vectornav_msgs -- -j12 -l12
+[37.869s] Invoking command in '/home/dvij/multi-car-racing/build/vectornav_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/vectornav_msgs
+[37.881s] -- Install configuration: ""
+[37.881s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs
+[37.881s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.881s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.881s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.881s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.c
+[37.882s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.h
+[37.882s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.h
+[37.882s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.h
+[37.882s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.h
+[37.882s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.h
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.h
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.h
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.h
+[37.883s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.c
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.h
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.h
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.h
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.c
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.h
+[37.884s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.h
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.h
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.c
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.h
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.h
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.h
+[37.885s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.c
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.h
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.h
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.h
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.c
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.h
+[37.886s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.h
+[37.887s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.h
+[37.887s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.c
+[37.887s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.h
+[37.887s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.h
+[37.887s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.h
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.c
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.h
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.h
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.h
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.c
+[37.888s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.h
+[37.889s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.h
+[37.889s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.h
+[37.889s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.c
+[37.889s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.h
+[37.889s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.h
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.h
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.c
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.h
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.h
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.h
+[37.890s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.c
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.h
+[37.891s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h
+[37.892s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.h
+[37.892s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.h
+[37.892s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.h
+[37.892s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.h
+[37.892s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh
+[37.893s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv
+[37.893s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so
+[37.894s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so" to ""
+[37.894s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.894s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.894s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.894s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_c.h
+[37.894s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.894s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.894s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h
+[37.895s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h
+[37.895s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h
+[37.895s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h
+[37.895s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h
+[37.896s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h
+[37.897s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.897s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so
+[37.897s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[37.898s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.898s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.898s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.898s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__builder.hpp
+[37.898s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.hpp
+[37.898s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__traits.hpp
+[37.898s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.hpp
+[37.899s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.hpp
+[37.899s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.899s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.hpp
+[37.899s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.hpp
+[37.899s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.899s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__traits.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__builder.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__traits.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__builder.hpp
+[37.900s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__traits.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__builder.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__traits.hpp
+[37.901s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.hpp
+[37.902s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__builder.hpp
+[37.902s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.hpp
+[37.902s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__traits.hpp
+[37.902s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.hpp
+[37.902s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__builder.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__traits.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__builder.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.hpp
+[37.903s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__traits.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__builder.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__traits.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.hpp
+[37.904s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__builder.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__traits.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__builder.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.hpp
+[37.905s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__traits.hpp
+[37.906s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.hpp
+[37.906s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__builder.hpp
+[37.906s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.hpp
+[37.906s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__traits.hpp
+[37.906s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__builder.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.hpp
+[37.907s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.hpp
+[37.908s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.hpp
+[37.909s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.909s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.909s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.909s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/dds_fastrtps
+[37.909s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_cpp.hpp
+[37.909s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.909s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dds_fastrtps
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.910s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp
+[37.911s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.912s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[37.912s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[37.912s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.913s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.913s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.913s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_c.h
+[37.913s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.c
+[37.913s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.913s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.913s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h
+[37.913s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.c
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.c
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.c
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h
+[37.914s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.c
+[37.915s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h
+[37.915s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.c
+[37.915s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h
+[37.915s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.c
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.c
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.c
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h
+[37.916s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.c
+[37.917s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h
+[37.917s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.c
+[37.917s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h
+[37.917s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.c
+[37.917s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.918s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so
+[37.918s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[37.918s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so
+[37.919s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so" to ""
+[37.919s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs
+[37.919s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action
+[37.919s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail
+[37.919s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_cpp.hpp
+[37.920s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.cpp
+[37.920s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg
+[37.920s] -- Up-to-date: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail
+[37.920s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp
+[37.920s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.cpp
+[37.920s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp
+[37.920s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.cpp
+[37.921s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp
+[37.921s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.cpp
+[37.921s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp
+[37.921s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.cpp
+[37.921s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.cpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.cpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.cpp
+[37.922s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.cpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.cpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.cpp
+[37.923s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
+[37.924s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.cpp
+[37.924s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so
+[37.925s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[37.925s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so
+[37.925s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so" to ""
+[37.925s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/dependency_links.txt
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/PKG-INFO
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/SOURCES.txt
+[37.926s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs-3.0.0-py3.10.egg-info/top_level.txt
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal.py
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal_s.c
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/__init__.py
+[37.927s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so
+[37.928s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg
+[37.928s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group.py
+[37.928s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group_s.c
+[37.928s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group.py
+[37.928s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group_s.c
+[37.929s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop.py
+[37.929s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop_s.c
+[37.929s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group.py
+[37.929s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group_s.c
+[37.929s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group.py
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group_s.c
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group.py
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group_s.c
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status.py
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status_s.c
+[37.930s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group.py
+[37.931s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group_s.c
+[37.931s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status.py
+[37.931s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status_s.c
+[37.931s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc.py
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc_s.c
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status.py
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status_s.c
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/__init__.py
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.932s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.933s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.933s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c
+[37.933s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[37.934s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[37.934s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/__init__.py
+[38.050s] Listing '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs'...
+[38.050s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/__init__.py'...
+[38.050s] Listing '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action'...
+[38.050s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/__init__.py'...
+[38.050s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/action/_mag_cal.py'...
+[38.050s] Listing '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg'...
+[38.050s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/__init__.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_attitude_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_common_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_dop.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_gps_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_imu_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_ins_status.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_group.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_status.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_time_utc.py'...
+[38.051s] Compiling '/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/msg/_vpe_status.py'...
+[38.058s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[38.058s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.059s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[38.059s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.059s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[38.060s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/local/lib/python3.10/dist-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[38.060s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so
+[38.061s] -- Set runtime path of "/home/dvij/multi-car-racing/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so" to ""
+[38.061s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl
+[38.061s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl
+[38.061s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl
+[38.062s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl
+[38.062s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl
+[38.062s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl
+[38.063s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl
+[38.063s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl
+[38.063s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl
+[38.063s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl
+[38.063s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl
+[38.064s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.idl
+[38.064s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg
+[38.064s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg
+[38.065s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg
+[38.065s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg
+[38.066s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg
+[38.067s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg
+[38.067s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.action
+[38.067s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs
+[38.068s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs
+[38.068s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh
+[38.068s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv
+[38.068s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh
+[38.069s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv
+[38.069s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash
+[38.069s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh
+[38.069s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh
+[38.070s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv
+[38.070s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/package.dsv
+[38.070s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs
+[38.070s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport.cmake
+[38.071s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport-noconfig.cmake
+[38.071s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[38.071s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.072s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cppExport.cmake
+[38.072s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.072s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.072s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[38.073s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.073s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake
+[38.073s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[38.074s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[38.074s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.074s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake
+[38.075s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[38.075s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport.cmake
+[38.075s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[38.075s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake
+[38.076s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.076s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.076s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[38.076s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[38.077s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.077s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.077s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake
+[38.077s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake
+[38.078s] -- Installing: /home/dvij/multi-car-racing/install/vectornav_msgs/share/vectornav_msgs/package.xml
+[38.082s] Invoked command in '/home/dvij/multi-car-racing/build/vectornav_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/vectornav_msgs

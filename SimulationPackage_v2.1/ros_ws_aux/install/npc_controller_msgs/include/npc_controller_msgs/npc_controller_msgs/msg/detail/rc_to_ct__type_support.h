@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/npc_controller_msgs/rosidl_generator_c/npc_controller_msgs/msg/detail/rc_to_ct__type_support.h
+unsupported reparse tag 0xa000000c

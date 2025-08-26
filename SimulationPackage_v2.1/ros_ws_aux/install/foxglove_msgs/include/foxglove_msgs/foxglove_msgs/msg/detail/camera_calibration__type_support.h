@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/foxglove_msgs/rosidl_generator_c/foxglove_msgs/msg/detail/camera_calibration__type_support.h
+unsupported reparse tag 0xa000000c

@@ -15,6 +15,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__builder.hpp" "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp"
   "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__struct.hpp" "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp"
   "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__traits.hpp" "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp"
+  "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/detail/policy_params__type_support.hpp" "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_generator_cpp/my_custom_msgs/msg/policy_params.hpp"
   )
 
 

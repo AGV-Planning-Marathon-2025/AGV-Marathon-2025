@@ -1,0 +1,3 @@
+[console_scripts]
+car_node = car_ros2.car_node:main
+

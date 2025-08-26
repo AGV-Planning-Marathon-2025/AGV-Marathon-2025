@@ -1,0 +1,89 @@
+[0.055s] Invoking command in '/home/dvij/multi-car-racing/build/can_dbc_parser': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/raptor_dbw_msgs/can_dbc_parser -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/can_dbc_parser
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.509s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.781s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.781s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[1.126s] -- Detecting CXX compiler ABI info - done
+[1.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.180s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.199s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.618s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.819s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.967s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.003s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.033s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.479s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.502s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.007s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.141s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.179s] -- Looking for pthread.h
+[3.436s] -- Looking for pthread.h - found
+[3.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.704s] -- Found Threads: TRUE  
+[4.156s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.208s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/can_dbc_parser` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[4.221s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.224s] -- Configured cppcheck include dirs: /home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/raptor_dbw_msgs/can_dbc_parser/include
+[4.224s] -- Configured cppcheck exclude dirs and/or files: 
+[4.230s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.230s] -- Configured cpplint exclude dirs and/or files: 
+[4.232s] -- Added test 'lint_cmake' to check CMake code style
+[4.236s] -- Added test 'uncrustify' to check C / C++ code style
+[4.236s] -- Configured uncrustify additional arguments: 
+[4.238s] -- Added test 'xmllint' to check XML markup files
+[4.248s] -- Configuring done
+[4.262s] -- Generating done
+[4.271s] -- Build files have been written to: /home/dvij/multi-car-racing/build/can_dbc_parser
+[4.294s] Invoked command in '/home/dvij/multi-car-racing/build/can_dbc_parser' returned '0': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/raptor_dbw_msgs/can_dbc_parser -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/can_dbc_parser
+[4.294s] Invoking command in '/home/dvij/multi-car-racing/build/can_dbc_parser': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dvij/multi-car-racing/build/can_dbc_parser -- -j12 -l12
+[4.441s] [ 16%] [32mBuilding CXX object CMakeFiles/can_dbc_parser.dir/src/LineParser.cpp.o[0m
+[4.449s] [ 33%] [32mBuilding CXX object CMakeFiles/can_dbc_parser.dir/src/DbcMessage.cpp.o[0m
+[4.450s] [ 50%] [32mBuilding CXX object CMakeFiles/can_dbc_parser.dir/src/DbcSignal.cpp.o[0m
+[4.452s] [ 66%] [32mBuilding CXX object CMakeFiles/can_dbc_parser.dir/src/Dbc.cpp.o[0m
+[4.455s] [ 83%] [32mBuilding CXX object CMakeFiles/can_dbc_parser.dir/src/DbcBuilder.cpp.o[0m
+[23.304s] [100%] [32m[1mLinking CXX shared library libcan_dbc_parser.so[0m
+[23.546s] [100%] Built target can_dbc_parser
+[23.569s] Invoked command in '/home/dvij/multi-car-racing/build/can_dbc_parser' returned '0': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dvij/multi-car-racing/build/can_dbc_parser -- -j12 -l12
+[23.576s] Invoking command in '/home/dvij/multi-car-racing/build/can_dbc_parser': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dvij/multi-car-racing/build/can_dbc_parser
+[23.600s] -- Install configuration: ""
+[23.601s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include
+[23.601s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser
+[23.601s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/Dbc.hpp
+[23.601s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/DbcBuilder.hpp
+[23.602s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/DbcMessage.hpp
+[23.603s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/DbcSignal.hpp
+[23.603s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/DbcUtilities.hpp
+[23.603s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/include/can_dbc_parser/LineParser.hpp
+[23.603s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/library_path.sh
+[23.607s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/library_path.dsv
+[23.607s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/lib/libcan_dbc_parser.so
+[23.608s] -- Set runtime path of "/home/dvij/multi-car-racing/install/can_dbc_parser/lib/libcan_dbc_parser.so" to ""
+[23.608s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/ament_index/resource_index/package_run_dependencies/can_dbc_parser
+[23.608s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/ament_index/resource_index/parent_prefix_path/can_dbc_parser
+[23.608s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/ament_prefix_path.sh
+[23.608s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/ament_prefix_path.dsv
+[23.610s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/path.sh
+[23.613s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/environment/path.dsv
+[23.613s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/local_setup.bash
+[23.613s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/local_setup.sh
+[23.617s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/local_setup.zsh
+[23.618s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/local_setup.dsv
+[23.619s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/package.dsv
+[23.619s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/ament_index/resource_index/packages/can_dbc_parser
+[23.620s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.622s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.622s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/cmake/ament_cmake_export_libraries-extras.cmake
+[23.623s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/cmake/can_dbc_parserConfig.cmake
+[23.623s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/cmake/can_dbc_parserConfig-version.cmake
+[23.623s] -- Installing: /home/dvij/multi-car-racing/install/can_dbc_parser/share/can_dbc_parser/package.xml
+[23.625s] Invoked command in '/home/dvij/multi-car-racing/build/can_dbc_parser' returned '0': AMENT_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dvij/multi-car-racing/install/can_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dvij/multi-car-racing/install/can_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dvij/multi-car-racing/install/can_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dvij/multi-car-racing/build/can_dbc_parser

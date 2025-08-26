@@ -1,1 +1,1 @@
-/root/ros_ws_aux/src/vectornav_msgs/msg/GpsGroup.msg
+unsupported reparse tag 0xa000000c

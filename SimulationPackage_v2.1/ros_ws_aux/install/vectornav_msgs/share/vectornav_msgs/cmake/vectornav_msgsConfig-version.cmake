@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/vectornav_msgs/ament_cmake_core/vectornav_msgsConfig-version.cmake
+unsupported reparse tag 0xa000000c

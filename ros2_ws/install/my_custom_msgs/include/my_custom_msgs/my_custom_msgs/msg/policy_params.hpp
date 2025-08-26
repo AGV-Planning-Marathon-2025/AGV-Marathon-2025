@@ -7,5 +7,6 @@
 #include "my_custom_msgs/msg/detail/policy_params__struct.hpp"
 #include "my_custom_msgs/msg/detail/policy_params__builder.hpp"
 #include "my_custom_msgs/msg/detail/policy_params__traits.hpp"
+#include "my_custom_msgs/msg/detail/policy_params__type_support.hpp"
 
 #endif  // MY_CUSTOM_MSGS__MSG__POLICY_PARAMS_HPP_

@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/vectornav_msgs/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_cpp.hpp
+unsupported reparse tag 0xa000000c

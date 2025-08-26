@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/npc_controller_msgs/rosidl_generator_py/npc_controller_msgs/msg/_npc_debug_s.c
+unsupported reparse tag 0xa000000c

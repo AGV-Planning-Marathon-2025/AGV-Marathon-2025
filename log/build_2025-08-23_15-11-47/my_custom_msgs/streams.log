@@ -1,0 +1,231 @@
+[0.480s] Invoking command in '/home/dvij/multi-car-racing/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/my_custom_msgs
+[0.545s] -- The C compiler identification is GNU 11.4.0
+[0.613s] -- The CXX compiler identification is GNU 11.4.0
+[0.622s] -- Detecting C compiler ABI info
+[0.694s] -- Detecting C compiler ABI info - done
+[0.704s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.704s] -- Detecting C compile features
+[0.704s] -- Detecting C compile features - done
+[0.708s] -- Detecting CXX compiler ABI info
+[0.802s] -- Detecting CXX compiler ABI info - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.813s] -- Detecting CXX compile features
+[0.814s] -- Detecting CXX compile features - done
+[0.818s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.970s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.084s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.122s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.132s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.218s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.515s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.107s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.108s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.136s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.136s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.137s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.137s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.168s] -- Found PythonExtra: .so  
+[2.274s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.311s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.319s] -- Added test 'lint_cmake' to check CMake code style
+[2.319s] -- Added test 'xmllint' to check XML markup files
+[2.327s] -- Configuring done
+[2.430s] -- Generating done
+[2.475s] -- Build files have been written to: /home/dvij/multi-car-racing/build/my_custom_msgs
+[2.493s] Invoked command in '/home/dvij/multi-car-racing/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/install/my_custom_msgs
+[2.497s] Invoking command in '/home/dvij/multi-car-racing/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/my_custom_msgs -- -j12 -l12
+[2.614s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.632s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.662s] [  6%] Built target ament_cmake_python_copy_my_custom_msgs
+[2.982s] running egg_info
+[2.990s] creating my_custom_msgs.egg-info
+[2.991s] writing my_custom_msgs.egg-info/PKG-INFO
+[2.991s] writing dependency_links to my_custom_msgs.egg-info/dependency_links.txt
+[2.991s] writing top-level names to my_custom_msgs.egg-info/top_level.txt
+[2.991s] writing manifest file 'my_custom_msgs.egg-info/SOURCES.txt'
+[2.991s] reading manifest file 'my_custom_msgs.egg-info/SOURCES.txt'
+[2.993s] writing manifest file 'my_custom_msgs.egg-info/SOURCES.txt'
+[3.065s] [  6%] Built target ament_cmake_python_build_my_custom_msgs_egg
+[3.411s] [  6%] Built target my_custom_msgs__cpp
+[3.428s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.433s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.438s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.456s] [ 19%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_custom_msgs/msg/detail/policy_params__functions.c.o[0m
+[3.619s] [ 22%] [32m[1mLinking C shared library libmy_custom_msgs__rosidl_generator_c.so[0m
+[3.746s] [ 22%] Built target my_custom_msgs__rosidl_generator_c
+[3.771s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.784s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.791s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.024s] [ 35%] [32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_msgs/msg/detail/policy_params__type_support.cpp.o[0m
+[4.164s] [ 38%] [32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_msgs/msg/policy_params__type_support.cpp.o[0m
+[4.432s] [ 41%] [32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_msgs/msg/policy_params__type_support.cpp.o[0m
+[4.563s] [ 45%] [32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_msgs/msg/detail/dds_fastrtps/policy_params__type_support.cpp.o[0m
+[4.564s] [ 48%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_msgs/msg/detail/policy_params__type_support.c.o[0m
+[4.663s] [ 51%] [32m[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_c.so[0m
+[4.687s] [ 54%] [32m[1mLinking C shared library libmy_custom_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.818s] [ 54%] Built target my_custom_msgs__rosidl_typesupport_c
+[4.821s] [ 54%] Built target my_custom_msgs__rosidl_typesupport_introspection_c
+[4.847s] [ 58%] [32m[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.930s] [ 58%] Built target my_custom_msgs__rosidl_typesupport_introspection_cpp
+[5.118s] [ 61%] [32m[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_cpp.so[0m
+[5.241s] [ 61%] Built target my_custom_msgs__rosidl_typesupport_cpp
+[5.377s] [ 64%] [32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_msgs/msg/detail/policy_params__type_support_c.cpp.o[0m
+[6.000s] [ 67%] [32m[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.107s] [ 70%] [32m[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.192s] [ 70%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c
+[6.277s] [ 70%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_cpp
+[6.303s] [ 70%] Built target my_custom_msgs
+[6.330s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.846s] [ 74%] Built target my_custom_msgs__py
+[6.915s] [ 77%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_custom_msgs/msg/_policy_params_s.c.o[0m
+[7.539s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_msgs/libmy_custom_msgs__rosidl_generator_py.so[0m
+[7.902s] [ 80%] Built target my_custom_msgs__rosidl_generator_py
+[8.028s] [ 83%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.038s] [ 87%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.055s] [ 90%] [32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.598s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.723s] [ 93%] Built target my_custom_msgs__rosidl_typesupport_introspection_c__pyext
+[8.751s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.780s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.958s] [100%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.972s] [100%] Built target my_custom_msgs__rosidl_typesupport_c__pyext
+[9.027s] Invoked command in '/home/dvij/multi-car-racing/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/build/my_custom_msgs -- -j12 -l12
+[9.028s] Invoking command in '/home/dvij/multi-car-racing/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/my_custom_msgs
+[9.054s] -- Install configuration: ""
+[9.060s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/my_custom_msgs
+[9.060s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.062s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.063s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.063s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__functions.c
+[9.067s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__functions.h
+[9.067s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__struct.h
+[9.067s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.h
+[9.068s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/policy_params.h
+[9.069s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.069s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/library_path.sh
+[9.070s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/library_path.dsv
+[9.071s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_c.so
+[9.075s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_c.so" to ""
+[9.075s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.076s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.076s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.076s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_fastrtps_c.h
+[9.076s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.081s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so
+[9.081s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.081s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.081s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.081s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.082s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__builder.hpp
+[9.082s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__struct.hpp
+[9.083s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__traits.hpp
+[9.083s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.hpp
+[9.084s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/policy_params.hpp
+[9.084s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.088s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.088s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.088s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.089s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/dds_fastrtps
+[9.089s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_fastrtps_cpp.hpp
+[9.089s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.090s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.091s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.091s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.091s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.091s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.092s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_introspection_c.h
+[9.092s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.c
+[9.092s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.093s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_c.so
+[9.097s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.097s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_c.so
+[9.097s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_c.so" to ""
+[9.097s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs
+[9.097s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg
+[9.097s] -- Up-to-date: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail
+[9.097s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_introspection_cpp.hpp
+[9.097s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.cpp
+[9.101s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so
+[9.102s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.102s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_cpp.so
+[9.102s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_cpp.so" to ""
+[9.102s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/pythonpath.sh
+[9.105s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/pythonpath.dsv
+[9.111s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info
+[9.111s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.111s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.111s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.112s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.112s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs
+[9.112s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/libmy_custom_msgs__rosidl_generator_py.so
+[9.115s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg
+[9.115s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params.py
+[9.115s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params_s.c
+[9.115s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/__init__.py
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_c.c
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.116s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/__init__.py
+[9.236s] Listing '/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs'...
+[9.236s] Compiling '/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/__init__.py'...
+[9.236s] Listing '/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg'...
+[9.236s] Compiling '/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/__init__.py'...
+[9.236s] Compiling '/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params.py'...
+[9.246s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.246s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.247s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.247s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.247s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.248s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.248s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_py.so
+[9.253s] -- Set runtime path of "/home/dvij/multi-car-racing/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_py.so" to ""
+[9.253s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/msg/PolicyParams.idl
+[9.253s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/msg/PolicyParams.msg
+[9.253s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/ament_index/resource_index/package_run_dependencies/my_custom_msgs
+[9.253s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/ament_index/resource_index/parent_prefix_path/my_custom_msgs
+[9.253s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/ament_prefix_path.sh
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/ament_prefix_path.dsv
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/path.sh
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/environment/path.dsv
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/local_setup.bash
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/local_setup.sh
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/local_setup.zsh
+[9.254s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/local_setup.dsv
+[9.255s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/package.dsv
+[9.258s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/ament_index/resource_index/packages/my_custom_msgs
+[9.263s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cExport.cmake
+[9.263s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.264s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.266s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.268s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cppExport.cmake
+[9.268s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.269s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.269s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.269s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.269s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cExport.cmake
+[9.269s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.280s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.281s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.281s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cppExport.cmake
+[9.281s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_pyExport.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake-extras.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.287s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.288s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.288s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgsConfig.cmake
+[9.288s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgsConfig-version.cmake
+[9.288s] -- Installing: /home/dvij/multi-car-racing/install/my_custom_msgs/share/my_custom_msgs/package.xml
+[9.316s] Invoked command in '/home/dvij/multi-car-racing/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/build/my_custom_msgs

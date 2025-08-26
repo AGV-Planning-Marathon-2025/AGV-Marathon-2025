@@ -17,10 +17,11 @@ EP_START = 23
 EP_END = 34
 FPS = 50
 START_WAIT = 5.
-FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_ours-low_data_vs_ours-low_data_grad_rel.pkl'
+FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_mpc_vs_mpc_grad_rel.pkl'
 DT = 0.1
 DT = DT*10./FPS
 race_data = np.array(pickle.load(open(FILENAME,'rb')))
+print(race_data.shape)
 dx = race_data[:,1:] - race_data[:,:-1]
 dists1 = np.linalg.norm(dx[:,:,:2],axis=2)
 dists2 = np.linalg.norm(dx[:,:,3:5],axis=2)

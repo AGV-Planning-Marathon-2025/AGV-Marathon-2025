@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vectornav_msgs__py",
+		"source" : "/home/dvij/multi-car-racing/build/vectornav_msgs/vectornav_msgs__py"
+	}
+}

@@ -1,1 +1,1 @@
-/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh
+unsupported reparse tag 0xa000000c

@@ -1,1 +1,1 @@
-/root/ros_ws_aux/build/vectornav_msgs/rosidl_generator_c/vectornav_msgs/action/detail/mag_cal__type_support.h
+unsupported reparse tag 0xa000000c

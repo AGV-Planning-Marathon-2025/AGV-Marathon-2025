@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-75aef29bfbeb1713e905.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "raptor_dbw_can",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "raptor_dbw_can_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raptor_dbw_can_node-b420890212303c2c2b2f.json",
+					"name" : "raptor_dbw_can_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raptor_dbw_can_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raptor_dbw_can_uninstall-e8891c24444ca45e6838.json",
+					"name" : "raptor_dbw_can_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-410e3c17ce3e728b5ee9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dvij/multi-car-racing/build/raptor_dbw_can",
+		"source" : "/home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/raptor_dbw_msgs/raptor_dbw_can"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

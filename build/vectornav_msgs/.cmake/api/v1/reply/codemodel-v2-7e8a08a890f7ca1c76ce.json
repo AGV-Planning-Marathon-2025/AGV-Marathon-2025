@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52e2d6b7cd8f77b4276b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vectornav_msgs__py",
+					"jsonFile" : "directory-vectornav_msgs__py-52b4f8f092384cb45ec5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dvij/multi-car-racing/build/vectornav_msgs/vectornav_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vectornav_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vectornav_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vectornav_msgs_egg-a36c8da8a76d78429361.json",
+					"name" : "ament_cmake_python_build_vectornav_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vectornav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vectornav_msgs-f973ba3c1be7aa96ccbb.json",
+					"name" : "ament_cmake_python_copy_vectornav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d4e5fd2ed18f5388747d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs-79f8d71c841cba3449c7.json",
+					"name" : "vectornav_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__cpp-8c8a1be817997fbb69d5.json",
+					"name" : "vectornav_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vectornav_msgs__py::@aa3eee8324d2c30f3b1d",
+					"jsonFile" : "target-vectornav_msgs__py-3487653595894704516d.json",
+					"name" : "vectornav_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_generator_c-32ee456ab6318566bed4.json",
+					"name" : "vectornav_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_generator_py-87db536bd2f38e8dc63a.json",
+					"name" : "vectornav_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_c-49ddb8b4be7bd2514828.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_c__pyext-386bfc0bc1bca726babc.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_cpp-a0fcdbf463565483c8f7.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_c-9fae178bbaab69012a87.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext-74341cd2c335985a88f9.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_fastrtps_cpp-2156402e357f7a059092.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_c-3a8d147a974816ad2db7.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_c__pyext-41f82d5b77e06af8093f.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs__rosidl_typesupport_introspection_cpp-f0cb1063016cebebce70.json",
+					"name" : "vectornav_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectornav_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectornav_msgs_uninstall-4c16fdc49e33c9f2a736.json",
+					"name" : "vectornav_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dvij/multi-car-racing/build/vectornav_msgs",
+		"source" : "/home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/vectornav_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

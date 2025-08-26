@@ -1,0 +1,71 @@
+running egg_info
+creating ../build/car_ros2/car_ros2.egg-info
+writing ../build/car_ros2/car_ros2.egg-info/PKG-INFO
+writing dependency_links to ../build/car_ros2/car_ros2.egg-info/dependency_links.txt
+writing entry points to ../build/car_ros2/car_ros2.egg-info/entry_points.txt
+writing requirements to ../build/car_ros2/car_ros2.egg-info/requires.txt
+writing top-level names to ../build/car_ros2/car_ros2.egg-info/top_level.txt
+writing manifest file '../build/car_ros2/car_ros2.egg-info/SOURCES.txt'
+reading manifest file '../build/car_ros2/car_ros2.egg-info/SOURCES.txt'
+writing manifest file '../build/car_ros2/car_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/multi-car-racing/build/car_ros2/build
+creating /home/dvij/multi-car-racing/build/car_ros2/build/lib
+creating /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/create_smiley_video.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/create_teaser_data.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/merge_data.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/model_arch.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/mpc_controller.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/multi_car_blocking.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/multi_car_comp_blocking.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/plot_teaser_data.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/rerun_races.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/trained_p_model_analysis.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/train_p_model_multi_dist.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/train_q_model_multi.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/train_q_model_multi_rel.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+copying car_ros2/__init__.py -> /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2
+running install
+running install_lib
+creating /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/create_smiley_video.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/create_teaser_data.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/merge_data.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/model_arch.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/mpc_controller.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/multi_car_blocking.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/multi_car_comp_blocking.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/plot_teaser_data.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/rerun_races.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/trained_p_model_analysis.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/train_p_model_multi_dist.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/train_q_model_multi.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/train_q_model_multi_rel.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+copying /home/dvij/multi-car-racing/build/car_ros2/build/lib/car_ros2/__init__.py -> /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/create_smiley_video.py to create_smiley_video.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/create_teaser_data.py to create_teaser_data.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/merge_data.py to merge_data.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/model_arch.py to model_arch.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/mpc_controller.py to mpc_controller.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/multi_car_blocking.py to multi_car_blocking.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/multi_car_comp_blocking.py to multi_car_comp_blocking.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/plot_teaser_data.py to plot_teaser_data.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/rerun_races.py to rerun_races.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/trained_p_model_analysis.py to trained_p_model_analysis.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/train_p_model_multi_dist.py to train_p_model_multi_dist.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/train_q_model_multi.py to train_q_model_multi.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/train_q_model_multi_rel.py to train_q_model_multi_rel.cpython-310.pyc
+byte-compiling /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dvij/multi-car-racing/install/car_ros2/share/ament_index
+creating /home/dvij/multi-car-racing/install/car_ros2/share/ament_index/resource_index
+creating /home/dvij/multi-car-racing/install/car_ros2/share/ament_index/resource_index/packages
+copying resource/car_ros2 -> /home/dvij/multi-car-racing/install/car_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/dvij/multi-car-racing/install/car_ros2/share/car_ros2
+running install_egg_info
+Copying ../build/car_ros2/car_ros2.egg-info to /home/dvij/multi-car-racing/install/car_ros2/lib/python3.10/site-packages/car_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_node script to /home/dvij/multi-car-racing/install/car_ros2/lib/car_ros2
+writing list of installed files to '/home/dvij/multi-car-racing/build/car_ros2/install.log'

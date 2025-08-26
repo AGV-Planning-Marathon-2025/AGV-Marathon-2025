@@ -1,0 +1,24 @@
+package init file 'bayes_race/__init__.py' not found (or not a regular file)
+running egg_info
+creating ../build/car_dynamics/car_dynamics.egg-info
+writing ../build/car_dynamics/car_dynamics.egg-info/PKG-INFO
+writing dependency_links to ../build/car_dynamics/car_dynamics.egg-info/dependency_links.txt
+writing top-level names to ../build/car_dynamics/car_dynamics.egg-info/top_level.txt
+writing manifest file '../build/car_dynamics/car_dynamics.egg-info/SOURCES.txt'
+reading manifest file '../build/car_dynamics/car_dynamics.egg-info/SOURCES.txt'
+writing manifest file '../build/car_dynamics/car_dynamics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dvij/multi-car-racing/build/car_dynamics/build
+creating /home/dvij/multi-car-racing/build/car_dynamics/build/lib
+creating /home/dvij/multi-car-racing/build/car_dynamics/build/lib/car_dynamics
+copying car_dynamics/__init__.py -> /home/dvij/multi-car-racing/build/car_dynamics/build/lib/car_dynamics
+running install
+running install_lib
+creating /home/dvij/multi-car-racing/install/car_dynamics/lib/python3.10/site-packages/car_dynamics
+copying /home/dvij/multi-car-racing/build/car_dynamics/build/lib/car_dynamics/__init__.py -> /home/dvij/multi-car-racing/install/car_dynamics/lib/python3.10/site-packages/car_dynamics
+byte-compiling /home/dvij/multi-car-racing/install/car_dynamics/lib/python3.10/site-packages/car_dynamics/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../build/car_dynamics/car_dynamics.egg-info to /home/dvij/multi-car-racing/install/car_dynamics/lib/python3.10/site-packages/car_dynamics-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dvij/multi-car-racing/build/car_dynamics/install.log'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "npc_controller_msgs__py",
+		"source" : "/home/dvij/multi-car-racing/build/npc_controller_msgs/npc_controller_msgs__py"
+	}
+}

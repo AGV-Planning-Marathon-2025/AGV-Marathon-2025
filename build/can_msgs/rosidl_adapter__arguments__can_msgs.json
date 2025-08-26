@@ -1,0 +1,6 @@
+{
+  "package_name": "can_msgs",
+  "non_idl_tuples": [
+    "/home/dvij/multi-car-racing/SimulationPackage_v2.1/ros_ws_aux/src/can_msgs:msg/Frame.msg"
+  ]
+}

@@ -1,1 +1,1 @@
-/root/ros_ws_aux/src/vectornav_msgs/msg/DOP.msg
+unsupported reparse tag 0xa000000c

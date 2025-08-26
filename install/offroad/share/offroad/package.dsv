@@ -1,0 +1,3 @@
+source;share/offroad/hook/pythonpath.ps1
+source;share/offroad/hook/pythonpath.dsv
+source;share/offroad/hook/pythonpath.sh

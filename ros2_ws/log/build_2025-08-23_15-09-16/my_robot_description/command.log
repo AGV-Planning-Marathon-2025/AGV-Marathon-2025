@@ -1,0 +1,2 @@
+Invoking command in '/workspace/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/my_robot_description -- -j12 -l12
+Invoked command in '/workspace/ros2_ws/build/my_robot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/my_robot_description -- -j12 -l12
