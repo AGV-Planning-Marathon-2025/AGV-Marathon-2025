@@ -4,14 +4,14 @@ import torch.nn as nn
 
 class DNNModel(nn.Module):
     def __init__(self, dims=[39, 128, 128, 64, 1]):
-        super(DNNModel, self).__init__()
+        super().__init__()
         self.seq = nn.Sequential()
         self.bn = nn.BatchNorm1d(dims[0], affine=False)
         
         
-        for i in range(1, 4):
+        for i in range(1, len(dims)):
             self.seq.append(nn.Linear(dims[i-1], dims[i]))
-            if i < 3: self.seq.append(nn.ReLU())
+            if i < len(dims) - 1: self.seq.append(nn.ReLU())
 
 
     def forward(self, x: torch.Tensor):
