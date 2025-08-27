@@ -1,6 +1,0 @@
-[0.010s] Invoking command in '/workspace/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/my_custom_msgs -- -j12 -l12
-[0.015s] [0mCMake Error: The current CMakeCache.txt directory /workspace/ros2_ws/build/my_custom_msgs/CMakeCache.txt is different than the directory /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.025s] [0mCMake Error: The source directory "/home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs" does not exist.
-[0.025s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.026s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
-[0.028s] Invoked command in '/workspace/ros2_ws/build/my_custom_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/my_custom_msgs -- -j12 -l12

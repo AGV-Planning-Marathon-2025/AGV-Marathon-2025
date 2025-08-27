@@ -1,8 +1,0 @@
-README.md
-setup.py
-../build/offroad/offroad.egg-info/PKG-INFO
-../build/offroad/offroad.egg-info/SOURCES.txt
-../build/offroad/offroad.egg-info/dependency_links.txt
-../build/offroad/offroad.egg-info/requires.txt
-../build/offroad/offroad.egg-info/top_level.txt
-offroad/__init__.py

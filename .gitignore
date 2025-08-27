@@ -2,3 +2,6 @@
 *.npy
 *.pth
 __pycache__
+build
+install
+log

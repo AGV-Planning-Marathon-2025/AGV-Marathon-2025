@@ -1,4 +1,0 @@
-ipywidgets
-jupyterlab
-matplotlib
-pyproj

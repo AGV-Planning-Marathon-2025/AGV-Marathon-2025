@@ -1,7 +1,0 @@
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/PowertrainData.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/RaceControl.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/ToRaptor.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/VehicleData.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/VehicleInputs.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/GroundTruth.idl
-/home/dvij/multi-car-racing/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/GroundTruthArray.idl

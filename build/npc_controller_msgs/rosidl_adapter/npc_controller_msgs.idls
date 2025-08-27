@@ -1,6 +1,0 @@
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/NPCDebug.idl
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/MiscReport.idl
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/CtReport.idl
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/PtReport.idl
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/RcToCt.idl
-/home/dvij/multi-car-racing/build/npc_controller_msgs/rosidl_adapter/npc_controller_msgs:msg/TireReport.idl

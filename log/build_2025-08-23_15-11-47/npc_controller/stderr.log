@@ -1,9 +1,0 @@
-[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find GEOGRAPHICLIB (missing: GeographicLib_LIBRARY_DIRS
-  GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  cmake/FindGEOGRAPHICLIB.cmake:50 (find_package_handle_standard_args)
-  CMakeLists.txt:25 (find_package)
-
-[0m
