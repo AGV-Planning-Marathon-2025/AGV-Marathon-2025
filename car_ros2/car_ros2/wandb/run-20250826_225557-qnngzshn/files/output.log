@@ -1,0 +1,53 @@
+[W&B] Initialized run data1_multi_mpc_e28-50
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Path is not a file: 'episode.pkl'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Path is not a file: 'episode.pkl'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Path is not a file: 'episode.pkl'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 28] W&B upload failed -> saved locally at data/data1_multi_mpc_ep28.pkl
+[Seed] Global seed set to 1756229182
+[Episode 29] Using seed 1756229182
+ep_no: 29
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3409482099188491 0.39951959413926774 0.42507276925705845 0.9142372007787558
+Ego progress:  139.1181182861328
+Opp1 progress:  3.5839664936065674
+Opp2 progress:  120.95208740234375
+[W&B] upload attempt 1 failed: Path is not a file: 'episode.pkl'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Path is not a file: 'episode.pkl'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Path is not a file: 'episode.pkl'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 29] W&B upload failed -> saved locally at data/data1_multi_mpc_ep29.pkl
+[Seed] Global seed set to 1756229183
+[Episode 30] Using seed 1756229183
+ep_no: 30
+ego params:  0.2666867870673782 0.3301074795843485 0.4475801370911952 0.920193156822712
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3409482099188491 0.39951959413926774 0.42507276925705845 0.9142372007787558

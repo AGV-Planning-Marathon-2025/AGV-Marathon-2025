@@ -1,0 +1,77 @@
+[W&B] Initialized run data7_multi_mpc_e178-200
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Path is not a file: 'episode.pkl'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Path is not a file: 'episode.pkl'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Path is not a file: 'episode.pkl'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 178] W&B upload failed -> saved locally at data/data7_multi_mpc_ep178.pkl
+[Seed] Global seed set to 1756229365
+[Episode 179] Using seed 1756229365
+ep_no: 179
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.28209122713759693 0.32989719221935704 0.48229352491726124 0.9375044082452542
+Ego progress:  139.11761474609375
+Opp1 progress:  136.8441925048828
+Opp2 progress:  123.2148208618164
+[W&B] upload attempt 1 failed: Path is not a file: 'episode.pkl'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Path is not a file: 'episode.pkl'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Path is not a file: 'episode.pkl'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 179] W&B upload failed -> saved locally at data/data7_multi_mpc_ep179.pkl
+[Seed] Global seed set to 1756229366
+[Episode 180] Using seed 1756229366
+ep_no: 180
+ego params:  0.2618972833453984 0.4382301627528473 0.48520910369224474 1.0116778218999833
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.28209122713759693 0.32989719221935704 0.48229352491726124 0.9375044082452542
+Collision detected 126.9846 127.45909 -0.6771511 -0.7267499
+Collision detected 127.11619 127.549255 -0.7466376 -0.73330593
+Collision detected 127.18044 127.63545 -0.76404154 -0.73415834
+Collision detected 127.19213 127.667564 -0.7656657 -0.7334707
+Collision detected 127.199394 127.69425 -0.76538527 -0.731203
+Collision detected 127.205666 127.77159 -0.7644774 -0.72893864
+Collision detected 127.21142 127.793045 -0.763235 -0.7266625
+Collision detected 127.21785 127.81366 -0.7617277 -0.72344434
+Collision detected 127.22745 127.8903 -0.7600384 -0.7203551
+Collision detected 127.237305 127.91132 -0.75831664 -0.7175947
+Collision detected 127.247055 127.93239 -0.7565407 -0.7143695
+Collision detected 127.25668 127.9544 -0.7547299 -0.7108363
+Collision detected 127.26635 128.02792 -0.75291204 -0.70757145
+Collision detected 127.276596 128.05215 -0.75091064 -0.70453155
+Collision detected 127.287285 128.07834 -0.74880916 -0.7003731
+Collision detected 127.29789 128.14642 -0.74672043 -0.69661605
+Collision detected 127.30816 128.17474 -0.7446458 -0.6933523
+Collision detected 127.318756 128.20532 -0.74263036 -0.6890769
+Collision detected 127.326584 128.26553 -0.74070734 -0.6849243
+Collision detected 127.33238 128.29797 -0.7388475 -0.68059504
+Collision detected 127.34131 128.3326 -0.73702824 -0.6748907
+Collision detected 127.353065 128.38191 -0.73530906 -0.6685467
+Collision detected 127.365166 128.4205 -0.73367774 -0.6623464
+Collision detected 127.37798 128.46242 -0.73218024 -0.65525705

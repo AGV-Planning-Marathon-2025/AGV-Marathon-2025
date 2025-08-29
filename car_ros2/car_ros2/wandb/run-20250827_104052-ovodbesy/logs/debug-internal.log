@@ -1,0 +1,7 @@
+{"time":"2025-08-27T10:40:52.277124018+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-27T10:40:52.799313937+05:30","level":"INFO","msg":"stream: created new stream","id":"ovodbesy"}
+{"time":"2025-08-27T10:40:52.799384121+05:30","level":"INFO","msg":"stream: started","id":"ovodbesy"}
+{"time":"2025-08-27T10:40:52.79943559+05:30","level":"INFO","msg":"writer: started","stream_id":"ovodbesy"}
+{"time":"2025-08-27T10:40:52.799472742+05:30","level":"INFO","msg":"handler: started","stream_id":"ovodbesy"}
+{"time":"2025-08-27T10:40:52.79952847+05:30","level":"INFO","msg":"sender: started","stream_id":"ovodbesy"}
+{"time":"2025-08-27T10:41:27.16578691+05:30","level":"INFO","msg":"stream: closing","id":"ovodbesy"}

@@ -1,0 +1,199 @@
+[W&B] Initialized run data1_multi_mpc_e27-50
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[Episode 27] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272061
+[Episode 28] Using seed 1756272061
+ep_no: 28
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.24173007720733844 0.28584277338005065 0.15648600040733746 1.0147237856691413
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 77.95194 77.669754 0.7572736 0.62881917
+Collision detected 78.03332 77.97705 0.7589912 0.6349368
+Collision detected 78.1002 78.15509 0.76076406 0.6275328
+Collision detected 78.15012 78.21085 0.7626009 0.6258271
+Collision detected 78.17504 78.27146 0.75772214 0.62381065
+Collision detected 78.197 78.33574 0.7498429 0.6214622
+Collision detected 78.21909 78.40414 0.74107075 0.61873436
+Collision detected 78.242035 78.47656 0.7315638 0.6154898
+Collision detected 78.266754 78.55484 0.72138286 0.6116154
+Collision detected 78.29434 78.64017 0.71049625 0.6069797
+Collision detected 79.20465 79.53698 0.6971103 0.72662944
+Collision detected 79.27038 79.55291 0.69869983 0.7270304
+Collision detected 79.324524 79.56622 0.6968608 0.726496
+Collision detected 79.360664 79.57298 0.692258 0.7257628
+Collision detected 79.38799 79.57875 0.686207 0.72530985
+Collision detected 79.41185 79.58439 0.6794505 0.7250471
+Collision detected 79.43754 79.59007 0.6722449 0.72494304
+Collision detected 79.45948 79.59575 0.6646537 0.7249302
+Collision detected 79.48111 79.60145 0.65680665 0.7249699
+Collision detected 79.50253 79.607155 0.64874965 0.72503006
+Collision detected 79.5239 79.61288 0.6405208 0.72509444
+Collision detected 79.54526 79.618614 0.6321529 0.72514904
+Collision detected 79.569954 79.62435 0.6236427 0.7251819
+Collision detected 79.59145 79.63012 0.6150173 0.72518957
+Collision detected 79.61315 79.63588 0.6063927 0.72516733
+Collision detected 79.63512 79.64165 0.5978287 0.7251128
+Collision detected 79.6567 79.64742 0.5894456 0.7250258
+Collision detected 79.67833 79.65321 0.5813183 0.7248969
+Collision detected 79.71727 79.65876 0.5732102 0.72521
+Collision detected 79.76006 79.664375 0.56495655 0.7255222
+Collision detected 79.80803 79.67003 0.5573909 0.7257696
+Collision detected 79.8643 79.67573 0.54970896 0.7259257
+Collision detected 79.91984 79.68147 0.5427276 0.7259705
+Collision detected 79.98329 79.68895 0.53596497 0.7258775
+Collision detected 80.04387 79.69751 0.5297623 0.72558147
+Ego progress:  110.058349609375
+Opp1 progress:  103.12178802490234
+Opp2 progress:  126.34698486328125
+[Episode 28] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272062
+[Episode 29] Using seed 1756272062
+ep_no: 29
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.24173007720733844 0.28584277338005065 0.15648600040733746 1.0147237856691413
+opp1 params: 0.47438013478988106 0.34807084538499933 0.45261291843352963 0.8662461048118174
+Ego progress:  136.37664794921875
+Opp1 progress:  132.8690185546875
+Opp2 progress:  87.53553009033203
+[Episode 29] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272063
+[Episode 30] Using seed 1756272063
+ep_no: 30
+ego params:  0.35400618008407003 0.1668260797056258 0.459158621756126 1.0407888635754123
+opp params:  0.24173007720733844 0.28584277338005065 0.15648600040733746 1.0147237856691413
+opp1 params: 0.47438013478988106 0.34807084538499933 0.45261291843352963 0.8662461048118174
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2392, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 266, in generate
+    target_pos_list.append(jnp.array([pos[0], pos[1], psi, info['curv'], speed]))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2038, in array
+    out = stack([asarray(elt, dtype=dtype) for elt in object])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1780, in stack
+    new_arrays.append(expand_dims(a, axis))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 890, in expand_dims
+    return lax.expand_dims(a, axis)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1329, in expand_dims
+    return broadcast_in_dim(array, result_shape, broadcast_dims)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 797, in broadcast_in_dim
+    return broadcast_in_dim_p.bind(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1337, in __call__
+    input_bufs = self.in_handler(args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1181, in __call__
+    return self.handler(input_buffers)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in shard_args
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in <listcomp>
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 116, in shard_arg
+    return shard_arg_handlers[type(arg)](arg, devices, arg_indices, sharding)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 685, in _array_shard_arg
+    x._check_if_deleted()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 480, in _check_if_deleted
+    if self.is_deleted():
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2392, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 266, in generate
+    target_pos_list.append(jnp.array([pos[0], pos[1], psi, info['curv'], speed]))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2038, in array
+    out = stack([asarray(elt, dtype=dtype) for elt in object])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1780, in stack
+    new_arrays.append(expand_dims(a, axis))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 890, in expand_dims
+    return lax.expand_dims(a, axis)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1329, in expand_dims
+    return broadcast_in_dim(array, result_shape, broadcast_dims)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 797, in broadcast_in_dim
+    return broadcast_in_dim_p.bind(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1337, in __call__
+    input_bufs = self.in_handler(args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1181, in __call__
+    return self.handler(input_buffers)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in shard_args
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in <listcomp>
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 116, in shard_arg
+    return shard_arg_handlers[type(arg)](arg, devices, arg_indices, sharding)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 685, in _array_shard_arg
+    x._check_if_deleted()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 480, in _check_if_deleted
+    if self.is_deleted():
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7c1a881b1120>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

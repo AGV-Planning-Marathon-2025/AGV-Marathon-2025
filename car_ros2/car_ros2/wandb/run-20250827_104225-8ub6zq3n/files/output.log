@@ -1,0 +1,138 @@
+[W&B] Initialized run data2_multi_mpc_e51-75
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+0.21.1
+Type of buffer_bytes: <class '_io.BytesIO'>
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+0.21.1
+Type of buffer_bytes: <class '_io.BytesIO'>
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+0.21.1
+Type of buffer_bytes: <class '_io.BytesIO'>
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 51] W&B upload failed -> saved locally at data/data2_multi_mpc_ep51.pkl
+[Seed] Global seed set to 1756271592
+[Episode 52] Using seed 1756271592
+ep_no: 52
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1553139050810649 0.4212039520513674 0.49124420055034823 1.0151015030717137
+opp1 params: 0.1 0.5 0.15 1.0
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3023, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2398, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 212, in generate
+    distance_list = jnp.linalg.norm(self.waypoint_list[self.last_i:] - pos2d, axis=-1)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 250, in cache_miss
+    outs, out_flat, out_tree, args_flat, jaxpr = _python_pjit_helper(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 163, in _python_pjit_helper
+    out_flat = pjit_p.bind(*args_flat, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 2677, in bind
+    return self.bind_with_trace(top_trace, args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1203, in _pjit_call_impl
+    return xc._xla.pjit(name, f, call_impl_cache_miss, [], [], donated_argnums,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1187, in call_impl_cache_miss
+    out_flat, compiled = _pjit_call_impl_python(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1123, in _pjit_call_impl_python
+    always_lower=False, lowering_platform=None).compile()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2323, in compile
+    executable = UnloadedMeshExecutable.from_hlo(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2645, in from_hlo
+    xla_executable, compile_options = _cached_compilation(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2555, in _cached_compilation
+    xla_executable = dispatch.compile_or_get_cached(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 497, in compile_or_get_cached
+    return backend_compile(backend, computation, compile_options,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 465, in backend_compile
+    return backend.compile(built_c, compile_options=options)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3023, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2398, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 212, in generate
+    distance_list = jnp.linalg.norm(self.waypoint_list[self.last_i:] - pos2d, axis=-1)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/traceback_util.py", line 166, in reraise_with_filtered_traceback
+    return fun(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 250, in cache_miss
+    outs, out_flat, out_tree, args_flat, jaxpr = _python_pjit_helper(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 163, in _python_pjit_helper
+    out_flat = pjit_p.bind(*args_flat, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 2677, in bind
+    return self.bind_with_trace(top_trace, args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1203, in _pjit_call_impl
+    return xc._xla.pjit(name, f, call_impl_cache_miss, [], [], donated_argnums,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1187, in call_impl_cache_miss
+    out_flat, compiled = _pjit_call_impl_python(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/pjit.py", line 1123, in _pjit_call_impl_python
+    always_lower=False, lowering_platform=None).compile()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2323, in compile
+    executable = UnloadedMeshExecutable.from_hlo(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2645, in from_hlo
+    xla_executable, compile_options = _cached_compilation(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2555, in _cached_compilation
+    xla_executable = dispatch.compile_or_get_cached(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 497, in compile_or_get_cached
+    return backend_compile(backend, computation, compile_options,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 465, in backend_compile
+    return backend.compile(built_c, compile_options=options)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7b7c6bf28f70>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

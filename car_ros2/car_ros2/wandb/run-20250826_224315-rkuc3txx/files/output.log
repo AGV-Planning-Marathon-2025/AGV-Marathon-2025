@@ -1,0 +1,121 @@
+[W&B] Initialized run data0_multi_mpc_e1-25
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 1] W&B upload failed -> saved locally at data/data0_multi_mpc_ep1.pkl
+[Seed] Global seed set to 1756228392
+[Episode 2] Using seed 1756228392
+ep_no: 2
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3983352910055611 0.3859927127993594 0.38765939786291964 1.0628783211243567
+Collision detected 41.484364 41.008938 0.61117506 0.5137057
+Collision detected 41.65743 41.577625 0.5784387 0.48663414
+Collision detected 41.840534 42.118046 0.5428011 0.4315186
+Collision detected 42.003284 42.22611 0.519377 0.41881225
+Collision detected 42.096466 42.3535 0.505376 0.40605068
+Collision detected 42.16687 42.487804 0.49830443 0.39167535
+Ego progress:  139.6503143310547
+Opp1 progress:  138.52749633789062
+Opp2 progress:  131.8112335205078
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 2] W&B upload failed -> saved locally at data/data0_multi_mpc_ep2.pkl
+[Seed] Global seed set to 1756228393
+[Episode 3] Using seed 1756228393
+ep_no: 3
+ego params:  0.39188419854646894 0.2428226840043764 0.14053654142724686 1.0421891732314963
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3983352910055611 0.3859927127993594 0.38765939786291964 1.0628783211243567
+Collision detected 126.70523 127.18632 -0.7920298 -0.82050854
+Collision detected 126.73183 127.195274 -0.79940736 -0.8226781
+Collision detected 126.74276 127.20395 -0.7983582 -0.82485837
+Collision detected 126.75293 127.21405 -0.7958952 -0.8270615
+Collision detected 126.76292 127.2307 -0.79269934 -0.8292865
+Collision detected 126.77202 127.247086 -0.7892203 -0.8315438
+Collision detected 126.77695 127.26383 -0.7855497 -0.83382565
+Collision detected 126.78187 127.27987 -0.78175414 -0.83580273
+Collision detected 126.783455 127.295364 -0.778278 -0.8376194
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2391, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 241, in generate
+    dist2 = np.sqrt((pos2d[0]-pt[0])**2 + (pos2d[1]-pt[1])**2) * side
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4115, in _attempt_rewriting_take_via_slice
+    arr = lax.squeeze(arr, tuple(int_indices))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1311, in squeeze
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1311, in <genexpr>
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2391, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 241, in generate
+    dist2 = np.sqrt((pos2d[0]-pt[0])**2 + (pos2d[1]-pt[1])**2) * side
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4115, in _attempt_rewriting_take_via_slice
+    arr = lax.squeeze(arr, tuple(int_indices))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1311, in squeeze
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1311, in <genexpr>
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x70b0306d5090>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

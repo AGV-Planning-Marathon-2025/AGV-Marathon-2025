@@ -1,0 +1,178 @@
+[W&B] Initialized run data1_multi_mpc_e26-50
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 26] W&B upload failed -> saved locally at data/data1_multi_mpc_ep26.pkl
+[Seed] Global seed set to 1756228422
+[Episode 27] Using seed 1756228422
+ep_no: 27
+ego params:  0.12174433421577043 0.32229498227103687 0.26289574726197257 1.026681004217302
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 127.082886 127.87946 -0.673235 -0.691197
+Collision detected 127.24084 128.18132 -0.76739347 -0.72561044
+Collision detected 127.35294 128.35127 -0.80029446 -0.7229047
+Collision detected 127.40302 128.47324 -0.8084101 -0.7158977
+Collision detected 127.4283 128.56389 -0.80900514 -0.7079775
+Collision detected 127.44351 128.63832 -0.80782837 -0.69840705
+Ego progress:  135.43576049804688
+Opp1 progress:  2.8974108695983887
+Opp2 progress:  139.43116760253906
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 27] W&B upload failed -> saved locally at data/data1_multi_mpc_ep27.pkl
+[Seed] Global seed set to 1756228423
+[Episode 28] Using seed 1756228423
+ep_no: 28
+ego params:  0.12174433421577043 0.32229498227103687 0.26289574726197257 1.026681004217302
+opp params:  0.131271719765267 0.3830403053169349 0.16144339332253568 0.9044273986480003
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 122.26116 122.75541 0.5539716 0.56150216
+Collision detected 122.58353 122.9341 0.5322426 0.5544206
+Collision detected 122.81117 123.1491 0.5233246 0.5505335
+Collision detected 122.951004 123.31991 0.51757276 0.553824
+Collision detected 123.045845 123.499016 0.5083003 0.5560091
+Collision detected 123.12624 123.67757 0.5066567 0.5595518
+Collision detected 124.538376 125.10505 0.52030975 0.57778645
+Collision detected 124.872055 125.34112 0.5334699 0.5518584
+Collision detected 125.23767 125.58894 0.5300894 0.51556927
+Collision detected 125.47988 125.80471 0.51194656 0.47215557
+Collision detected 125.59518 126.00257 0.49273714 0.4158911
+Collision detected 127.4572 128.09729 -0.44633397 -0.577254
+Collision detected 127.76438 128.39455 -0.56143856 -0.604854
+Collision detected 128.14673 128.61453 -0.6319395 -0.6081944
+Collision detected 128.32355 128.75911 -0.65284294 -0.6023551
+Collision detected 128.41164 128.88635 -0.6562337 -0.5942303
+Collision detected 128.47385 129.0055 -0.6557794 -0.58346534
+Collision detected 128.47385 127.43684 -0.6557794 -0.7239622
+Collision detected 128.52965 129.1288 -0.654178 -0.5690998
+Collision detected 128.52965 127.663895 -0.654178 -0.7844838
+Collision detected 128.59537 129.31548 -0.652302 -0.54383343
+Collision detected 128.59537 127.9033 -0.652302 -0.79855436
+Collision detected 128.65318 128.03773 -0.6496639 -0.80002165
+Collision detected 128.74643 128.15408 -0.6464334 -0.79790306
+Collision detected 128.8474 128.20386 -0.64146996 -0.7946729
+Collision detected 128.98378 128.30458 -0.6316647 -0.7909327
+Collision detected 129.19353 128.39114 -0.6134369 -0.7859745
+Collision detected 133.87634 134.08511 -0.6302855 -0.7259092
+Collision detected 134.18538 134.17552 -0.666041 -0.72464365
+Collision detected 134.29 134.24542 -0.6718447 -0.72445023
+Collision detected 134.3524 134.26761 -0.67449933 -0.7239665
+Collision detected 134.40202 134.28844 -0.6753623 -0.72456753
+Collision detected 134.44632 134.30815 -0.6743993 -0.7248064
+Collision detected 134.49178 134.3302 -0.6717697 -0.7246616
+Collision detected 134.53833 134.3529 -0.66768855 -0.7241283
+Collision detected 134.5855 134.37642 -0.66193557 -0.7233039
+Collision detected 134.37642 134.20651 -0.7233039 -0.6341853
+Collision detected 134.63683 134.40102 -0.65457773 -0.7220682
+Collision detected 134.63683 134.5018 -0.65457773 -0.6710877
+Collision detected 134.40102 134.5018 -0.7220682 -0.6710877
+Collision detected 134.69089 134.42358 -0.6453998 -0.7206029
+Collision detected 134.69089 134.58183 -0.6453998 -0.6760988
+Collision detected 134.42358 134.58183 -0.7206029 -0.6760988
+Collision detected 134.73526 134.44359 -0.6372217 -0.71936446
+Collision detected 134.73526 134.60641 -0.6372217 -0.67806226
+Collision detected 134.44359 134.60641 -0.71936446 -0.67806226
+Collision detected 134.77614 134.46442 -0.62884814 -0.717804
+Collision detected 134.77614 134.62721 -0.62884814 -0.67889434
+Collision detected 134.46442 134.62721 -0.717804 -0.67889434
+Collision detected 134.81776 134.48575 -0.61903524 -0.7159917
+Collision detected 134.81776 134.64825 -0.61903524 -0.67871433
+Collision detected 134.48575 134.64825 -0.7159917 -0.67871433
+Collision detected 134.8641 134.66974 -0.6070756 -0.6776019
+Collision detected 134.50752 134.66974 -0.7140078 -0.6776019
+Collision detected 134.91652 134.6906 -0.59226996 -0.67560184
+Collision detected 134.52983 134.6906 -0.71176195 -0.67560184
+Collision detected 134.97673 134.71356 -0.5733415 -0.6727224
+Collision detected 134.55098 134.71356 -0.70929235 -0.6727224
+Collision detected 135.04897 134.738 -0.5484677 -0.66888416
+Collision detected 134.57352 134.738 -0.70663476 -0.66888416
+Collision detected 134.59602 134.76546 -0.70382845 -0.66382706
+Collision detected 134.61867 134.79947 -0.7008719 -0.6564952
+Collision detected 134.6416 134.84038 -0.69776636 -0.646416
+Collision detected 134.66518 134.88742 -0.69438237 -0.6341767
+Collision detected 134.68874 134.93985 -0.6905676 -0.61951005
+Collision detected 134.7156 134.99861 -0.6861204 -0.60149306
+Collision detected 134.74586 135.06781 -0.6807801 -0.5786677
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2390, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 257, in generate
+    pos, speed, info = self.fn(t, self.path)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 43, in custom_fn
+    return jnp.array([x, y]), v, {'curv': curv}
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2038, in array
+    out = stack([asarray(elt, dtype=dtype) for elt in object])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1781, in stack
+    return concatenate(new_arrays, axis=axis, dtype=dtype)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1829, in concatenate
+    arrays_out = util.promote_dtypes(*arrays)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 524, in _convert_element_type
+    old_dtype = dtypes.dtype(operand, canonicalize=False)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 524, in dtype
+    elif is_opaque_dtype(getattr(x, 'dtype', None)):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2390, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 257, in generate
+    pos, speed, info = self.fn(t, self.path)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 43, in custom_fn
+    return jnp.array([x, y]), v, {'curv': curv}
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2038, in array
+    out = stack([asarray(elt, dtype=dtype) for elt in object])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1781, in stack
+    return concatenate(new_arrays, axis=axis, dtype=dtype)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 1829, in concatenate
+    arrays_out = util.promote_dtypes(*arrays)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 524, in _convert_element_type
+    old_dtype = dtypes.dtype(operand, canonicalize=False)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 524, in dtype
+    elif is_opaque_dtype(getattr(x, 'dtype', None)):
+KeyboardInterrupt

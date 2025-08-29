@@ -1,0 +1,92 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            laxzq1e6gozeasa3xwghsqelwqgecc2g:
+                args:
+                    - --exp_name
+                    - data1_multi
+                    - --start_ep
+                    - "26"
+                    - --end_ep
+                    - "50"
+                    - --use_wandb
+                codePath: car_ros2/car_ros2/multi_car_blocking.py
+                codePathLocal: multi_car_blocking.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "123254587392"
+                        used: "81840574464"
+                email: mahiensanklechaa555.24@kgpian.iitkgp.ac.in
+                executable: /usr/bin/python3
+                git:
+                    commit: 9e0ffc8b326a5360eeed9fea1eba7aad30168039
+                    remote: git@github.com:sastry-group/alpha-RACER.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-a47e145e-8fd3-82c1-1217-e3e26b0de94e
+                host: MahinSanklecha
+                memory:
+                    total: "16063684608"
+                os: Linux-6.8.0-65-generic-x86_64-with-glibc2.35
+                program: /home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py
+                python: CPython 3.10.12
+                root: /home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2
+                startedAt: "2025-08-26T17:13:20.527144Z"
+                writerId: laxzq1e6gozeasa3xwghsqelwqgecc2g
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 12
+            "2":
+                - 1
+                - 12
+            "3":
+                - 13
+                - 16
+            "4": 3.10.12
+            "5": 0.21.1
+            "12": 0.21.1
+            "13": linux-x86_64
+checkpoint_dir:
+    value: data
+controller:
+    value: mpc
+end_ep:
+    value: 50
+episode_end:
+    value: 50
+episode_start:
+    value: 26
+exp_name:
+    value: data1_multi
+exp_name_effective:
+    value: data1_multi_mpc
+mid_ckpt_steps:
+    value: 0
+seed:
+    value: -1
+seed_base:
+    value: 1756228395
+start_ep:
+    value: 26
+use_wandb:
+    value: true
+wandb_entity:
+    value: null
+wandb_max_retries:
+    value: 3
+wandb_project:
+    value: alpha-racer-data
+wandb_retry_backoff:
+    value: 2

@@ -1,0 +1,7 @@
+{"time":"2025-08-27T10:33:59.168831825+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-27T10:33:59.708131437+05:30","level":"INFO","msg":"stream: created new stream","id":"gid6mpg2"}
+{"time":"2025-08-27T10:33:59.70818961+05:30","level":"INFO","msg":"stream: started","id":"gid6mpg2"}
+{"time":"2025-08-27T10:33:59.709611518+05:30","level":"INFO","msg":"sender: started","stream_id":"gid6mpg2"}
+{"time":"2025-08-27T10:33:59.709687289+05:30","level":"INFO","msg":"handler: started","stream_id":"gid6mpg2"}
+{"time":"2025-08-27T10:33:59.709730168+05:30","level":"INFO","msg":"writer: started","stream_id":"gid6mpg2"}
+{"time":"2025-08-27T10:38:54.807124444+05:30","level":"INFO","msg":"stream: closing","id":"gid6mpg2"}

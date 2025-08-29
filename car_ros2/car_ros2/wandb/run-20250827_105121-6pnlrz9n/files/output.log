@@ -1,0 +1,161 @@
+[W&B] Initialized run data8_multi_mpc_e202-225
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[Episode 202] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272274
+[Episode 203] Using seed 1756272274
+ep_no: 203
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.17044974284552242 0.23670933185965684 0.27163760513747875 0.9796361308280198
+Collision detected 65.34582 65.56788 0.60084575 0.7219244
+Collision detected 65.53472 65.6367 0.6563053 0.71611124
+Collision detected 65.649994 65.68684 0.67324483 0.7093653
+Collision detected 65.672226 65.73656 0.67899364 0.70442337
+Collision detected 65.69281 65.777115 0.6831637 0.70038456
+Collision detected 65.71298 65.80367 0.68660605 0.69552755
+Collision detected 65.73341 65.841156 0.6903621 0.69002
+Collision detected 65.75425 65.87956 0.693327 0.68502516
+Collision detected 65.77561 65.910965 0.69571596 0.67907554
+Collision detected 65.78637 65.95276 0.69736004 0.6718737
+Collision detected 65.809074 65.996956 0.6983046 0.6644323
+Collision detected 65.83275 66.04 0.69871485 0.65614593
+Collision detected 65.85775 66.08912 0.6992115 0.6461038
+Collision detected 65.88458 66.14504 0.69923335 0.635155
+Collision detected 65.909996 66.20408 0.69862944 0.62180364
+Collision detected 65.93931 66.27627 0.69681734 0.6056568
+Ego progress:  129.8800811767578
+Opp1 progress:  6.3924760818481445
+Opp2 progress:  134.38478088378906
+[Episode 203] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272275
+[Episode 204] Using seed 1756272275
+ep_no: 204
+ego params:  0.4815569356495072 0.2397487089542819 0.2544675082761775 0.9251107323559021
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.17044974284552242 0.23670933185965684 0.27163760513747875 0.9796361308280198
+Collision detected 26.380518 25.676653 0.8715223 0.8402176
+Collision detected 26.520693 25.732077 0.86990726 0.8450552
+Collision detected 26.790754 25.75509 0.8626667 0.84367996
+Collision detected 27.03304 25.79599 0.8511098 0.84198064
+Collision detected 27.172464 25.82898 0.83831984 0.8401691
+Collision detected 27.30663 25.875221 0.8245774 0.8379655
+Collision detected 27.429302 25.915377 0.81101453 0.83453447
+Collision detected 30.648983 30.358675 0.68104225 0.5445655
+Collision detected 30.747421 30.693007 0.68069494 0.58458585
+Collision detected 30.83959 30.925045 0.680421 0.6048756
+Collision detected 30.903801 30.982746 0.6798405 0.6069878
+Collision detected 30.930672 31.039303 0.6782113 0.6081857
+Collision detected 30.957304 31.1003 0.6763984 0.60775036
+Collision detected 30.979687 31.15901 0.67462623 0.60564494
+Collision detected 31.003305 31.225502 0.6729754 0.6018864
+Collision detected 31.028841 31.293194 0.6714805 0.596253
+Collision detected 31.05727 31.373095 0.6701552 0.5884533
+Collision detected 31.095211 31.464987 0.6689943 0.5779482
+Ego progress:  108.55742645263672
+Opp1 progress:  6.590746879577637
+Opp2 progress:  120.10089874267578
+[Episode 204] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272276
+[Episode 205] Using seed 1756272276
+ep_no: 205
+ego params:  0.4815569356495072 0.2397487089542819 0.2544675082761775 0.9251107323559021
+opp params:  0.19039436886740715 0.10028378659738353 0.44544918453061766 1.037959970190634
+opp1 params: 0.17044974284552242 0.23670933185965684 0.27163760513747875 0.9796361308280198
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2534, in timer_callback
+    obs_opp, reward, done, info = env_opp.step(action_opp)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 377, in step_gym
+    batch_target_vel = jnp.array(self.batch_buffer[:,-1,0])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2015, in array
+    dtype = dtypes._lattice_result_type(*leaves)[0] if leaves else dtypes.float_
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 537, in _lattice_result_type
+    dtypes, weak_types = zip(*(_dtype_and_weaktype(arg) for arg in args))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 537, in <genexpr>
+    dtypes, weak_types = zip(*(_dtype_and_weaktype(arg) for arg in args))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 360, in _dtype_and_weaktype
+    return dtype(value), any(value is typ for typ in _weak_types) or is_weakly_typed(value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 528, in dtype
+    dt = np.result_type(x)
+  File "<__array_function__ internals>", line 179, in result_type
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/numpy/core/multiarray.py", line 664, in result_type
+    @array_function_from_c_func_and_dispatcher(_multiarray_umath.result_type)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2534, in timer_callback
+    obs_opp, reward, done, info = env_opp.step(action_opp)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 377, in step_gym
+    batch_target_vel = jnp.array(self.batch_buffer[:,-1,0])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2015, in array
+    dtype = dtypes._lattice_result_type(*leaves)[0] if leaves else dtypes.float_
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 537, in _lattice_result_type
+    dtypes, weak_types = zip(*(_dtype_and_weaktype(arg) for arg in args))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 537, in <genexpr>
+    dtypes, weak_types = zip(*(_dtype_and_weaktype(arg) for arg in args))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 360, in _dtype_and_weaktype
+    return dtype(value), any(value is typ for typ in _weak_types) or is_weakly_typed(value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 528, in dtype
+    dt = np.result_type(x)
+  File "<__array_function__ internals>", line 179, in result_type
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/numpy/core/multiarray.py", line 664, in result_type
+    @array_function_from_c_func_and_dispatcher(_multiarray_umath.result_type)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x753d1d675090>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/weakref.py", line 667, in _exitfunc
+    f()
+  File "/usr/lib/python3.10/weakref.py", line 591, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/torch/library.py", line 482, in _del_library
+    m.reset()
+KeyboardInterrupt:

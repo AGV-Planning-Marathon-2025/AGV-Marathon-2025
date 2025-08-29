@@ -1,0 +1,654 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: artifact membership 'alpha_racer_multi_mpc_combined:latest' not found in 'mahin-sank-iit-kgp/alpha-racer-data'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 126] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477879
+[Episode 127] Using seed 1756477879
+ep_no: 127
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.43116692725266903 0.36158713625977956 0.24174906086660586 0.9669922244829656
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 1.2850472 0.94950944 0.52919614 0.41459668
+Collision detected 1.689572 1.4548185 0.4821285 0.39196137
+Collision detected 2.115777 1.9108049 0.44866824 0.3687675
+Collision detected 2.5024755 2.1639476 0.45882475 0.3591329
+Collision detected 27.404976 26.5299 0.6523131 0.7311891
+Collision detected 27.545225 26.930164 0.60273635 0.7081723
+Collision detected 27.671799 27.087004 0.544154 0.67824024
+Ego progress:  2.2845230102539062
+Opp1 progress:  128.97048950195312
+Opp2 progress:  127.62200164794922
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 127] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477880
+[Episode 128] Using seed 1756477880
+ep_no: 128
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.43116692725266903 0.36158713625977956 0.24174906086660586 0.9669922244829656
+opp1 params: 0.1836619852980076 0.18253849805999323 0.2736937057243999 0.894413184018748
+Collision detected 119.14668 119.66 0.7416512 0.77139527
+Collision detected 119.30716 119.741486 0.7573805 0.7713356
+Collision detected 119.40801 119.80803 0.7571466 0.7688792
+Collision detected 119.45272 119.893936 0.7552041 0.76598763
+Collision detected 119.497 119.94628 0.7520193 0.76223606
+Collision detected 119.52825 120.03281 0.7481922 0.7579881
+Collision detected 119.55154 120.08257 0.74426055 0.75335586
+Collision detected 119.60028 120.16939 0.7402821 0.74805677
+Collision detected 122.47973 122.93207 0.60687214 0.39211395
+Collision detected 122.68868 123.15535 0.608988 0.39082667
+Collision detected 122.89634 123.36522 0.6081048 0.39451602
+Collision detected 123.06312 123.58049 0.60194063 0.41827548
+Collision detected 123.26421 123.81749 0.59745646 0.44105342
+Collision detected 127.18473 127.50901 -0.18062973 -0.33354807
+Collision detected 127.3915 127.72851 -0.30958664 -0.40658724
+Collision detected 127.56429 127.97791 -0.39939255 -0.44892108
+Collision detected 127.64895 128.18695 -0.44518802 -0.4592294
+Collision detected 127.72895 128.36578 -0.47411293 -0.45241895
+Collision detected 128.66263 129.16583 -0.5774291 -0.32511392
+Collision detected 128.88596 129.34578 -0.5686322 -0.27264777
+Collision detected 129.18828 129.51804 -0.5432793 -0.20233452
+Collision detected 129.51225 129.6602 -0.47724903 -0.1256964
+Collision detected 129.75717 129.79572 -0.3725466 -0.037406802
+Collision detected 129.92033 129.93092 -0.25282982 0.040121187
+Collision detected 130.05432 130.07297 -0.13198242 0.118889645
+Collision detected 130.1894 130.2247 -0.035384 0.17474154
+Collision detected 130.30304 130.37279 0.042033702 0.22510278
+Collision detected 130.3816 130.51389 0.09721917 0.2696991
+Collision detected 130.42744 130.6447 0.13331524 0.30869475
+Collision detected 130.46506 130.7713 0.16284679 0.34634748
+Collision detected 134.27406 134.58353 -0.10575491 -0.049244236
+Collision detected 134.62405 134.85623 -0.11410151 -0.046310935
+Collision detected 134.87898 135.09529 -0.10411438 -0.003101849
+Collision detected 135.0072 135.28737 -0.09082145 0.04823588
+Collision detected 136.28574 136.50177 0.5750299 0.78554094
+Collision detected 136.42914 136.55304 0.7269708 0.8126729
+Collision detected 136.50343 136.58301 0.7788069 0.82350296
+Collision detected 136.52916 136.59915 0.78856796 0.825939
+Collision detected 136.54755 136.60977 0.79278105 0.825901
+Collision detected 136.56659 136.61697 0.79566973 0.8246245
+Collision detected 136.58574 136.63235 0.7969668 0.82329905
+Collision detected 136.60484 136.64447 0.79703605 0.8215084
+Collision detected 136.62999 136.65012 0.7961959 0.81940466
+Collision detected 136.655 136.65483 0.7943985 0.8171056
+Collision detected 136.67369 136.65887 0.7921324 0.81468886
+Collision detected 136.69958 136.66182 0.78963405 0.81217104
+Collision detected 136.72743 136.66458 0.7868674 0.80962497
+Collision detected 136.77394 136.66862 0.78372914 0.80722773
+Collision detected 136.80745 136.67271 0.77991587 0.8048275
+Collision detected 136.83852 136.67815 0.77611333 0.8025789
+Collision detected 136.88672 136.68375 0.77241236 0.8003411
+Collision detected 136.92967 136.69069 0.76822346 0.79825485
+Collision detected 136.95053 136.69792 0.7644547 0.7961921
+Collision detected 136.97314 136.7064 0.7609886 0.794277
+Collision detected 137.01129 136.7152 0.75779444 0.7923949
+Collision detected 137.0684 136.72531 0.7529572 0.7906762
+Collision detected 137.13033 136.73672 0.7477274 0.78911394
+Collision detected 137.21225 136.75992 0.74042225 0.7876888
+Collision detected 137.31598 136.7843 0.73123384 0.78603524
+Collision detected 137.44864 136.79924 0.71797794 0.78450394
+Ego progress:  120.40103912353516
+Opp1 progress:  147.4751434326172
+Opp2 progress:  97.70599365234375
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 128] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477881
+[Episode 129] Using seed 1756477881
+ep_no: 129
+ego params:  0.16494877362580668 0.2841948145707448 0.42498306361003657 0.971355361031456
+opp params:  0.43116692725266903 0.36158713625977956 0.24174906086660586 0.9669922244829656
+opp1 params: 0.1836619852980076 0.18253849805999323 0.2736937057243999 0.894413184018748
+Ego progress:  134.29234313964844
+Opp1 progress:  131.05198669433594
+Opp2 progress:  119.79962921142578
+[W&B] Appended episode data, total episodes: 4
+[W&B] Uploaded combined artifact with 4 episodes
+[Episode 129] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477882
+[Episode 130] Using seed 1756477882
+ep_no: 130
+ego params:  0.16494877362580668 0.2841948145707448 0.42498306361003657 0.971355361031456
+opp params:  0.3910315940928848 0.4989484432138588 0.30393917113592744 0.851698273294473
+opp1 params: 0.1836619852980076 0.18253849805999323 0.2736937057243999 0.894413184018748
+Collision detected 121.47832 121.97426 0.4468438 0.6761662
+Collision detected 121.65928 122.06149 0.42954454 0.66873264
+Collision detected 122.27618 122.383255 0.4161373 0.6323369
+Collision detected 122.5115 122.48859 0.41409314 0.61539054
+Collision detected 122.681206 122.587814 0.41285995 0.5963334
+Collision detected 122.85299 122.66093 0.40154812 0.5797382
+Collision detected 123.009415 122.723206 0.38902837 0.5673791
+Collision detected 123.14873 122.78192 0.3713406 0.55377305
+Collision detected 123.28836 122.84436 0.3470631 0.53960854
+Collision detected 127.9138 127.35169 -0.721771 -0.5988153
+Collision detected 128.02724 127.59007 -0.7262315 -0.65534234
+Collision detected 128.07532 127.70676 -0.7306128 -0.6662802
+Collision detected 128.16597 127.780556 -0.7350524 -0.6756654
+Collision detected 128.20761 127.81117 -0.7293455 -0.6842605
+Collision detected 128.28625 127.88881 -0.7237302 -0.6925835
+Collision detected 128.32796 127.901634 -0.71770513 -0.70030344
+Collision detected 128.39027 127.91246 -0.71088284 -0.70806223
+Collision detected 128.43039 127.92425 -0.70442057 -0.71575165
+Collision detected 128.4705 127.936745 -0.6967945 -0.72307354
+Collision detected 128.51306 127.94995 -0.6888952 -0.7305028
+Collision detected 128.5541 128.02104 -0.6812784 -0.73795867
+Collision detected 128.59764 128.03748 -0.6725878 -0.7455019
+Collision detected 128.63585 128.05435 -0.6632908 -0.75272167
+Collision detected 128.67307 128.07237 -0.65417373 -0.7589512
+Collision detected 128.72476 128.14708 -0.6549155 -0.7549647
+Collision detected 128.76598 128.16704 -0.6442213 -0.75995785
+Collision detected 128.82503 128.18697 -0.644264 -0.7539973
+Collision detected 128.88434 128.20807 -0.63140297 -0.74874586
+Collision detected 128.96104 128.26903 -0.6181871 -0.74397963
+Collision detected 63.77932 64.16899 -0.18242137 -0.14275296
+Collision detected 64.12325 64.30716 -0.1342777 -0.0910771
+Collision detected 64.28617 64.42296 -0.08215696 -0.031554144
+Collision detected 64.33474 64.49673 -0.059583806 0.008828525
+Collision detected 64.37341 64.549034 -0.05103655 0.045158688
+Collision detected 64.392044 64.60194 -0.031186517 0.09804098
+Collision detected 64.41735 64.64554 -0.019024158 0.1439171
+Collision detected 64.44734 64.714 -0.0029048154 0.21563295
+Collision detected 65.37624 65.61617 0.6745508 0.7507392
+Collision detected 65.490166 65.664406 0.70010304 0.75669813
+Collision detected 65.54175 65.71787 0.71117336 0.7572439
+Collision detected 65.57402 65.76123 0.716314 0.7552013
+Collision detected 65.599266 65.787796 0.7206406 0.75059265
+Collision detected 65.62407 65.82537 0.7238706 0.7441711
+Collision detected 65.64948 65.86342 0.726095 0.7375081
+Collision detected 65.66119 65.90232 0.7270993 0.7302354
+Collision detected 65.688324 65.93383 0.7271058 0.72182906
+Collision detected 65.716606 65.976425 0.72665936 0.71281487
+Collision detected 65.74633 66.021515 0.726122 0.7037809
+Collision detected 65.77796 66.063416 0.72482055 0.6938455
+Collision detected 65.800606 66.115616 0.722269 0.68336684
+Collision detected 65.8388 66.17 0.718559 0.67250746
+Collision detected 74.63015 74.9757 -0.1397972 -0.049262542
+Collision detected 75.076225 75.31897 -0.16059807 -0.065618195
+Collision detected 75.4804 75.64791 -0.17752264 -0.07369192
+Collision detected 75.71327 75.93075 -0.1827647 -0.06427116
+Collision detected 75.81955 76.16852 -0.17974432 -0.042659137
+Collision detected 79.74374 79.998695 0.38748115 0.65985376
+Collision detected 79.961464 80.103195 0.4814018 0.6959931
+Collision detected 80.146324 80.159645 0.57404256 0.7118099
+Collision detected 80.2519 80.18486 0.6140448 0.71549183
+Collision detected 80.28117 80.20426 0.6233948 0.7160367
+Collision detected 80.30981 80.22079 0.6317279 0.71453184
+Collision detected 80.34935 80.23054 0.6386961 0.7128288
+Collision detected 80.37812 80.23746 0.6437722 0.71061784
+Collision detected 80.403206 80.243515 0.64773816 0.70995605
+Collision detected 80.4268 80.25069 0.6506163 0.70874065
+Collision detected 80.44818 80.25951 0.6523637 0.7075047
+Collision detected 80.48192 80.266335 0.6635184 0.7059699
+Collision detected 80.50803 80.27042 0.66413367 0.70415974
+Collision detected 80.52751 80.27346 0.6747397 0.70226806
+Collision detected 80.54597 80.276695 0.6851155 0.7004097
+Collision detected 80.56393 80.28273 0.69546044 0.6994116
+Collision detected 80.59011 80.28602 0.7058791 0.6976748
+Collision detected 80.62596 80.29213 0.7156012 0.6967788
+Collision detected 80.6442 80.29614 0.72509617 0.6951897
+Collision detected 80.66233 80.30195 0.73446023 0.69436747
+Collision detected 80.68039 80.306526 0.7436569 0.69299537
+Collision detected 80.69796 80.31295 0.7525936 0.69240874
+Collision detected 80.7337 80.31877 0.76128775 0.6913858
+Collision detected 80.76582 80.32336 0.7690693 0.69014734
+Collision detected 80.782974 80.337746 0.7766083 0.6893938
+Ego progress:  82.5584716796875
+Opp1 progress:  81.30583953857422
+Opp2 progress:  80.2196273803711
+[W&B] Appended episode data, total episodes: 5
+[W&B] Uploaded combined artifact with 5 episodes
+[Episode 130] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477883
+[Episode 131] Using seed 1756477883
+ep_no: 131
+ego params:  0.16494877362580668 0.2841948145707448 0.42498306361003657 0.971355361031456
+opp params:  0.3910315940928848 0.4989484432138588 0.30393917113592744 0.851698273294473
+opp1 params: 0.10977752507328985 0.4371074504377218 0.40397854823059043 0.8736109392068044
+Collision detected 65.4512 65.21202 0.7880527 0.69796604
+Collision detected 65.50055 65.2836 0.7870386 0.7234955
+Collision detected 65.526535 65.34148 0.7826949 0.7305533
+Collision detected 65.56714 65.374825 0.77588075 0.72991604
+Collision detected 65.60523 65.39 0.76914513 0.72564745
+Collision detected 65.64313 65.40198 0.7618919 0.7189424
+Collision detected 65.667046 65.4279 0.7534153 0.71100795
+Collision detected 65.70793 65.45552 0.743985 0.70270246
+Collision detected 65.75109 65.48531 0.73552614 0.694352
+Collision detected 65.785164 65.51783 0.7263162 0.6850818
+Collision detected 65.83404 65.537125 0.715994 0.6742159
+Collision detected 65.88641 65.57775 0.70655555 0.6619244
+Collision detected 65.93407 65.624016 0.69636047 0.65036565
+Collision detected 65.99495 65.66451 0.6859807 0.63696516
+Collision detected 66.05469 65.72655 0.6756444 0.62177104
+Collision detected 66.12607 65.789185 0.6649912 0.6059212
+Collision detected 66.199524 65.87293 0.65441424 0.5878172
+Collision detected 66.28272 65.95978 0.64396155 0.5684119
+Collision detected 66.36978 66.05916 0.63355356 0.54896843
+Collision detected 66.46287 66.17 0.6238285 0.529807
+Collision detected 66.56148 66.28302 0.6147704 0.509221
+Collision detected 66.666534 66.3904 0.6065673 0.48989218
+Collision detected 66.775345 66.493126 0.59940034 0.47226566
+Collision detected 66.89074 66.594345 0.5931516 0.4597238
+Collision detected 67.01453 66.700134 0.58801293 0.44649753
+Collision detected 67.14898 66.81715 0.58423036 0.43171644
+Collision detected 67.2965 66.95 0.58184785 0.41495556
+Collision detected 67.45911 67.10709 0.5809255 0.398009
+Collision detected 67.63516 67.29234 0.58133197 0.3834785
+Collision detected 67.82409 67.50306 0.5827481 0.3754057
+Collision detected 68.02017 67.73248 0.5845476 0.3771717
+Collision detected 68.22035 67.97183 0.58619094 0.38551024
+Collision detected 68.42085 68.20973 0.58719623 0.40033475
+Collision detected 68.61941 68.43348 0.58751035 0.41465002
+Collision detected 68.81316 68.623665 0.5869324 0.42664263
+Collision detected 68.99616 68.77116 0.58516425 0.43519944
+Collision detected 69.16959 68.88379 0.58219796 0.4409656
+Collision detected 69.33804 68.982 0.5782536 0.44540855
+Collision detected 72.525826 72.20508 0.5818594 0.43945262
+Collision detected 72.797935 72.5816 0.5665853 0.41934788
+Collision detected 73.07719 72.913414 0.557043 0.40074208
+Collision detected 73.347725 73.13995 0.5577293 0.3880114
+Collision detected 73.605896 73.28686 0.57069063 0.37932718
+Collision detected 75.38476 75.08999 0.6002953 0.38350764
+Collision detected 75.58362 75.40689 0.59460783 0.39504996
+Collision detected 75.7817 75.70577 0.59641904 0.40638846
+Collision detected 75.97026 75.93907 0.61156166 0.4174877
+Collision detected 76.134186 76.091515 0.63389415 0.42842698
+Collision detected 76.27365 76.1995 0.6535606 0.43951595
+Collision detected 76.39522 76.29373 0.66835606 0.45115823
+Collision detected 76.50342 76.38787 0.67953056 0.46361455
+Collision detected 76.601105 76.48536 0.6879725 0.47690552
+Collision detected 76.69027 76.585045 0.69433725 0.4907947
+Collision detected 76.77208 76.68285 0.6991044 0.50486356
+Collision detected 76.84745 76.77313 0.70265156 0.5185832
+Collision detected 76.917274 76.85127 0.705201 0.5315348
+Collision detected 76.981705 76.91582 0.7069887 0.5434807
+Collision detected 77.04193 76.96808 0.70815 0.55401033
+Collision detected 77.09827 77.01141 0.70887077 0.56317264
+Collision detected 77.15224 77.048836 0.70921904 0.57048756
+Collision detected 77.20442 77.08278 0.70935327 0.5773074
+Collision detected 77.2553 77.11529 0.70929575 0.5821969
+Collision detected 77.30611 77.148026 0.7091274 0.5854544
+Collision detected 77.35667 77.18211 0.70890945 0.5865764
+Collision detected 77.408165 77.21764 0.70863163 0.58645135
+Collision detected 77.46068 77.2549 0.70839256 0.5853494
+Collision detected 77.51415 77.295044 0.7081622 0.5833606
+Collision detected 77.56947 77.33848 0.7079872 0.5804857
+Collision detected 77.62609 77.385666 0.70788264 0.57659096
+Collision detected 77.68469 77.43801 0.7078286 0.5715737
+Collision detected 77.744644 77.49586 0.707872 0.5652522
+Collision detected 77.80643 77.56074 0.7079663 0.5573451
+Collision detected 77.869576 77.63322 0.7081588 0.5475623
+Collision detected 77.933655 77.714714 0.70838207 0.5354994
+Collision detected 77.99897 77.80424 0.70869035 0.52102166
+Collision detected 78.06507 77.902374 0.70902026 0.5040558
+Collision detected 78.132355 78.01139 0.7093646 0.484676
+Ego progress:  140.89520263671875
+Opp1 progress:  79.11056518554688
+Opp2 progress:  80.06214904785156
+[W&B] Appended episode data, total episodes: 6
+[W&B] Uploaded combined artifact with 6 episodes
+[Episode 131] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477884
+[Episode 132] Using seed 1756477884
+ep_no: 132
+ego params:  0.28102815292788386 0.4867908130790862 0.35417913519307653 1.0162088234897393
+opp params:  0.3910315940928848 0.4989484432138588 0.30393917113592744 0.851698273294473
+opp1 params: 0.10977752507328985 0.4371074504377218 0.40397854823059043 0.8736109392068044
+Collision detected 19.659332 19.41828 -0.5883965 -0.54886955
+Collision detected 19.910753 19.795998 -0.5934454 -0.55021137
+Collision detected 20.110638 19.958109 -0.6052451 -0.5481777
+Collision detected 20.241198 20.000406 -0.61707133 -0.54402363
+Collision detected 20.338785 20.030006 -0.62465847 -0.5420857
+Collision detected 20.879187 20.524317 -0.64744735 -0.51557595
+Collision detected 21.001554 20.729816 -0.65250856 -0.50611305
+Collision detected 21.122564 20.964668 -0.65614 -0.49938846
+Collision detected 21.234201 21.165247 -0.6592801 -0.49764434
+Collision detected 21.331102 21.29439 -0.6621211 -0.4960099
+Collision detected 21.415592 21.371346 -0.66447604 -0.49403083
+Collision detected 21.490162 21.426409 -0.6663846 -0.49196208
+Collision detected 21.561619 21.473904 -0.6678191 -0.48985955
+Collision detected 21.630505 21.522512 -0.66864306 -0.48779473
+Collision detected 21.701008 21.574512 -0.6690056 -0.486013
+Collision detected 21.771477 21.630564 -0.6686583 -0.48431656
+Collision detected 21.843578 21.693205 -0.66790456 -0.48299763
+Collision detected 21.919039 21.760715 -0.6664311 -0.48190874
+Collision detected 21.994896 21.834558 -0.66454595 -0.48130348
+Collision detected 22.074015 21.911722 -0.662088 -0.48094735
+Collision detected 22.1531 21.991648 -0.65908635 -0.48114777
+Collision detected 22.233414 22.073568 -0.6557578 -0.48162937
+Collision detected 22.316557 22.15331 -0.6518236 -0.48237485
+Collision detected 22.39889 22.230425 -0.6475374 -0.4834956
+Collision detected 22.483994 22.305447 -0.64286125 -0.48460114
+Collision detected 22.568308 22.375763 -0.6375527 -0.48605826
+Collision detected 22.654144 22.444805 -0.6318987 -0.4875298
+Collision detected 22.744427 22.511019 -0.6256639 -0.4893688
+Collision detected 22.835981 22.579058 -0.6185557 -0.49143454
+Collision detected 22.932358 22.6479 -0.6106309 -0.49408567
+Collision detected 23.035639 22.723503 -0.6016795 -0.49743134
+Collision detected 23.148819 22.806515 -0.59121484 -0.50180066
+Collision detected 27.16204 26.408447 0.5820206 0.48085278
+Collision detected 27.445171 26.7921 0.55622214 0.5313157
+Collision detected 27.667795 27.174953 0.51536274 0.5278513
+Collision detected 27.873516 27.423935 0.46967873 0.4922426
+Collision detected 28.036356 27.588902 0.42136115 0.4537
+Collision detected 28.194408 27.709084 0.37657583 0.41276482
+Collision detected 33.34952 33.071613 0.7211861 0.5314202
+Collision detected 33.440975 33.412796 0.71898717 0.58573204
+Collision detected 33.515606 33.67281 0.71431416 0.61525
+Collision detected 33.57678 33.744904 0.70863533 0.6200172
+Collision detected 33.606693 33.82179 0.7007672 0.6227995
+Collision detected 33.63168 33.893738 0.6923917 0.62375546
+Collision detected 33.65749 33.972637 0.68380064 0.62291986
+Collision detected 33.692074 34.05189 0.67492443 0.620355
+Collision detected 66.86376 67.205696 0.5595638 0.68220013
+Collision detected 67.04859 67.28936 0.5364672 0.67304057
+Collision detected 67.24045 67.37554 0.5091719 0.6630806
+Collision detected 67.400536 67.46204 0.4870901 0.65270543
+Collision detected 67.510025 67.54381 0.47330067 0.64210075
+Collision detected 67.58212 67.62236 0.46576998 0.6313843
+Collision detected 67.634 67.70053 0.46156937 0.62004125
+Collision detected 67.67893 67.77862 0.45904443 0.60762423
+Collision detected 67.72154 67.86021 0.45747924 0.5936971
+Collision detected 67.76364 67.94819 0.45641586 0.5774182
+Collision detected 67.80821 68.044586 0.45580867 0.5578475
+Collision detected 67.85631 68.15506 0.4555746 0.533246
+Collision detected 67.910614 68.28345 0.455478 0.5019853
+Ego progress:  1.9317095279693604
+Opp1 progress:  75.09503173828125
+Opp2 progress:  76.18927001953125
+[W&B] Appended episode data, total episodes: 7
+[W&B] Uploaded combined artifact with 7 episodes
+[Episode 132] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477885
+[Episode 133] Using seed 1756477885
+ep_no: 133
+ego params:  0.28102815292788386 0.4867908130790862 0.35417913519307653 1.0162088234897393
+opp params:  0.47101440534654526 0.21409808348652556 0.46275489612746634 1.0945123400114114
+opp1 params: 0.10977752507328985 0.4371074504377218 0.40397854823059043 0.8736109392068044
+Collision detected 126.66902 126.31272 -0.8373394 -0.6760538
+Collision detected 126.6741 126.40939 -0.83889633 -0.7216945
+Collision detected 126.67874 126.46372 -0.840212 -0.7383811
+Collision detected 126.683365 126.48788 -0.8414701 -0.7380844
+Collision detected 126.68792 126.5062 -0.84277254 -0.7336225
+Collision detected 126.69251 126.51842 -0.8440817 -0.7279949
+Collision detected 126.69709 126.53005 -0.84539175 -0.7217615
+Collision detected 126.70167 126.54114 -0.846693 -0.7150724
+Collision detected 126.706245 126.55172 -0.8479827 -0.7080306
+Collision detected 126.710815 126.562874 -0.8492603 -0.7116146
+Collision detected 126.71538 126.57358 -0.85052365 -0.7044109
+Collision detected 126.71995 126.584694 -0.85178196 -0.7079577
+Collision detected 126.72451 126.59624 -0.8530303 -0.71166515
+Collision detected 126.73107 126.60692 -0.85427535 -0.704619
+Collision detected 126.74025 126.627625 -0.8555238 -0.70822275
+Collision detected 126.74941 126.64126 -0.8567646 -0.7118345
+Collision detected 126.75858 126.651855 -0.85789275 -0.7155841
+Collision detected 126.76776 126.66151 -0.8590191 -0.7085247
+Collision detected 126.774994 126.67086 -0.8601523 -0.7121518
+Collision detected 126.779594 126.6812 -0.86127985 -0.7159068
+Collision detected 126.784195 126.691505 -0.8624062 -0.71977425
+Collision detected 126.7888 126.70148 -0.86353695 -0.72371304
+Collision detected 126.79342 126.71105 -0.86467206 -0.7276922
+Collision detected 126.798035 126.72091 -0.86581177 -0.73175573
+Collision detected 126.80265 126.73084 -0.86695576 -0.73583204
+Collision detected 126.807274 126.749535 -0.8681042 -0.7398846
+Collision detected 126.811905 126.76804 -0.86925703 -0.74369454
+Collision detected 126.81656 126.778015 -0.87041426 -0.74747485
+Collision detected 126.8212 126.78672 -0.8715758 -0.75121546
+Collision detected 126.825836 126.79512 -0.87274164 -0.75490916
+Collision detected 126.830475 126.80354 -0.8739089 -0.75858516
+Collision detected 126.83512 126.81174 -0.8750791 -0.7622138
+Collision detected 126.839775 126.81968 -0.8762506 -0.76578856
+Collision detected 126.84444 126.82734 -0.87742305 -0.7693085
+Collision detected 126.84959 126.83551 -0.87859577 -0.7728417
+Collision detected 126.858955 126.84353 -0.87977153 -0.77632314
+Collision detected 126.86833 126.851295 -0.8809508 -0.7797452
+Collision detected 126.87771 126.865616 -0.8821366 -0.7831102
+Collision detected 126.8871 126.88181 -0.8832029 -0.7864521
+Collision detected 126.89649 126.897675 -0.88423574 -0.78950125
+Collision detected 126.90588 126.91072 -0.8852741 -0.7925154
+Collision detected 126.913864 126.92068 -0.8864819 -0.7955722
+Collision detected 126.918945 126.93125 -0.88771015 -0.7986044
+Collision detected 126.924034 126.94175 -0.88894063 -0.801604
+Collision detected 126.92912 126.95187 -0.8901732 -0.80456537
+Collision detected 126.93421 126.962364 -0.8914067 -0.80751246
+Collision detected 126.93931 126.97277 -0.8926396 -0.8104344
+Collision detected 126.9444 126.99176 -0.89387417 -0.81332195
+Collision detected 126.94947 127.012085 -0.8951059 -0.8161543
+Collision detected 126.95457 127.031166 -0.8963363 -0.8185865
+Collision detected 126.95966 127.04786 -0.8975643 -0.82102233
+Collision detected 126.96476 127.05669 -0.89878803 -0.8234697
+Collision detected 126.969864 127.06571 -0.90001035 -0.82592285
+Collision detected 126.9799 127.074646 -0.9012318 -0.8283822
+Collision detected 126.99016 127.083305 -0.90245557 -0.83083975
+Collision detected 127.00041 127.091705 -0.9036859 -0.8332909
+Collision detected 127.01066 127.10819 -0.9049092 -0.8357392
+Collision detected 127.02092 127.125725 -0.9059262 -0.83819836
+Collision detected 127.03117 127.14277 -0.90695 -0.84059316
+Collision detected 127.04142 127.15932 -0.9079831 -0.84260976
+Collision detected 127.05099 127.17654 -0.9090277 -0.84463507
+Collision detected 127.05614 127.19039 -0.9100851 -0.84671926
+Collision detected 127.06128 127.198296 -0.9111527 -0.8488407
+Collision detected 127.06643 127.206024 -0.91222835 -0.8509874
+Collision detected 127.07157 127.21913 -0.913309 -0.8531373
+Collision detected 127.0767 127.23525 -0.9143938 -0.8553145
+Collision detected 127.08184 127.25097 -0.91547906 -0.85752857
+Collision detected 127.08699 127.2663 -0.9165674 -0.8597764
+Collision detected 127.0962 127.281235 -0.91765827 -0.861654
+Collision detected 127.106544 127.29605 -0.9187572 -0.8634425
+Collision detected 127.11689 127.31059 -0.9198677 -0.86528575
+Collision detected 127.127235 127.32484 -0.92099303 -0.86717993
+Collision detected 127.13757 127.34771 -0.92213243 -0.8691193
+Collision detected 127.14792 127.361626 -0.92305976 -0.8711223
+Collision detected 127.15826 127.37624 -0.923934 -0.8731616
+Collision detected 127.168594 127.39094 -0.92482734 -0.87525403
+Collision detected 127.17892 127.405396 -0.92574215 -0.87716436
+Collision detected 127.18924 127.4196 -0.926679 -0.8787468
+Collision detected 127.196014 127.43357 -0.92763495 -0.8804029
+Collision detected 127.2012 127.44818 -0.92860645 -0.8820813
+Collision detected 127.20937 127.50351 -0.929589 -0.88385004
+Collision detected 127.219795 127.51737 -0.9305859 -0.88574874
+Collision detected 127.230225 127.53117 -0.9316022 -0.887693
+Collision detected 127.24065 127.544235 -0.9326411 -0.88912255
+Collision detected 127.25106 127.55795 -0.93370444 -0.8905912
+Collision detected 127.26148 127.646385 -0.9347893 -0.8921307
+Collision detected 127.27188 127.65976 -0.93582594 -0.8939308
+Collision detected 127.282295 127.6732 -0.9365813 -0.8950801
+Collision detected 127.292694 127.78189 -0.9373654 -0.8963313
+Collision detected 127.30308 127.79503 -0.93817914 -0.8976356
+Collision detected 127.31346 127.90865 -0.9390226 -0.8986085
+Collision detected 127.32384 127.92204 -0.9398914 -0.8998676
+Collision detected 127.35455 128.03516 -0.9407851 -0.9006022
+Collision detected 127.365036 128.04846 -0.9417347 -0.9018667
+Collision detected 127.37553 128.06335 -0.94273245 -0.9025
+Collision detected 127.386 128.17021 -0.9437685 -0.90322596
+Collision detected 127.4 128.18529 -0.94466215 -0.90416515
+Collision detected 127.41415 128.19104 -0.94499475 -0.8958775
+Collision detected 127.42437 128.19807 -0.94572705 -0.8876234
+Collision detected 127.43479 128.20421 -0.94647676 -0.87946296
+Collision detected 127.44518 128.27997 -0.9472649 -0.87130797
+Collision detected 127.50931 128.28355 -0.9480887 -0.8632645
+Collision detected 127.51976 128.2892 -0.9490238 -0.8550869
+Collision detected 127.53015 128.29463 -0.9500407 -0.8469782
+Collision detected 127.54049 128.30042 -0.9505959 -0.8388806
+Collision detected 127.550766 128.30792 -0.95122117 -0.8306905
+Collision detected 127.64915 128.31633 -0.9518996 -0.82215315
+Collision detected 127.65943 128.32591 -0.9527674 -0.81341726
+Collision detected 127.66964 128.33615 -0.9531825 -0.8046683
+Collision detected 127.78903 128.34679 -0.9536713 -0.7959331
+Collision detected 127.913414 128.39679 -0.9538402 -0.7870572
+Collision detected 127.923546 128.40906 -0.95410347 -0.7781182
+Collision detected 128.04622 128.42245 -0.9542123 -0.7692047
+Collision detected 128.05618 128.43765 -0.9543065 -0.76024175
+Collision detected 128.16943 128.45523 -0.9544291 -0.75043064
+Collision detected 128.17949 128.47507 -0.9548635 -0.7403549
+Collision detected 128.19008 128.50569 -0.95489085 -0.7302678
+Collision detected 128.29007 128.52567 -0.9550043 -0.7202864
+Collision detected 128.29312 128.54738 -0.9487368 -0.7103353
+Collision detected 128.29741 128.58163 -0.94119793 -0.7095164
+Collision detected 128.30235 128.611 -0.9334536 -0.6982117
+Collision detected 128.30771 128.63577 -0.9256586 -0.68718886
+Collision detected 128.3142 128.65819 -0.9175732 -0.6763144
+Collision detected 128.31552 128.68904 -0.90987664 -0.6654113
+Collision detected 128.322 128.72168 -0.90163267 -0.6536002
+Collision detected 128.32506 128.75475 -0.89375854 -0.6413202
+Collision detected 128.32677 128.778 -0.88597715 -0.6290698
+Collision detected 128.32951 128.82394 -0.8780717 -0.62642866
+Collision detected 128.33243 128.86635 -0.87017465 -0.6122791
+Collision detected 128.33647 128.91774 -0.86216754 -0.5976885
+Collision detected 128.34143 128.9737 -0.8541062 -0.59167135
+Collision detected 128.34648 129.04837 -0.84607583 -0.5732313
+Collision detected 136.18446 136.38956 0.011942448 0.20613746
+Collision detected 136.51952 136.56326 0.15277947 0.32570836
+Collision detected 136.7101 136.70876 0.26728916 0.4407431
+Collision detected 136.8027 136.83447 0.32476735 0.53775823
+Collision detected 136.91212 136.92026 0.38801166 0.58422863
+Collision detected 136.98083 137.00879 0.4325894 0.6360921
+Collision detected 137.06555 137.13098 0.46516693 0.6787474
+Collision detected 137.12119 137.27502 0.49371514 0.70765084
+Collision detected 137.20642 137.43553 0.5201797 0.72241503
+Collision detected 137.28793 137.68146 0.5466334 0.72415304
+Collision detected 137.38461 138.1615 0.56951135 0.7031353
+Collision detected 137.49734 138.2935 0.5874206 0.6722329
+Collision detected 137.58286 138.40634 0.5996645 0.638247
+Collision detected 137.70007 138.51508 0.606607 0.5999854
+Collision detected 137.90887 138.6364 0.60778666 0.5533413
+Collision detected 138.05925 138.76047 0.60166943 0.49281856
+Collision detected 142.64246 142.58131 -0.25014612 -0.030992912
+Collision detected 143.13084 142.92343 -0.17854147 -0.0041795406
+Ego progress:  126.77129364013672
+Opp1 progress:  66.55740356445312
+Opp2 progress:  64.41960144042969
+[W&B] Appended episode data, total episodes: 8
+[W&B] Uploaded combined artifact with 8 episodes
+[Episode 133] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756477886
+[Episode 134] Using seed 1756477886
+ep_no: 134
+ego params:  0.28102815292788386 0.4867908130790862 0.35417913519307653 1.0162088234897393
+opp params:  0.47101440534654526 0.21409808348652556 0.46275489612746634 1.0945123400114114
+opp1 params: 0.1677330812599246 0.3014990036264751 0.23204496853881573 0.9165824044225451
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 480, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 226, in generate
+    d1 = np.sqrt((self.waypoint_list[t_idx-1,0]-self.waypoint_list[t_idx,0])**2 \
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2912, in _execute_trivial
+    return out_handler(in_handler(outs))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1202, in __call__
+    return [h(bufs) for h, bufs in safe_zip(self.handlers, out_bufs)]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1202, in <listcomp>
+    return [h(bufs) for h, bufs in safe_zip(self.handlers, out_bufs)]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 480, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 226, in generate
+    d1 = np.sqrt((self.waypoint_list[t_idx-1,0]-self.waypoint_list[t_idx,0])**2 \
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2912, in _execute_trivial
+    return out_handler(in_handler(outs))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1202, in __call__
+    return [h(bufs) for h, bufs in safe_zip(self.handlers, out_bufs)]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1202, in <listcomp>
+    return [h(bufs) for h, bufs in safe_zip(self.handlers, out_bufs)]
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x73965c2d91b0>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/weakref.py", line 667, in _exitfunc
+    f()
+  File "/usr/lib/python3.10/weakref.py", line 591, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/torch/library.py", line 482, in _del_library
+    m.reset()
+KeyboardInterrupt:

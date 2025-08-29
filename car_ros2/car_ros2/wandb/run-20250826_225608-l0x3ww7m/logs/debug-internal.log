@@ -1,0 +1,12 @@
+{"time":"2025-08-26T22:56:08.955729633+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-26T22:56:09.486165309+05:30","level":"INFO","msg":"stream: created new stream","id":"l0x3ww7m"}
+{"time":"2025-08-26T22:56:09.486229767+05:30","level":"INFO","msg":"stream: started","id":"l0x3ww7m"}
+{"time":"2025-08-26T22:56:09.486275648+05:30","level":"INFO","msg":"handler: started","stream_id":"l0x3ww7m"}
+{"time":"2025-08-26T22:56:09.486285635+05:30","level":"INFO","msg":"writer: started","stream_id":"l0x3ww7m"}
+{"time":"2025-08-26T22:56:09.486306166+05:30","level":"INFO","msg":"sender: started","stream_id":"l0x3ww7m"}
+{"time":"2025-08-26T23:09:24.316903802+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/l0x3ww7m/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-26T23:09:44.484878977+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/l0x3ww7m/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-26T23:10:06.311339012+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-26T23:10:06.319148929+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/l0x3ww7m/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-26T23:10:26.477618455+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/l0x3ww7m/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-27T09:32:04.824705554+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}

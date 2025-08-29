@@ -1,0 +1,7 @@
+{"time":"2025-08-26T22:43:49.638669329+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-26T22:43:50.176199953+05:30","level":"INFO","msg":"stream: created new stream","id":"yfrc5jv1"}
+{"time":"2025-08-26T22:43:50.176248209+05:30","level":"INFO","msg":"stream: started","id":"yfrc5jv1"}
+{"time":"2025-08-26T22:43:50.176297722+05:30","level":"INFO","msg":"handler: started","stream_id":"yfrc5jv1"}
+{"time":"2025-08-26T22:43:50.176305893+05:30","level":"INFO","msg":"writer: started","stream_id":"yfrc5jv1"}
+{"time":"2025-08-26T22:43:50.17636197+05:30","level":"INFO","msg":"sender: started","stream_id":"yfrc5jv1"}
+{"time":"2025-08-26T22:45:01.562989633+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/yfrc5jv1/file_stream\": EOF"}

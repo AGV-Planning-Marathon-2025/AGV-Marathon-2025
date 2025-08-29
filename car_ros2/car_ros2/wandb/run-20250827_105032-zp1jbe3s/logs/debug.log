@@ -1,0 +1,21 @@
+2025-08-27 10:50:32,791 INFO    MainThread:44643 [wandb_setup.py:_flush():80] Current SDK version is 0.21.1
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_setup.py:_flush():80] Configure stats pid to 44643
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_setup.py:_flush():80] Loading settings from /home/mahin-sanklecha/.config/wandb/settings
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_setup.py:_flush():80] Loading settings from /home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb/settings
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb/run-20250827_105032-zp1jbe3s/logs/debug.log
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb/run-20250827_105032-zp1jbe3s/logs/debug-internal.log
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_init.py:init():830] calling init triggers
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'exp_name': 'data0_multi', 'start_ep': 1, 'end_ep': 25, 'use_wandb': True, 'wandb_project': 'alpha-racer-data', 'wandb_entity': None, 'checkpoint_dir': 'data', 'mid_ckpt_steps': 0, 'seed': -1, 'wandb_max_retries': 3, 'wandb_retry_backoff': 2.0, 'controller': 'mpc', 'exp_name_effective': 'data0_multi_mpc', 'episode_start': 2, 'episode_end': 25, 'seed_base': 1756272028, '_wandb': {}}
+2025-08-27 10:50:32,792 INFO    MainThread:44643 [wandb_init.py:init():871] starting backend
+2025-08-27 10:50:32,997 INFO    MainThread:44643 [wandb_init.py:init():874] sending inform_init request
+2025-08-27 10:50:33,002 INFO    MainThread:44643 [wandb_init.py:init():882] backend started and connected
+2025-08-27 10:50:33,003 INFO    MainThread:44643 [wandb_init.py:init():953] updated telemetry
+2025-08-27 10:50:33,007 INFO    MainThread:44643 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-08-27 10:50:34,073 INFO    MainThread:44643 [wandb_init.py:init():1029] starting run threads in backend
+2025-08-27 10:50:34,249 INFO    MainThread:44643 [wandb_run.py:_console_start():2494] atexit reg
+2025-08-27 10:50:34,250 INFO    MainThread:44643 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-08-27 10:50:34,250 INFO    MainThread:44643 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-08-27 10:50:34,250 INFO    MainThread:44643 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-08-27 10:50:34,252 INFO    MainThread:44643 [wandb_init.py:init():1075] run started, returning control to user process

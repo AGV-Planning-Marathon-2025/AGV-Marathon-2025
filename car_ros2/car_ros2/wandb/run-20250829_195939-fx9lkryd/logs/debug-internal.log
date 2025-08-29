@@ -1,0 +1,6 @@
+{"time":"2025-08-29T19:59:39.952653338+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-29T19:59:40.515797482+05:30","level":"INFO","msg":"stream: created new stream","id":"fx9lkryd"}
+{"time":"2025-08-29T19:59:40.51585992+05:30","level":"INFO","msg":"stream: started","id":"fx9lkryd"}
+{"time":"2025-08-29T19:59:40.516016155+05:30","level":"INFO","msg":"handler: started","stream_id":"fx9lkryd"}
+{"time":"2025-08-29T19:59:40.516063717+05:30","level":"INFO","msg":"sender: started","stream_id":"fx9lkryd"}
+{"time":"2025-08-29T19:59:40.516198581+05:30","level":"INFO","msg":"writer: started","stream_id":"fx9lkryd"}

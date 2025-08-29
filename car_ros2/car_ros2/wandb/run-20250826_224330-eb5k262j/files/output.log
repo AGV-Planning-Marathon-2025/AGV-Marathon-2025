@@ -1,0 +1,142 @@
+[W&B] Initialized run data3_multi_mpc_e76-100
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 76] W&B upload failed -> saved locally at data/data3_multi_mpc_ep76.pkl
+[Seed] Global seed set to 1756228482
+[Episode 77] Using seed 1756228482
+ep_no: 77
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.20863362371566613 0.16641602247021137 0.17069861874756515 1.064621477251535
+Collision detected 43.630074 43.274025 0.33716702 0.28038844
+Collision detected 44.084087 43.781532 0.28432468 0.2441109
+Collision detected 44.55625 44.256523 0.2611874 0.20911409
+Collision detected 55.052128 54.90197 0.57115716 0.57169896
+Collision detected 55.330254 55.360653 0.5570081 0.579089
+Collision detected 55.522034 55.437305 0.54918253 0.5797399
+Collision detected 55.5516 55.498047 0.5492133 0.5808734
+Collision detected 55.59617 55.522507 0.54869443 0.58309644
+Collision detected 55.64654 55.54349 0.5487522 0.58575755
+Collision detected 55.703053 55.56475 0.54951674 0.5888156
+Collision detected 55.765823 55.58712 0.55135375 0.5922698
+Collision detected 55.835487 55.611332 0.554236 0.5961502
+Collision detected 55.914906 55.638557 0.55871385 0.60047007
+Collision detected 56.00821 55.670128 0.56486887 0.6053283
+Ego progress:  140.9220733642578
+Opp1 progress:  136.55384826660156
+Opp2 progress:  130.43760681152344
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 77] W&B upload failed -> saved locally at data/data3_multi_mpc_ep77.pkl
+[Seed] Global seed set to 1756228483
+[Episode 78] Using seed 1756228483
+ep_no: 78
+ego params:  0.358027090359589 0.1882706601430092 0.19317481850734647 0.9541630251056626
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.20863362371566613 0.16641602247021137 0.17069861874756515 1.064621477251535
+Error in callback:  Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2447, in timer_callback
+    self.pose_pub_.publish(pose)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2054, in upload_artifact_from_buffer
+    artifact.add_file("episode.pkl")
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 258, in wrapper
+    return method(self, *args, **kwargs)
+TypeError: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2742, in timer_callback
+    self._save_and_upload_episode()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2206, in _save_and_upload_episode
+    success = upload_artifact_from_buffer(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2061, in upload_artifact_from_buffer
+    time.sleep(wait)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2447, in timer_callback
+    self.pose_pub_.publish(pose)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2054, in upload_artifact_from_buffer
+    artifact.add_file("episode.pkl")
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 258, in wrapper
+    return method(self, *args, **kwargs)
+TypeError: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2742, in timer_callback
+    self._save_and_upload_episode()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2206, in _save_and_upload_episode
+    success = upload_artifact_from_buffer(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2061, in upload_artifact_from_buffer
+    time.sleep(wait)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x704b301cd000>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

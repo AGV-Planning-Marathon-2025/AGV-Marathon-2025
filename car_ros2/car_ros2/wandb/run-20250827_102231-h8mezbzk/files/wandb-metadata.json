@@ -1,0 +1,49 @@
+{
+  "os": "Linux-6.8.0-65-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-08-27T04:52:31.662824Z",
+  "args": [
+    "--exp_name",
+    "data5_multi",
+    "--start_ep",
+    "126",
+    "--end_ep",
+    "150",
+    "--use_wandb"
+  ],
+  "program": "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py",
+  "codePath": "car_ros2/car_ros2/multi_car_blocking.py",
+  "codePathLocal": "multi_car_blocking.py",
+  "git": {
+    "remote": "git@github.com:sastry-group/alpha-RACER.git",
+    "commit": "9e0ffc8b326a5360eeed9fea1eba7aad30168039"
+  },
+  "email": "mahiensanklechaa555.24@kgpian.iitkgp.ac.in",
+  "root": "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2",
+  "host": "MahinSanklecha",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "123254587392",
+      "used": "81960841216"
+    }
+  },
+  "memory": {
+    "total": "16063684608"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memoryTotal": "4294967296",
+      "cudaCores": 896,
+      "architecture": "Turing",
+      "uuid": "GPU-a47e145e-8fd3-82c1-1217-e3e26b0de94e"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "oi7b22uj5puypqgyk371kxmpa9jbwat2"
+}

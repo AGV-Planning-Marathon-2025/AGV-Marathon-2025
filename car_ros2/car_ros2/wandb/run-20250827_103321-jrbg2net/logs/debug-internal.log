@@ -1,0 +1,6 @@
+{"time":"2025-08-27T10:33:22.149382886+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-27T10:33:22.688932926+05:30","level":"INFO","msg":"stream: created new stream","id":"jrbg2net"}
+{"time":"2025-08-27T10:33:22.688984953+05:30","level":"INFO","msg":"stream: started","id":"jrbg2net"}
+{"time":"2025-08-27T10:33:22.688997733+05:30","level":"INFO","msg":"handler: started","stream_id":"jrbg2net"}
+{"time":"2025-08-27T10:33:22.689066939+05:30","level":"INFO","msg":"writer: started","stream_id":"jrbg2net"}
+{"time":"2025-08-27T10:33:22.689074202+05:30","level":"INFO","msg":"sender: started","stream_id":"jrbg2net"}

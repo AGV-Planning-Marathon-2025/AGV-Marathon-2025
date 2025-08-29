@@ -1,0 +1,6 @@
+{"time":"2025-08-27T10:40:58.903603+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-27T10:40:59.440190294+05:30","level":"INFO","msg":"stream: created new stream","id":"ztt430sd"}
+{"time":"2025-08-27T10:40:59.440295186+05:30","level":"INFO","msg":"stream: started","id":"ztt430sd"}
+{"time":"2025-08-27T10:40:59.440368582+05:30","level":"INFO","msg":"writer: started","stream_id":"ztt430sd"}
+{"time":"2025-08-27T10:40:59.440524174+05:30","level":"INFO","msg":"handler: started","stream_id":"ztt430sd"}
+{"time":"2025-08-27T10:40:59.44054715+05:30","level":"INFO","msg":"sender: started","stream_id":"ztt430sd"}

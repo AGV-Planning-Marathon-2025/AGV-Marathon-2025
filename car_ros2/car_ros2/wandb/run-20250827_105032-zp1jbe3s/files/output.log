@@ -1,0 +1,174 @@
+[W&B] Initialized run data0_multi_mpc_e2-25
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[Episode 2] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272031
+[Episode 3] Using seed 1756272031
+ep_no: 3
+ego params:  0.3852077883794226 0.10526417260381962 0.48593776800333943 0.8850093017210504
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 121.57298 121.10497 0.42793015 0.53389317
+Collision detected 121.81737 121.48417 0.4212737 0.55066323
+Collision detected 122.05789 121.85209 0.40612262 0.5640778
+Collision detected 122.27453 122.07568 0.38705358 0.58101755
+Collision detected 122.45338 122.227425 0.36166984 0.5786214
+Collision detected 122.61782 122.34996 0.33982086 0.574063
+Collision detected 122.759224 122.47283 0.32566136 0.5653805
+Collision detected 122.89952 122.60482 0.31706873 0.55620223
+Collision detected 123.040016 122.744415 0.30619544 0.53714764
+Collision detected 123.17873 122.88711 0.29464772 0.5194103
+Collision detected 123.318474 123.03413 0.26706204 0.5038582
+Collision detected 123.457214 123.18556 0.25647786 0.49048302
+Collision detected 123.597015 123.3505 0.25013518 0.47668618
+Collision detected 123.73854 123.539276 0.24774277 0.46280104
+Collision detected 123.89949 123.69514 0.23710006 0.45169875
+Collision detected 124.04987 123.83742 0.21390787 0.44222757
+Collision detected 124.19401 123.96937 0.19434264 0.43539783
+Collision detected 124.33811 124.10189 0.17168212 0.42435852
+Collision detected 124.48445 124.24078 0.15042368 0.41021654
+Collision detected 124.63685 124.398445 0.15086038 0.40027884
+Collision detected 124.81715 124.592384 0.14262845 0.38793752
+Collision detected 124.99417 124.80188 0.11453482 0.36857805
+Collision detected 125.17129 125.013466 0.08104904 0.3351427
+Collision detected 125.347595 125.23544 0.0326066 0.2925771
+Collision detected 125.50746 125.4236 -0.028130447 0.2404927
+Collision detected 125.65815 125.611595 -0.107102945 0.17376882
+Collision detected 126.4562 126.74869 -0.7348133 -0.659905
+Collision detected 126.49843 126.852394 -0.74952567 -0.7455934
+Collision detected 126.514305 126.93285 -0.7515124 -0.782301
+Ego progress:  81.39984130859375
+Opp1 progress:  7.543160438537598
+Opp2 progress:  125.29944610595703
+[Episode 3] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272032
+[Episode 4] Using seed 1756272032
+ep_no: 4
+ego params:  0.3852077883794226 0.10526417260381962 0.48593776800333943 0.8850093017210504
+opp params:  0.2983512728091394 0.3407997804387114 0.36282827795014516 0.9865392193229848
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 122.68385 122.34337 0.17797966 0.40977454
+Collision detected 122.928024 122.68187 0.16935028 0.39373258
+Collision detected 123.168434 123.001656 0.15590778 0.37861538
+Collision detected 123.39294 123.255486 0.14222205 0.37618482
+Collision detected 123.59229 123.4645 0.12019895 0.36751947
+Ego progress:  80.0765380859375
+Opp1 progress:  146.1381072998047
+Opp2 progress:  122.64080047607422
+[Episode 4] Uploaded directly to W&B (in-memory). Steps: 500
+[Seed] Global seed set to 1756272033
+[Episode 5] Using seed 1756272033
+ep_no: 5
+ego params:  0.3852077883794226 0.10526417260381962 0.48593776800333943 0.8850093017210504
+opp params:  0.2983512728091394 0.3407997804387114 0.36282827795014516 0.9865392193229848
+opp1 params: 0.16404866465580198 0.3554351528623261 0.42069988646410017 1.0551085406413918
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2391, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 230, in generate
+    side = jnp.sign((self.waypoint_list[t_idx,0]-self.waypoint_list[t_idx-1,0])*(pos2d[1]-self.waypoint_list[t_idx-1,1]) - (self.waypoint_list[t_idx,1]-self.waypoint_list[t_idx-1,1])*(pos2d[0]-self.waypoint_list[t_idx-1,0]))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2908, in _execute_trivial
+    map(env.setdefault, jaxpr.invars, pruned_args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 89, in <lambda>
+    invars = property(lambda self: self._invars)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3018, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3012, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2391, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 230, in generate
+    side = jnp.sign((self.waypoint_list[t_idx,0]-self.waypoint_list[t_idx-1,0])*(pos2d[1]-self.waypoint_list[t_idx-1,1]) - (self.waypoint_list[t_idx,1]-self.waypoint_list[t_idx-1,1])*(pos2d[0]-self.waypoint_list[t_idx-1,0]))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2908, in _execute_trivial
+    map(env.setdefault, jaxpr.invars, pruned_args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 89, in <lambda>
+    invars = property(lambda self: self._invars)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x71c314331240>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

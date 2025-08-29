@@ -1,0 +1,211 @@
+[W&B] Initialized run data4_multi_mpc_e101-125
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 101] W&B upload failed -> saved locally at data/data4_multi_mpc_ep101.pkl
+[Seed] Global seed set to 1756228513
+[Episode 102] Using seed 1756228513
+ep_no: 102
+ego params:  0.18971234079736388 0.3848379777467721 0.2840518738641883 1.0174936918017223
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 65.255775 64.982346 0.8023181 0.7991795
+Collision detected 65.27383 65.0 0.7983445 0.81289655
+Collision detected 65.3241 65.054924 0.7923499 0.81781644
+Collision detected 65.37421 65.10298 0.78957593 0.82501864
+Collision detected 65.398674 65.13 0.7845414 0.8286063
+Collision detected 66.89427 66.64438 0.5963508 0.5506288
+Collision detected 67.0308 66.93889 0.5706504 0.55623466
+Collision detected 67.1682 67.095276 0.54395956 0.5581488
+Collision detected 67.27248 67.13011 0.52302015 0.55668586
+Collision detected 67.35281 67.15166 0.5064388 0.55442643
+Collision detected 67.43185 67.17521 0.48945642 0.5517195
+Collision detected 67.51765 67.203804 0.4700165 0.5483664
+Collision detected 78.214 77.86274 -0.60098255 -0.58222026
+Collision detected 78.446724 78.19338 -0.5968148 -0.5673689
+Collision detected 78.67149 78.482 -0.59153855 -0.5498252
+Collision detected 78.85902 78.62178 -0.5847749 -0.536212
+Collision detected 79.00781 78.68014 -0.5769318 -0.5262257
+Ego progress:  148.50936889648438
+Opp1 progress:  133.07736206054688
+Opp2 progress:  131.75149536132812
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 102] W&B upload failed -> saved locally at data/data4_multi_mpc_ep102.pkl
+[Seed] Global seed set to 1756228514
+[Episode 103] Using seed 1756228514
+ep_no: 103
+ego params:  0.18971234079736388 0.3848379777467721 0.2840518738641883 1.0174936918017223
+opp params:  0.331615324930233 0.20092927723264384 0.4194059321843648 0.9970268817884943
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 121.618355 121.16845 0.5581224 0.65598994
+Collision detected 121.76902 121.35254 0.5352253 0.65766895
+Collision detected 121.96778 121.48724 0.51741266 0.6568366
+Collision detected 128.32341 127.338776 -0.7056482 -0.7353358
+Collision detected 128.40247 127.48753 -0.6974337 -0.7797263
+Collision detected 128.45544 127.54773 -0.6904458 -0.793913
+Collision detected 128.50917 127.63504 -0.6832641 -0.7970872
+Collision detected 128.56262 127.66338 -0.6775194 -0.7976735
+Collision detected 128.62296 127.6871 -0.67087567 -0.7958872
+Collision detected 128.67255 127.77521 -0.66509587 -0.79367685
+Collision detected 128.74329 127.79472 -0.6587792 -0.79126877
+Collision detected 128.81111 127.813995 -0.65241766 -0.7880024
+Collision detected 128.8925 127.9021 -0.6441913 -0.78490984
+Collision detected 137.04747 136.66132 0.913761 0.8385441
+Collision detected 137.13863 136.73318 0.9191742 0.8777676
+Collision detected 137.25584 136.79419 0.92017347 0.89033145
+Collision detected 138.43195 136.81967 0.91192687 0.89552015
+Collision detected 138.45848 136.84285 0.89428407 0.8985721
+Collision detected 138.55756 136.8823 0.8775659 0.9005754
+Collision detected 138.60956 136.92873 0.8619036 0.901135
+Collision detected 138.7063 136.95366 0.8481521 0.9012821
+Collision detected 138.77827 136.99936 0.8349739 0.9013762
+Collision detected 138.84413 137.05006 0.8243061 0.90056604
+Collision detected 138.90764 137.11494 0.813771 0.899336
+Collision detected 138.96039 137.16917 0.8053645 0.89784366
+Collision detected 139.0249 137.27165 0.797135 0.8954742
+Collision detected 139.06898 137.40654 0.79021096 0.891548
+Collision detected 139.7978 139.51501 0.74334896 0.6046983
+Collision detected 139.86034 139.63045 0.74379414 0.5925089
+Collision detected 139.88997 139.75 0.74431854 0.5847258
+Collision detected 139.94786 139.85605 0.74219424 0.5807166
+Collision detected 140.00226 139.90906 0.7446363 0.56993127
+Collision detected 140.01689 139.96875 0.7447893 0.5635798
+Collision detected 140.0667 140.01 0.7429659 0.56416595
+Collision detected 140.11633 140.0497 0.74400747 0.5636677
+Collision detected 140.14 140.10231 0.7455643 0.56621957
+Collision detected 140.17302 140.14 0.7438845 0.57238257
+Collision detected 140.2215 140.16899 0.74304193 0.57598203
+Collision detected 140.26933 140.21347 0.7453818 0.580057
+Collision detected 140.27222 140.25468 0.7453874 0.5880621
+Collision detected 140.31815 140.26999 0.7433758 0.59532917
+Collision detected 140.36343 140.29274 0.7436715 0.6001084
+Collision detected 140.4 140.32597 0.74559206 0.60441256
+Collision detected 140.40492 140.35767 0.7449224 0.6108529
+Collision detected 140.44814 140.3883 0.7426574 0.61821187
+Collision detected 140.49115 140.4 0.74295694 0.6247929
+Collision detected 140.53 140.40788 0.7446764 0.62922376
+Collision detected 140.53 140.4365 0.7442099 0.6330389
+Collision detected 140.57167 140.46506 0.7419131 0.63628227
+Collision detected 140.61432 140.49367 0.742027 0.6426314
+Collision detected 140.65718 140.5222 0.7435514 0.6485948
+Collision detected 140.65999 140.53 0.7433208 0.65472126
+Collision detected 140.7016 140.5364 0.7411745 0.657387
+Collision detected 140.74574 140.56624 0.7413666 0.65931696
+Collision detected 140.79 140.59705 0.7427429 0.6615713
+Collision detected 140.79935 140.62894 0.7421327 0.66600746
+Collision detected 140.84578 140.65999 0.74007004 0.6698107
+Collision detected 140.89343 140.65999 0.74138427 0.6719236
+Collision detected 140.92 140.69464 0.7425051 0.6723107
+Collision detected 140.95717 140.73286 0.7409692 0.67337817
+Collision detected 141.00818 140.77351 0.74139035 0.67624277
+Collision detected 141.04999 140.79 0.743166 0.6777965
+Collision detected 141.08319 140.82904 0.74233395 0.67670286
+Collision detected 141.13771 140.87808 0.74278605 0.6770052
+Collision detected 141.18 140.92 0.7447595 0.67859286
+Collision detected 141.22148 140.95308 0.74399394 0.6768842
+Collision detected 141.27826 141.00992 0.7451902 0.67646015
+Collision detected 141.31 141.04999 0.7465895 0.6771012
+Collision detected 141.36679 141.09927 0.7457773 0.6744463
+Collision detected 141.42366 141.1582 0.7476909 0.67447245
+Collision detected 141.45699 141.19118 0.748213 0.6734523
+Collision detected 141.51294 141.24855 0.74789184 0.6707682
+Collision detected 141.56856 141.30516 0.74943984 0.6706436
+Collision detected 141.60275 141.33817 0.7490768 0.6682302
+Collision detected 141.65764 141.39357 0.74917984 0.66585237
+Collision detected 141.7 141.44 0.7501267 0.664682
+Collision detected 141.74757 141.48338 0.7491519 0.66098595
+Collision detected 141.802 141.53874 0.7496803 0.6586027
+Collision detected 141.83977 141.57597 0.74980086 0.6559724
+Error in callback:  Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2447, in timer_callback
+    self.pose_pub_.publish(pose)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2054, in upload_artifact_from_buffer
+    artifact.add_file("episode.pkl")
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 258, in wrapper
+    return method(self, *args, **kwargs)
+TypeError: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2742, in timer_callback
+    self._save_and_upload_episode()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2206, in _save_and_upload_episode
+    success = upload_artifact_from_buffer(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2061, in upload_artifact_from_buffer
+    time.sleep(wait)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2447, in timer_callback
+    self.pose_pub_.publish(pose)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2054, in upload_artifact_from_buffer
+    artifact.add_file("episode.pkl")
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 258, in wrapper
+    return method(self, *args, **kwargs)
+TypeError: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2742, in timer_callback
+    self._save_and_upload_episode()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2206, in _save_and_upload_episode
+    success = upload_artifact_from_buffer(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2061, in upload_artifact_from_buffer
+    time.sleep(wait)
+KeyboardInterrupt

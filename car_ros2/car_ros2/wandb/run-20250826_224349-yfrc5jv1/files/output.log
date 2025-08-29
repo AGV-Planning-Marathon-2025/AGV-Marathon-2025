@@ -1,0 +1,111 @@
+[W&B] Initialized run data6_multi_mpc_e151-175
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 151] W&B upload failed -> saved locally at data/data6_multi_mpc_ep151.pkl
+[Seed] Global seed set to 1756228574
+[Episode 152] Using seed 1756228574
+ep_no: 152
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.4158384665487257 0.35854832272714177 0.19496153910155983 1.0845465557322034
+Ego progress:  109.67633819580078
+Opp1 progress:  2.577629327774048
+Opp2 progress:  88.83182525634766
+[W&B] upload attempt 1 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Artifact.add_file() got an unexpected keyword argument 'file_or_bytes'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 152] W&B upload failed -> saved locally at data/data6_multi_mpc_ep152.pkl
+[Seed] Global seed set to 1756228575
+[Episode 153] Using seed 1756228575
+ep_no: 153
+ego params:  0.44183175615124026 0.40930015735599756 0.4538950543186276 1.0514752075758313
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.4158384665487257 0.35854832272714177 0.19496153910155983 1.0845465557322034
+Collision detected 29.64 29.40964 -0.6974585 -0.7069125
+Collision detected 29.718128 29.583273 -0.68948597 -0.7205873
+Collision detected 29.780832 29.64 -0.6829748 -0.72686327
+Collision detected 29.836739 29.665287 -0.6766282 -0.72883487
+Collision detected 29.887754 29.688631 -0.6708486 -0.72956574
+Collision detected 29.931936 29.71289 -0.66355246 -0.7295814
+Collision detected 29.986095 29.738695 -0.6550586 -0.72899693
+Collision detected 30.038254 29.766598 -0.64531034 -0.7274925
+Collision detected 30.10363 29.789116 -0.6329298 -0.7246994
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2565, in timer_callback
+    obs_opp1, reward, done, info = env_opp1.step(action_opp1)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 380, in step_gym
+    next_x, next_y, next_psi, next_vx, next_vy, next_omega = self.step(
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 174, in step
+    k3 = dbm_dxdt(batch_x + 0.5 * self.params.DT * k2[0],
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 463, in dbm_dxdt
+    F_rz = 0.5 * batch_MASS * GRAVITY * batch_LF / (batch_LF + batch_LR) + 0.5 * batch_hcom / (batch_LF + batch_LR) * F_rx
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 258, in deferring_binary_op
+    return binary_op(*args)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2565, in timer_callback
+    obs_opp1, reward, done, info = env_opp1.step(action_opp1)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 380, in step_gym
+    next_x, next_y, next_psi, next_vx, next_vy, next_omega = self.step(
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 174, in step
+    k3 = dbm_dxdt(batch_x + 0.5 * self.params.DT * k2[0],
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 463, in dbm_dxdt
+    F_rz = 0.5 * batch_MASS * GRAVITY * batch_LF / (batch_LF + batch_LR) + 0.5 * batch_hcom / (batch_LF + batch_LR) * F_rx
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 258, in deferring_binary_op
+    return binary_op(*args)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x76340c138f70>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

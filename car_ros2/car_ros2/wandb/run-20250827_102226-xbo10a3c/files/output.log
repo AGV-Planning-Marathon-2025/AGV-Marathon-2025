@@ -1,0 +1,117 @@
+[W&B] Initialized run data4_multi_mpc_e105-125
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] upload attempt 1 failed: Path is not a file: 'episode.pkl'. Retrying after 2.0s ...
+[W&B] upload attempt 2 failed: Path is not a file: 'episode.pkl'. Retrying after 4.0s ...
+[W&B] upload attempt 3 failed: Path is not a file: 'episode.pkl'. Retrying after 8.0s ...
+[W&B] upload failed after 3 attempts.
+[Episode 105] W&B upload failed -> saved locally at data/data4_multi_mpc_ep105.pkl
+[Seed] Global seed set to 1756270446
+[Episode 106] Using seed 1756270446
+ep_no: 106
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.31556134207266046 0.4751555952675516 0.18368063539811302 0.8953004137631667
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 121.71673 121.24312 0.6715161 0.6259077
+Collision detected 121.78372 121.479744 0.6685857 0.63063055
+Collision detected 121.86183 121.62652 0.66366833 0.627447
+Collision detected 121.89383 121.71355 0.65953755 0.62273264
+Collision detected 121.94039 121.74623 0.6545558 0.6189654
+Collision detected 121.98658 121.77568 0.6496003 0.6167286
+Collision detected 122.01323 121.82183 0.6460236 0.61526144
+Collision detected 122.06138 121.861305 0.6436014 0.6136563
+Collision detected 122.11491 121.88416 0.6403934 0.6131018
+Collision detected 122.149216 121.9223 0.637792 0.61354226
+Collision detected 122.20583 121.96785 0.63585246 0.6138356
+Collision detected 122.25939 122.001015 0.6325842 0.61436087
+Collision detected 122.300545 122.0292 0.63017523 0.6157842
+Collision detected 122.35934 122.075165 0.6273811 0.6178464
+Collision detected 122.40082 122.121185 0.6241574 0.6190433
+Collision detected 122.452545 122.14469 0.62167835 0.62108266
+Collision detected 122.51194 122.19117 0.6177767 0.6239593
+Collision detected 122.5433 122.23932 0.61426944 0.6259555
+Collision detected 122.60585 122.27163 0.6108436 0.6283878
+Collision detected 122.66192 122.31686 0.60438377 0.6316778
+Collision detected 122.75111 122.36869 0.59562707 0.63422495
+Collision detected 122.82607 122.40381 0.5830401 0.6372296
+Collision detected 122.9303 122.46142 0.56500167 0.6415669
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2390, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 263, in generate
+    psi = jnp.arctan2(pos_next[1] - pos[1], pos_next[0] - pos[0])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4115, in _attempt_rewriting_take_via_slice
+    arr = lax.squeeze(arr, tuple(int_indices))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1310, in squeeze
+    ndim = np.ndim(array)
+  File "<__array_function__ internals>", line 179, in ndim
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3117, in _ndim_dispatcher
+    def _ndim_dispatcher(a):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3017, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 3011, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 2390, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 263, in generate
+    psi = jnp.arctan2(pos_next[1] - pos[1], pos_next[0] - pos[0])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4115, in _attempt_rewriting_take_via_slice
+    arr = lax.squeeze(arr, tuple(int_indices))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 1310, in squeeze
+    ndim = np.ndim(array)
+  File "<__array_function__ internals>", line 179, in ndim
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3117, in _ndim_dispatcher
+    def _ndim_dispatcher(a):
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7c00f0f18f70>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

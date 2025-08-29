@@ -1,0 +1,12 @@
+{"time":"2025-08-26T22:55:54.666170672+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-26T22:55:55.184850409+05:30","level":"INFO","msg":"stream: created new stream","id":"5tj5h6bj"}
+{"time":"2025-08-26T22:55:55.184925342+05:30","level":"INFO","msg":"stream: started","id":"5tj5h6bj"}
+{"time":"2025-08-26T22:55:55.184985051+05:30","level":"INFO","msg":"writer: started","stream_id":"5tj5h6bj"}
+{"time":"2025-08-26T22:55:55.185031072+05:30","level":"INFO","msg":"handler: started","stream_id":"5tj5h6bj"}
+{"time":"2025-08-26T22:55:55.185076116+05:30","level":"INFO","msg":"sender: started","stream_id":"5tj5h6bj"}
+{"time":"2025-08-26T23:09:44.477995908+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/5tj5h6bj/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-26T23:10:06.303444734+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-26T23:10:06.354526737+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/5tj5h6bj/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-26T23:10:26.479189112+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/5tj5h6bj/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-27T09:31:44.043718413+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/5tj5h6bj/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-27T09:32:04.832558211+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}

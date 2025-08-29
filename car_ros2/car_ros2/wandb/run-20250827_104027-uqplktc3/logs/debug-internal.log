@@ -1,0 +1,6 @@
+{"time":"2025-08-27T10:40:27.792040467+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-27T10:40:28.386614132+05:30","level":"INFO","msg":"stream: created new stream","id":"uqplktc3"}
+{"time":"2025-08-27T10:40:28.386653589+05:30","level":"INFO","msg":"stream: started","id":"uqplktc3"}
+{"time":"2025-08-27T10:40:28.386708479+05:30","level":"INFO","msg":"handler: started","stream_id":"uqplktc3"}
+{"time":"2025-08-27T10:40:28.386713228+05:30","level":"INFO","msg":"writer: started","stream_id":"uqplktc3"}
+{"time":"2025-08-27T10:40:28.386721818+05:30","level":"INFO","msg":"sender: started","stream_id":"uqplktc3"}
