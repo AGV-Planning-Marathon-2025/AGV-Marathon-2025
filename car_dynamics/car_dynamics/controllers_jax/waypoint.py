@@ -124,8 +124,8 @@ class WaypointGenerator:
             ox = yaml_content['track_info']['ox']
             oy = yaml_content['track_info']['oy']
             self.fn = custom_fn
-            df = pd.read_csv('../../ref_trajs/' + centerline_file + '_with_speeds.csv')
-            df_raceline = pd.read_csv('../../ref_trajs/' + centerline_file + '_raceline_with_speeds.csv')
+            df = pd.read_csv('../../../ref_trajs/' + centerline_file + '_with_speeds.csv')
+            df_raceline = pd.read_csv('../../../ref_trajs/' + centerline_file + '_raceline_with_speeds.csv')
             self.raceline = np.array(df_raceline.iloc[:,:4]) + np.array([0, ox, oy, 0])
             self.raceline_dev = 2*np.array(df_raceline.iloc[:,4])
             # print(self.path)
@@ -145,7 +145,7 @@ class WaypointGenerator:
         else :
             self.fn = custom_fn
             self.scale = 1.
-            df = pd.read_csv('../../../lecar-car/ref_trajs/' + self.waypoint_type + '_with_speeds.csv')
+            df = pd.read_csv('../../../../lecar-car/ref_trajs/' + self.waypoint_type + '_with_speeds.csv')
             # df = pd.read_csv('../../../lecar-car/ref_trajs/' + self.waypoint_type + '_with_speeds.csv')
             print(df)
             print(np.array(df.iloc[:,:]).shape)

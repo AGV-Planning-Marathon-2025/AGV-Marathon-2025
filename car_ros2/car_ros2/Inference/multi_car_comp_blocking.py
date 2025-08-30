@@ -13,14 +13,18 @@ from nav_msgs.msg import Path, Odometry
 from std_msgs.msg import Float64, Int8
 from tf_transformations import quaternion_from_euler, euler_matrix
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from car_dynamics.models_jax import DynamicBicycleModel, DynamicParams
 from car_dynamics.envs.car3 import OffroadCar
 from car_dynamics.controllers_jax import WaypointGenerator
 from notebooks.dnn_model import DNNModel
-from mpc_controller import mpc
+# from mpc_controller import mpc
 
 from Inference.car_model import CarManager
-from Inference.utils import has_collided, fix_difference
+from Inference.utils import has_collided, fix_difference, mpc_caller
 from Inference.parameter_update import grad_optim
 
 DT = 0.1
@@ -39,7 +43,7 @@ reset_poses = [
     [-2., -6., -np.pi/2.-0.5]
 ]
 param_template = dict(sf1=0.4, sf2=0.2, lookahead=0.35, speed=0.93, blocking=0.0)
-trajectory_type = "../../simulators/params-num.yaml"
+trajectory_type = "../../../simulators/params-num.yaml"
 
 fs = 128
 
@@ -69,7 +73,8 @@ class CarNode(Node):
             car = CarManager(i, name, env, waypoint_gen, reset_poses[i], param_template)
             self.cars.append(car)
 
-
+        self.raceline = self.cars[0].waypoint_gen.raceline
+        self.raceline_dev = self.cars[0].waypoint_gen.raceline_dev
         self.odom_pubs = [self.create_publisher(Odometry, f'odom_{name}', 1) for name in car_names]
         self.body_pubs = [self.create_publisher(PolygonStamped, f'body_{name}', 1) for name in car_names]
         self.status_pub = self.create_publisher(Int8, 'status', 1)
@@ -130,9 +135,9 @@ class CarNode(Node):
             self.dataset.append([car.buffer for car in self.cars])
             print("Saving dataset")
             regrets = {f'regrets{i+1}': car.regrets for i, car in enumerate(self.cars)}
-            pickle.dump(regrets, open(f'regrets/regrets_{self.exp_name}.pkl','wb'))
-            pickle.dump(self.dataset, open(f'recorded_races/racedata_{self.exp_name}.pkl','wb'))
-            with open(f'n_wins/n_wins_{self.exp_name}.txt', 'w') as f:
+            pickle.dump(regrets, open(f'../regrets/regrets_{self.exp_name}.pkl','wb'))
+            pickle.dump(self.dataset, open(f'../recorded_races/racedata_{self.exp_name}.pkl','wb'))
+            with open(f'../n_wins/n_wins_{self.exp_name}.txt', 'w') as f:
                 for item in self.n_wins:
                     f.write("%s\n" % item)
             if self.ep_no > 100:
@@ -164,7 +169,7 @@ class CarNode(Node):
             opp1_pose = (s_vals[opp1_idx], e_vals[opp1_idx], vxs[opp1_idx])
             opp2_pose = (s_vals[opp2_idx], e_vals[opp2_idx], vxs[opp2_idx])
             xyt = (pxs[ego_idx], pys[ego_idx], psis[ego_idx])
-            steer, throttle, _, _, car.last_i = car.env.node.mpc(xyt, ego_pose, opp1_pose, opp2_pose,
+            steer, throttle, _, _, car.last_i = mpc_caller(self, xyt, ego_pose, opp1_pose, opp2_pose,
                                                                  car.params['sf1'], car.params['sf2'],
                                                                  car.params['lookahead'],
                                                                  car.params['speed'], car.params['blocking'],
@@ -220,15 +225,23 @@ class CarNode(Node):
                 
                 for i in range(N_CAR):
                     curv = target_pos_tensors[i][0,3]
-                    curv_lookahead = target_pos_tensors[i][-1,3]
-                    state_obs += [curv, curv_lookahead]
+                    state_obs += [curv]
                 
+                for i in range(N_CAR):
+                    curv_lookahead = target_pos_tensors[i][-1,3]
+                    state_obs += [curv_lookahead]
+
+                for i in range(N_CAR):
+                    for param_name in ['sf1', 'sf2', 'lookahead', 'speed', 'blocking']:
+                        state_obs.append(self.cars[i].params[param_name])
+
                 
                 X = torch.tensor(np.array([state_obs])).float()
-                for i in range(1, N_CAR):
-                    X[:,i] -= float(X[:,0])
+                X[:,0] = float(state_obs[2] - state_obs[1])
+                X[:,1] -= float(state_obs[0])
+                X[:,2] -= float(state_obs[0])
+                for i in range(N_CAR):
                     X[:,i] = fix_difference(X[:,i])
-
 
                 if OPT_STYLE == 'grad':
                     param_indices = list(range(-15, 0))

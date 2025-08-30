@@ -7,6 +7,11 @@ class CarManager:
         self.name = name
         self.env = env
         self.waypoint_gen = waypoint_gen
+        self.states = []
+        self.cmds = []
+        self.buffer = []
+        self.regrets = []
+        self.n_wins = 0
         self.initial_pose = initial_pose
         self.reset(initial_pose)
         self.last_i = -1
@@ -15,11 +20,6 @@ class CarManager:
         
         self.params = dict(param_template)
         
-        self.states = []
-        self.cmds = []
-        self.buffer = []
-        self.regrets = []
-        self.n_wins = 0
 
     def reset(self, pose):
         self.obs = self.env.reset(pose=pose)
