@@ -84,7 +84,7 @@ class CarNode(Node):
         self.i = 0
         self.dataset = []
         self.timer_ = self.create_timer(DT/3., self.timer_callback)
-        self.exp_name = 'mpc_only'
+        self.exp_name = 'mpc_only_neg'
 
     def reset_episode(self):
         order = [0,1,2]
@@ -96,7 +96,7 @@ class CarNode(Node):
             order = [2,0,1]
         for i, idx in enumerate(order):
             self.cars[i].reset(reset_poses[idx])
-        self.i = 1
+        self.i = 0 
 
     def timer_callback(self):
         ti = time.time()
@@ -111,19 +111,27 @@ class CarNode(Node):
             for car in self.cars:
                 car.last_i = -1
             
+            buffer = []
+            print(f"Episode {self.ep_no} ended, car {max_idx} won. Wins so far: {self.n_wins}")
+            print("car.buffer.len", len(self.cars[0].buffer), len(self.cars[1].buffer), len(self.cars[2].buffer))
+            for i in range(EP_LEN):
+                entry = []
+                for car in self.cars:
+                    entry.append(car.buffer[i][0])
+                    entry.append(car.buffer[i][1])
+                    entry.append(car.buffer[i][2])
+                
+                for car in self.cars:
+                    entry.extend(car.buffer[i][3:8])
+
+                entry.append(float(car.buffer[i][8]))
+                entry.append(float(car.buffer[i][9]))
+                buffer.append(entry)
+
+            self.dataset.append(buffer)
+
             self.ep_no += 1
-            self.i = 1
-            if self.ep_no < 34:
-                for i, pose in enumerate(reset_poses):
-                    self.cars[i].reset(pose)
-            elif self.ep_no < 67:
-                self.cars[1].reset(reset_poses[0])
-                self.cars[2].reset(reset_poses[1])
-                self.cars[0].reset(reset_poses[2])
-            else:
-                self.cars[2].reset(reset_poses[0])
-                self.cars[0].reset(reset_poses[1])
-                self.cars[1].reset(reset_poses[2])
+            self.reset_episode()
             
             for car in self.cars:
                 car.params['sf1'] = np.random.uniform(0.1,0.5)
@@ -132,7 +140,6 @@ class CarNode(Node):
                 car.params['speed'] = np.random.uniform(0.85,1.1)
                 car.params['blocking'] = np.random.uniform(0.,1.0)
             
-            self.dataset.append([car.buffer for car in self.cars])
             print("Saving dataset")
             regrets = {f'regrets{i+1}': car.regrets for i, car in enumerate(self.cars)}
             pickle.dump(regrets, open(f'../regrets/regrets_{self.exp_name}.pkl','wb'))
@@ -186,6 +193,17 @@ class CarNode(Node):
                 collisions[i, j] = has_collided(pxs[i], pys[i], psis[i], pxs[j], pys[j], psis[j])
                 collisions[j, i] = collisions[i, j]
         
+        for idx, car in enumerate(self.cars):
+            if abs(e_vals[idx]) > 0.55:
+                car.env.state.vx *= np.exp(-3*(abs(e_vals[idx])-0.55))
+                car.env.state.vy *= np.exp(-3*(abs(e_vals[idx])-0.55))
+                theta = target_pos_tensors[idx][0,2]
+                psi = psis[idx]
+                theta_diff = np.arctan2(np.sin(theta-psi), np.cos(theta-psi))
+                car.env.state.psi += (1-np.exp(-(abs(e_vals[idx])-0.55)))*(theta_diff)
+                steer = actions[idx][0]
+                steer += (-np.sign(e_vals[idx]) - steer)*(1-np.exp(-3*(abs(e_vals[idx])-0.55)))
+                actions[idx] = (steer, actions[idx][1])
         
         for i in range(N_CAR):
             for j in range(N_CAR):
@@ -252,7 +270,7 @@ class CarNode(Node):
                     X, _ = grad_optim(V_MODELS[idx], X, grad_rate=0.00001, param_indices=param_indices, bounds=bounds)
 
         for idx, car in enumerate(self.cars):
-            car.log_step(pxs[idx], pys[idx], psis[idx], extra=[vxs[idx], vys[idx], omegas[idx], actions[idx][0], actions[idx][1]])
+            car.log_step(pxs[idx], pys[idx], psis[idx], extra=[car.params['sf1'], car.params['sf2'], car.params['lookahead'], car.params['speed'], car.params['blocking'], float(actions[idx][1]), float(actions[idx][0])])
         
         for idx, car in enumerate(self.cars):
             self.publish_odom_and_body(idx, pxs[idx], pys[idx], psis[idx], vxs[idx])
