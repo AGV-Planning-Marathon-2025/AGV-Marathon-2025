@@ -290,7 +290,15 @@ if args.mpc:
 def load_model_cpu(path, model):
     # Load state dict on CPU
     state = torch.load(path, map_location='cpu')
-    model.load_state_dict(state)
+    
+    # Rename keys to match current model attribute names
+    new_state = {}
+    for k, v in state.items():
+        new_key = k.replace('batch_norm', 'bn').replace('fc', 'seq')
+        new_state[new_key] = v
+    
+    model.load_state_dict(new_state)
+    
     # Move both params and buffers to CPU
     model.to('cpu')
     model.eval()
@@ -300,9 +308,9 @@ def load_model_cpu(path, model):
 model = load_model_cpu(folder + '/model_multi_myopic_mpc' + suffix + '.pth', model)
 
 # V models
-V1 = load_model_cpu(f'q{folder[1:]}/model_multi0_myopic_mpc{suffix}.pth', V1)
-V2 = load_model_cpu(f'q{folder[1:]}/model_multi1_myopic_mpc{suffix}.pth', V2)
-V3 = load_model_cpu(f'q{folder[1:]}/model_multi2_myopic_mpc{suffix}.pth', V3)
+V1 = load_model_cpu(f'q{folder[1:]}/value_model_0.pth', V1)
+V2 = load_model_cpu(f'q{folder[1:]}/value_model_1.pth', V2)
+V3 = load_model_cpu(f'q{folder[1:]}/value_model_2.pth', V3)
 
 # model = model.to(DEVICE)
 model_opp = SimpleModel(39,[3*fs,3*fs,3*64],1)
