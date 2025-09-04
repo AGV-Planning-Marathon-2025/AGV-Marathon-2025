@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_vendor_package/cmake/ament_vendor.cmake

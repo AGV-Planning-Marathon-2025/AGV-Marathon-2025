@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/foxglove_bridge/ament_cmake_core/foxglove_bridgeConfig.cmake

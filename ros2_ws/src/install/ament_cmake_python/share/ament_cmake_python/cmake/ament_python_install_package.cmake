@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_python/cmake/ament_python_install_package.cmake

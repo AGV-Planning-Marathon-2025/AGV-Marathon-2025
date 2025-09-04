@@ -1,0 +1,1 @@
+rclcpp;libboost-system-dev;libzstd-dev;std_msgs;pluginlib;ament_lint_auto;ament_lint_common;launch_testing_ros;ament_cmake_pytest;launch_testing;launch_testing_ament_cmake

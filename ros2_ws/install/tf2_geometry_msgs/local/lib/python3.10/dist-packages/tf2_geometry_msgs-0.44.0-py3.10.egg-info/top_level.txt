@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/tf2_geometry_msgs/ament_cmake_python/tf2_geometry_msgs/tf2_geometry_msgs.egg-info/top_level.txt

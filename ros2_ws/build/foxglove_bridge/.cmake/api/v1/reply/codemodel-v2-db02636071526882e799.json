@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-6429fecf267a5260e6e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-RelWithDebInfo-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "foxglove_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "base64_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base64_test-RelWithDebInfo-f3d63a738c7c7c9296d5.json",
+					"name" : "base64_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "foxglove_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foxglove_bridge-RelWithDebInfo-11d0897f7f92cf319036.json",
+					"name" : "foxglove_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "foxglove_bridge_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foxglove_bridge_base-RelWithDebInfo-f43fab308c60e14f7999.json",
+					"name" : "foxglove_bridge_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "foxglove_bridge_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foxglove_bridge_component-RelWithDebInfo-ed34beb758b9c3313af6.json",
+					"name" : "foxglove_bridge_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "foxglove_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foxglove_bridge_uninstall-RelWithDebInfo-ff547b08e046feda51e1.json",
+					"name" : "foxglove_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-RelWithDebInfo-42fcc55d206a17aaaab8.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-RelWithDebInfo-b2fe5e8a4431d4a1e697.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serialization_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serialization_test-RelWithDebInfo-4ba5c543c6405a61b08a.json",
+					"name" : "serialization_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smoke_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smoke_test-RelWithDebInfo-8d84f8d9b175ff4f366d.json",
+					"name" : "smoke_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-a7d203859077cb402e1a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "utils_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-utils_test-RelWithDebInfo-41062db5a7c850091714.json",
+					"name" : "utils_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "version_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-version_test-RelWithDebInfo-569cc0b42069e8167887.json",
+					"name" : "version_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/foxglove_bridge",
+		"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ros-foxglove-bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

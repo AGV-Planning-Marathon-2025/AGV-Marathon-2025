@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_core/ament_cmake_uninstall_target-extras.cmake

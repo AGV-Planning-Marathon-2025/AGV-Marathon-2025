@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ackermann_msgs/ament_cmake_environment_hooks/local_setup.sh

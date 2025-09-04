@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aae542427b9275b1318c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "libcurl_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "curl-7.81.0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-curl-7.81.0-9844453e54c9ec486f31.json",
+					"name" : "curl-7.81.0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libcurl_vendor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcurl_vendor_uninstall-55e9c4608ce626878748.json",
+					"name" : "libcurl_vendor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b7dd22c18d0d1e33244a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor",
+		"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/resource_retriever/libcurl_vendor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

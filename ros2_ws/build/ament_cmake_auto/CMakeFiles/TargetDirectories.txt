@@ -1,0 +1,8 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/ament_cmake_auto_uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/test.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/edit_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/rebuild_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/list_install_components.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/install.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/ament_cmake_auto/CMakeFiles/install/local.dir

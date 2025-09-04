@@ -295,9 +295,14 @@ if OPP_Stretegy == 'ours-low_data' :
 elif OPP_Stretegy == 'ours-low_p' :
     model_opp.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'ours-high_p' :
+<<<<<<< HEAD
     model_opp.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'rl' :
     model_opp = PPO.load("trained_policy"+str(9))
+=======
+    model_opp.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth'))
+
+>>>>>>> main
 if OPP_Stretegy != 'rl' :
     model_opp.eval()
 
@@ -306,9 +311,14 @@ if OPP1_Stretegy == 'ours-low_data' :
 elif OPP1_Stretegy == 'ours-low_p' :
     model_opp1.load_state_dict(torch.load(folder+'/model_multi_myopic_s'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP1_Stretegy == 'ours-high_p' :
+<<<<<<< HEAD
     model_opp1.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth', map_location=torch.device('cpu')))
 elif OPP_Stretegy == 'rl' :
     model_opp1 = PPO.load("trained_policy"+str(9))
+=======
+    model_opp1.load_state_dict(torch.load(folder+'/model_multi'+suffix+'.pth'))
+
+>>>>>>> main
 if OPP_Stretegy != 'rl' :
     model_opp1.eval()
 
@@ -423,101 +433,101 @@ class CarNode(Node):
         self.buffer = []
     
     
-    def pure_pursuit(self,xyt,pose,pose_opp,pose_opp1,sf1,sf2,lookahead_factor,v_factor,blocking_factor,gap=0.06,last_i = -1) :
-        s,e,v = pose
-        # print(last_i)
-        x,y,theta = xyt
-        s_opp,e_opp,v_opp = pose_opp
-        s_opp1,e_opp1,v_opp1 = pose_opp1
-        if last_i == -1 :
-            dists = np.sqrt((self.raceline[:,0]-x)**2 + (self.raceline[:,1]-y)**2)
-            closest_idx = np.argmin(dists)
-        else :
-            raceline_ext = np.concatenate((self.raceline[last_i:,:],self.raceline[:20,:]),axis=0)
-            dists = np.sqrt((raceline_ext[:20,0]-x)**2 + (raceline_ext[:20,1]-y)**2)
-            closest_idx = (np.argmin(dists) + last_i)%len(self.raceline)
-        N_ = len(self.raceline)
-        _e = self.raceline_dev[closest_idx]
-        _e_opp = self.raceline_dev[(closest_idx+int((s_opp-s)/gap))%N_]
-        _e_opp1 = self.raceline_dev[(closest_idx+int((s_opp1-s)/gap))%N_]
-        e = e + _e
-        e_opp = e_opp + _e_opp
-        e_opp1 = e_opp1 + _e_opp1
-        shift2 = self.calc_shift(s,s_opp,v,v_opp,sf1,sf2,0.5)
-        if e>e_opp :
-            shift2 =  np.abs(shift2)
-        else :
-            shift2 = -np.abs(shift2)
+    # def pure_pursuit(self,xyt,pose,pose_opp,pose_opp1,sf1,sf2,lookahead_factor,v_factor,blocking_factor,gap=0.06,last_i = -1) :
+    #     s,e,v = pose
+    #     # print(last_i)
+    #     x,y,theta = xyt
+    #     s_opp,e_opp,v_opp = pose_opp
+    #     s_opp1,e_opp1,v_opp1 = pose_opp1
+    #     if last_i == -1 :
+    #         dists = np.sqrt((self.raceline[:,0]-x)**2 + (self.raceline[:,1]-y)**2)
+    #         closest_idx = np.argmin(dists)
+    #     else :
+    #         raceline_ext = np.concatenate((self.raceline[last_i:,:],self.raceline[:20,:]),axis=0)
+    #         dists = np.sqrt((raceline_ext[:20,0]-x)**2 + (raceline_ext[:20,1]-y)**2)
+    #         closest_idx = (np.argmin(dists) + last_i)%len(self.raceline)
+    #     N_ = len(self.raceline)
+    #     _e = self.raceline_dev[closest_idx]
+    #     _e_opp = self.raceline_dev[(closest_idx+int((s_opp-s)/gap))%N_]
+    #     _e_opp1 = self.raceline_dev[(closest_idx+int((s_opp1-s)/gap))%N_]
+    #     e = e + _e
+    #     e_opp = e_opp + _e_opp
+    #     e_opp1 = e_opp1 + _e_opp1
+    #     shift2 = self.calc_shift(s,s_opp,v,v_opp,sf1,sf2,0.5)
+    #     if e>e_opp :
+    #         shift2 =  np.abs(shift2)
+    #     else :
+    #         shift2 = -np.abs(shift2)
         
-        shift1 = self.calc_shift(s,s_opp1,v,v_opp1,sf1,sf2,0.5)
-        if e>e_opp1 :
-            shift1 =  np.abs(shift1)
-        else :
-            shift1 = -np.abs(shift1)
-        shift = shift1 + shift2
+    #     shift1 = self.calc_shift(s,s_opp1,v,v_opp1,sf1,sf2,0.5)
+    #     if e>e_opp1 :
+    #         shift1 =  np.abs(shift1)
+    #     else :
+    #         shift1 = -np.abs(shift1)
+    #     shift = shift1 + shift2
         
-        if abs(shift2) > abs(shift1) :
-            if (shift+e_opp)*shift < 0. : 
-                shift = 0.
-            else :
-                if abs(shift2) > 0.03:
-                    shift += e_opp
-        else :
-            if (shift+e_opp1)*shift < 0. :
-                shift = 0.
-            else :
-                if abs(shift1) > 0.03:
-                    shift += e_opp1
+    #     if abs(shift2) > abs(shift1) :
+    #         if (shift+e_opp)*shift < 0. : 
+    #             shift = 0.
+    #         else :
+    #             if abs(shift2) > 0.03:
+    #                 shift += e_opp
+    #     else :
+    #         if (shift+e_opp1)*shift < 0. :
+    #             shift = 0.
+    #         else :
+    #             if abs(shift1) > 0.03:
+    #                 shift += e_opp1
         
-        # Find the closest agent 
-        dist_from_opp = s-s_opp
-        if dist_from_opp < -75. :
-            dist_from_opp += 150.
-        if dist_from_opp > 75. :
-            dist_from_opp -= 150.
-        dist_from_opp1 = s-s_opp1
-        if dist_from_opp1 < -75. :
-            dist_from_opp1 += 150.
-        if dist_from_opp1 > 75. :
-            dist_from_opp1 -= 150.
-        if dist_from_opp>0 and (dist_from_opp < dist_from_opp1 or dist_from_opp1 < 0) :
-            bf = 1 - np.exp(-blocking_factor*max(v_opp-v,0.))
-            shift = shift + (e_opp-shift)*bf*self.calc_shift(s,s_opp,v,v_opp,sf1,sf2,0.5)/sf1
-        elif dist_from_opp1>0 and (dist_from_opp1 < dist_from_opp or dist_from_opp < 0) :
-            bf = 1 - np.exp(-blocking_factor*max(v_opp1-v,0.))
-            shift = shift + (e_opp1-shift)*bf*self.calc_shift(s,s_opp1,v,v_opp1,sf1,sf2,0.5)/sf1
+    #     # Find the closest agent 
+    #     dist_from_opp = s-s_opp
+    #     if dist_from_opp < -75. :
+    #         dist_from_opp += 150.
+    #     if dist_from_opp > 75. :
+    #         dist_from_opp -= 150.
+    #     dist_from_opp1 = s-s_opp1
+    #     if dist_from_opp1 < -75. :
+    #         dist_from_opp1 += 150.
+    #     if dist_from_opp1 > 75. :
+    #         dist_from_opp1 -= 150.
+    #     if dist_from_opp>0 and (dist_from_opp < dist_from_opp1 or dist_from_opp1 < 0) :
+    #         bf = 1 - np.exp(-blocking_factor*max(v_opp-v,0.))
+    #         shift = shift + (e_opp-shift)*bf*self.calc_shift(s,s_opp,v,v_opp,sf1,sf2,0.5)/sf1
+    #     elif dist_from_opp1>0 and (dist_from_opp1 < dist_from_opp or dist_from_opp < 0) :
+    #         bf = 1 - np.exp(-blocking_factor*max(v_opp1-v,0.))
+    #         shift = shift + (e_opp1-shift)*bf*self.calc_shift(s,s_opp1,v,v_opp1,sf1,sf2,0.5)/sf1
         
-        # Find the closest point on raceline from x,y
-        curv = self.get_curvature(self.raceline[closest_idx-1,0],self.raceline[closest_idx-1,1],self.raceline[closest_idx,0],self.raceline[closest_idx,1],self.raceline[(closest_idx+1)%len(self.raceline),0],self.raceline[(closest_idx+1)%len(self.raceline),1])
-        # closest_point = self.raceline[closest_idx]
-        lookahead_distance = lookahead_factor*self.raceline[closest_idx,2]
-        N = len(self.raceline)
-        lookahead_idx = int(closest_idx+1+lookahead_distance//gap)%N
-        e_ = -self.raceline_dev[lookahead_idx]
-        if e_+shift > 0.44 :
-            shift = 0.44 - e_
-        if e_+shift < -0.44 :
-            shift = -0.44 - e_
-        lookahead_point = self.raceline[lookahead_idx]
-        curv_lookahead = self.get_curvature(self.raceline[lookahead_idx-1,0],self.raceline[lookahead_idx-1,1],self.raceline[lookahead_idx,0],self.raceline[lookahead_idx,1],self.raceline[(lookahead_idx+1)%N,0],self.raceline[(lookahead_idx+1)%N,1])
-        theta_traj = np.arctan2(self.raceline[(lookahead_idx+1)%N,1]-self.raceline[lookahead_idx,1],self.raceline[(lookahead_idx+1)%N,0]-self.raceline[lookahead_idx,0]) + np.pi/2.
-        # print(closest_idx,lookahead_idx,lookahead_distance,gap,shift)
-        # print("pp:",shift)
-        shifted_point = lookahead_point + shift*np.array([np.cos(theta_traj),np.sin(theta_traj),0.])
+    #     # Find the closest point on raceline from x,y
+    #     curv = self.get_curvature(self.raceline[closest_idx-1,0],self.raceline[closest_idx-1,1],self.raceline[closest_idx,0],self.raceline[closest_idx,1],self.raceline[(closest_idx+1)%len(self.raceline),0],self.raceline[(closest_idx+1)%len(self.raceline),1])
+    #     # closest_point = self.raceline[closest_idx]
+    #     lookahead_distance = lookahead_factor*self.raceline[closest_idx,2]
+    #     N = len(self.raceline)
+    #     lookahead_idx = int(closest_idx+1+lookahead_distance//gap)%N
+    #     e_ = -self.raceline_dev[lookahead_idx]
+    #     if e_+shift > 0.44 :
+    #         shift = 0.44 - e_
+    #     if e_+shift < -0.44 :
+    #         shift = -0.44 - e_
+    #     lookahead_point = self.raceline[lookahead_idx]
+    #     curv_lookahead = self.get_curvature(self.raceline[lookahead_idx-1,0],self.raceline[lookahead_idx-1,1],self.raceline[lookahead_idx,0],self.raceline[lookahead_idx,1],self.raceline[(lookahead_idx+1)%N,0],self.raceline[(lookahead_idx+1)%N,1])
+    #     theta_traj = np.arctan2(self.raceline[(lookahead_idx+1)%N,1]-self.raceline[lookahead_idx,1],self.raceline[(lookahead_idx+1)%N,0]-self.raceline[lookahead_idx,0]) + np.pi/2.
+    #     # print(closest_idx,lookahead_idx,lookahead_distance,gap,shift)
+    #     # print("pp:",shift)
+    #     shifted_point = lookahead_point + shift*np.array([np.cos(theta_traj),np.sin(theta_traj),0.])
         
-        v_target = v_factor*lookahead_point[2]
-        throttle = (v_target-v) + 9.81*0.1*4.65/20.
-        # Pure pursuit controller
-        _dx = shifted_point[0]-x
-        _dy = shifted_point[1]-y
+    #     v_target = v_factor*lookahead_point[2]
+    #     throttle = (v_target-v) + 9.81*0.1*4.65/20.
+    #     # Pure pursuit controller
+    #     _dx = shifted_point[0]-x
+    #     _dy = shifted_point[1]-y
         
-        dx = _dx*np.cos(theta) + _dy*np.sin(theta)
-        dy = _dy*np.cos(theta) - _dx*np.sin(theta)
-        alpha = np.arctan2(dy,dx)
-        steer = 2*self.L*dy/(dx**2 + dy**2)
-        if np.abs(alpha) > np.pi/2 :
-            steer = np.sign(dy) 
-        return steer, throttle, curv, curv_lookahead, closest_idx
+    #     dx = _dx*np.cos(theta) + _dy*np.sin(theta)
+    #     dy = _dy*np.cos(theta) - _dx*np.sin(theta)
+    #     alpha = np.arctan2(dy,dx)
+    #     steer = 2*self.L*dy/(dx**2 + dy**2)
+    #     if np.abs(alpha) > np.pi/2 :
+    #         steer = np.sign(dy) 
+    #     return steer, throttle, curv, curv_lookahead, closest_idx
     
     
     def obs_state(self):
@@ -674,9 +684,11 @@ class CarNode(Node):
         ti = time.time()
         
         self.i += 1
+
+        # print(self.i)
         
         # RESTART_PARAMS
-        if self.i > EP_LEN :
+        if self.i > EP_LEN:
             if s < 50. :
                 s+= 150.1
             if s_opp < 50. :
@@ -749,8 +761,9 @@ class CarNode(Node):
             with open('n_wins/n_wins_'+str(exp_name)+'.txt', 'w') as f:
                 for item in self.n_wins:
                     f.write("%s\n" % item)
-            
-        if self.ep_no > 100 :
+        
+        # print(self.ep_no)
+        if self.ep_no > 10 :
             print("Saving dataset")
             pickle.dump(self.dataset, open('recorded_races/racedata_'+str(exp_name)+'.pkl','wb'))
             regrets = {'regrets1': self.regrets1, 'regrets2': self.regrets2, 'regrets3': self.regrets3}
@@ -1184,37 +1197,7 @@ class CarNode(Node):
                     self.blocking_opp1_ = float(X[0,-1].item())
                 new_V3 = float(V3(X)[0,0].item())
                 self.regrets3.append([new_V3-prev_V3,new_V3,prev_V3,float(X[0,-3]),float(X[0,-2])])
-                    
-
-                # preds = model(X)[:,0]
-                # imin = torch.argmax(preds)
-                # self.curr_sf1 = float(X[imin,-12])
-                # self.curr_sf2 = float(X[imin,-11])
-                # self.curr_lookahead_factor = float(X[imin,-10])
-                # self.curr_speed_factor = float(X[imin,-9])
-                
-                # self.curr_sf1_opp_ = float(X[imin,-8])
-                # self.curr_sf2_opp_ = float(X[imin,-7])
-                # self.curr_lookahead_factor_opp_ = float(X[imin,-6])
-                # self.curr_speed_factor_opp_ = float(X[imin,-5])
-                # self.curr_sf1_opp1_ = float(X[imin,-4])
-                # self.curr_sf2_opp1_ = float(X[imin,-3])
-                # self.curr_lookahead_factor_opp1_ = float(X[imin,-2])
-                # self.curr_speed_factor_opp1_ = float(X[imin,-1])
-                # preds = []
-                # for k in np.arange(0.15,0.5,0.03) :
-                #     state_obs = [s,s_opp,s_opp1, e,e_opp,e_opp1, theta_diff, obs[3], obs[4], obs[5], theta_diff_opp, obs_opp[3], obs_opp[4], obs_opp[5], theta_diff_opp1, obs_opp1[3], obs_opp1[4], obs_opp1[5],curv,curv_opp,curv_opp1,curv_lookahead,curv_opp_lookahead,curv_opp1_lookahead,self.curr_sf1,self.curr_sf2,self.curr_lookahead_factor,self.curr_speed_factor,self.curr_sf1_opp_,self.curr_sf2_opp_,self.curr_lookahead_factor_opp_,self.curr_speed_factor_opp_,self.curr_sf1_opp1_,self.curr_sf2_opp1_,self.curr_lookahead_factor_opp1_,self.curr_speed_factor_opp1_]
-                #     X = torch.tensor(np.array([state_obs])).float()
-                #     X[:,0] = float(state_obs[2] - state_obs[1])
-                #     X[:,1] -= float(state_obs[0])
-                #     X[:,2] -= float(state_obs[0])
-                #     X[:,0] = (X[:,0]>75.)*(X[:,0]-150.087) + (X[:,0]<-75.)*(X[:,0]+150.087) + (X[:,0]<=75.)*(X[:,0]>=-75.)*X[:,0]
-                #     X[:,1] = (X[:,1]>75.)*(X[:,1]-150.087) + (X[:,1]<-75.)*(X[:,1]+150.087) + (X[:,1]<=75.)*(X[:,1]>=-75.)*X[:,1]
-                #     X[:,2] = (X[:,2]>75.)*(X[:,2]-150.087) + (X[:,2]<-75.)*(X[:,2]+150.087) + (X[:,2]<=75.)*(X[:,2]>=-75.)*X[:,2]
-                #     X[:,-10] = k
-                #     pred = model(X)
-                #     preds.append(pred[0,0])
-                # print(preds)
+                 
                     
             if OPP_Stretegy == 'ours-low_data' or OPP_Stretegy == 'ours-low_p' or OPP_Stretegy == 'ours-high_p' :
                 S = 50
@@ -1318,14 +1301,6 @@ class CarNode(Node):
         odom.twist.twist.angular.y = self.curr_lookahead_factor #+ random.uniform(-0.1,0.1)/2.
         self.odom_pub_.publish(odom)
         
-        # policy_params = PolicyParams()
-        # policy_params.sf1 = self.curr_sf1
-        # policy_params.sf2 = self.curr_sf2
-        # policy_params.lookahead_factor = self.curr_lookahead_factor
-        # policy_params.speed_factor = self.curr_speed_factor
-        # self.policy_params_pub_.publish(policy_params)
-
-        # Odom for opponent
         q_opp = quaternion_from_euler(0, 0, psi_opp)
         
         odom = Odometry()
@@ -1498,27 +1473,6 @@ class CarNode(Node):
             path.poses.append(pose)
         self.raceline_pub_.publish(path)
 
-        # path = Path()
-        # path.header.frame_id = 'map'
-        # path.header.stamp = self.get_clock().now().to_msg()
-        # N = state_lattice['arr'].shape[0]
-        # for i in range(state_lattice['arr'].shape[0]):
-        #     for j in range(state_lattice['arr'].shape[1]):
-        #         pose = PoseStamped()
-        #         pose.header.frame_id = 'map'
-        #         pose.pose.position.x = float(state_lattice['arr'][i,j,0])
-        #         pose.pose.position.y = float(state_lattice['arr'][i,j,1])
-        #         yaw = np.arctan2(state_lattice['arr'][(i+1)%N,j,1]-state_lattice['arr'][i-1,j,1],state_lattice['arr'][(i+1)%N,j,0]-state_lattice['arr'][i-1,j,0])
-                
-        #         q = quaternion_from_euler(0, 0, yaw)
-        #         # print(q)
-        #         pose.pose.orientation.x = q[0]
-        #         pose.pose.orientation.y = q[1]
-        #         pose.pose.orientation.z = q[2]
-        #         pose.pose.orientation.w = q[3]
-        #         path.poses.append(pose)
-                
-        # self.state_lattice_pub_.publish(path)
 
 def main():
     rclpy.init()

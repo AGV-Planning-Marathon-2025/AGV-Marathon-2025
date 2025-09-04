@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/resource_retriever/ament_cmake_core/resource_retrieverConfig-version.cmake

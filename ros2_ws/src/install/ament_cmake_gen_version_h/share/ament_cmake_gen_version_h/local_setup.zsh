@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_gen_version_h/ament_cmake_environment_hooks/local_setup.zsh

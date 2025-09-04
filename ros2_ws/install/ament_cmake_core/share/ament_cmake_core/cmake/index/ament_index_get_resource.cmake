@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_core/cmake/index/ament_index_get_resource.cmake

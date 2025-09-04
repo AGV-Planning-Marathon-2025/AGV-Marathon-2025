@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/libcurl_install/include/curl/system.h

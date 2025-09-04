@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b3946301b068647e2bdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "tf2_msgs__py",
+					"jsonFile" : "directory-tf2_msgs__py-36dfbe78e48dc679ab63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/tf2_msgs/tf2_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "tf2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tf2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tf2_msgs_egg-721f1b2068ef3f305bfe.json",
+					"name" : "ament_cmake_python_build_tf2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_tf2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_tf2_msgs-2f436029f087fdf06bf8.json",
+					"name" : "ament_cmake_python_symlink_tf2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs-ab9e998a84b03d564a59.json",
+					"name" : "tf2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__cpp-7cdb510a1baa3c8707c7.json",
+					"name" : "tf2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tf2_msgs__py::@16c2e93243f968806af7",
+					"jsonFile" : "target-tf2_msgs__py-6dc7f0bce5f20435f21c.json",
+					"name" : "tf2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_generator_c-d1467bec0bd856afa4eb.json",
+					"name" : "tf2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_generator_py-8eda1e202ce209cf7fd2.json",
+					"name" : "tf2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_c-628cb15171c39e4bd84c.json",
+					"name" : "tf2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_c__pyext-a99ce2e8f2f7717fc6cd.json",
+					"name" : "tf2_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_cpp-d40ca36dc8819a8a4ec9.json",
+					"name" : "tf2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_fastrtps_c-c86e81dee975cbdacd0e.json",
+					"name" : "tf2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_fastrtps_c__pyext-677417bef6b9c6cc6400.json",
+					"name" : "tf2_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_fastrtps_cpp-75f72afe9dde55bfeed1.json",
+					"name" : "tf2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_introspection_c-b277ca555e17e37378a8.json",
+					"name" : "tf2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_introspection_c__pyext-e80dcf058a2c05a05439.json",
+					"name" : "tf2_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs__rosidl_typesupport_introspection_cpp-94ee960b8c6d9e507e7a.json",
+					"name" : "tf2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_msgs_uninstall-3c45b1d8a8dd26f43c3f.json",
+					"name" : "tf2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-144e1213185192ca4144.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/tf2_msgs",
+		"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/geometry2/tf2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

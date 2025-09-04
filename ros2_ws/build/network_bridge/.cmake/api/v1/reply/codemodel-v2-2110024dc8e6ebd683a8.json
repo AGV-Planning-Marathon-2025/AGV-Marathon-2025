@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-29317e2ac27d436bc289.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "network_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "network_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-network_bridge-f2218acc8047eb9ef530.json",
+					"name" : "network_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "network_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-network_bridge_uninstall-573337327c4244cbb83d.json",
+					"name" : "network_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tcp_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tcp_interface-3ff91cc593b3ba1bcb1c.json",
+					"name" : "tcp_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_interface-2febad60b104e4f00b5f.json",
+					"name" : "udp_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-480d84f073764e491b63.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/network_bridge",
+		"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/network_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

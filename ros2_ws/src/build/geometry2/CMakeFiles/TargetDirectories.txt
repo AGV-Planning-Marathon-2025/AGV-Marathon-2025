@@ -1,0 +1,8 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/geometry2_uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/test.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/edit_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/rebuild_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/list_install_components.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/install.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/CMakeFiles/install/local.dir

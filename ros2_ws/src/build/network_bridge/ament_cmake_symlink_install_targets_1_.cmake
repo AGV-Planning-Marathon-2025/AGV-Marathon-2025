@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/network_bridge/libudp_interface.so" "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/network_bridge/libtcp_interface.so" "TARGETS" "udp_interface" "tcp_interface" "DESTINATION" "lib/")

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tf2_msgs__py",
+		"source" : "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/tf2_msgs/tf2_msgs__py"
+	}
+}

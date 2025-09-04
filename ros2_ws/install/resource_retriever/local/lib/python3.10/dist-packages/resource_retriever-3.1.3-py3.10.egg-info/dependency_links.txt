@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/resource_retriever/ament_cmake_python/resource_retriever/resource_retriever.egg-info/dependency_links.txt

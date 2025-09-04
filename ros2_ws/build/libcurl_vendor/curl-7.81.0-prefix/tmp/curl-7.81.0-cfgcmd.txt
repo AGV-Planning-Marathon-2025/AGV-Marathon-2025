@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;CFLAGS=-w;CXXFLAGS=-std=c++14 -w;PKG_CONFIG_PATH=$PKG_CONFIG_PATH:;--prefix=/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/libcurl_install;--with-ssl;--without-libgsasl;--without-libpsl;--without-libidn2'
