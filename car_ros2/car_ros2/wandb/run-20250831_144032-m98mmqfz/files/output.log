@@ -1,0 +1,116 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 101] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631530
+[Episode 102] Using seed 1756631530
+ep_no: 102
+ego params:  0.13560937616415036 0.3171491767989228 0.3234039986684989 0.8683081357461838
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Ego progress:  101.19540405273438
+Opp1 progress:  2.5675930976867676
+Opp2 progress:  144.8540802001953
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 102] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631531
+[Episode 103] Using seed 1756631531
+ep_no: 103
+ego params:  0.13560937616415036 0.3171491767989228 0.3234039986684989 0.8683081357461838
+opp params:  0.47843209853315427 0.41097273636806253 0.175874596539654 0.9741135408735735
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 121.04682 120.60724 0.67199314 0.62280416
+Collision detected 121.0962 120.92885 0.66371125 0.6463092
+Collision detected 121.127655 121.094795 0.6571649 0.64887345
+Collision detected 121.15188 121.13247 0.6526614 0.6462706
+Collision detected 121.16665 121.17088 0.64847726 0.6435595
+Collision detected 121.18154 121.20473 0.6439874 0.64039725
+Collision detected 121.19286 121.23445 0.6399455 0.6374174
+Collision detected 121.20322 121.28587 0.63584435 0.63503736
+Collision detected 121.22043 121.344086 0.6299477 0.6313134
+Collision detected 121.23903 121.38753 0.62390965 0.62819767
+Collision detected 121.26466 121.46586 0.617842 0.6242676
+Collision detected 121.30436 121.512726 0.61125994 0.62011135
+Collision detected 121.33686 121.60043 0.603699 0.6149044
+Collision detected 121.35952 121.67043 0.59580714 0.6093585
+Collision detected 121.38696 121.75599 0.58737266 0.6011422
+Collision detected 121.44476 121.86794 0.5772269 0.5912127
+Collision detected 121.48638 121.99149 0.5640459 0.5865783
+Collision detected 121.55396 122.130226 0.55749667 0.5756871
+Collision detected 123.571976 124.065125 0.4866749 0.6166381
+Collision detected 123.896194 124.23319 0.50249755 0.6107939
+Collision detected 124.16839 124.429405 0.49975044 0.6101604
+Collision detected 124.340805 124.61161 0.49831033 0.6015673
+Collision detected 124.462944 124.80411 0.4979312 0.5910589
+Collision detected 124.54889 124.988014 0.49732015 0.5716582
+Collision detected 124.62043 125.16083 0.49404004 0.5495131
+Collision detected 144.13539 143.86584 0.52641934 0.40006834
+Collision detected 144.5085 144.36046 0.5757327 0.47173113
+Collision detected 144.82993 144.68796 0.60846543 0.49817228
+Collision detected 145.05014 144.80614 0.6248022 0.5097165
+Collision detected 145.20717 144.86584 0.6312952 0.51564586
+Collision detected 145.86813 145.50851 0.6183914 0.5401493
+Collision detected 146.00784 145.74684 0.6093695 0.54149973
+Collision detected 146.15443 146.01868 0.598207 0.5416961
+Collision detected 146.29065 146.18939 0.5855126 0.5425029
+Collision detected 146.3984 146.24567 0.5723717 0.54485613
+Collision detected 146.4852 146.27293 0.5594015 0.5476678
+Collision detected 146.56624 146.29906 0.5474552 0.55076474
+Collision detected 146.65288 146.3288 0.5334265 0.554243
+Collision detected 23.51944 23.277407 -0.43568325 -0.5517879
+Collision detected 23.794336 23.689032 -0.41341558 -0.52785146
+Collision detected 24.03217 23.928919 -0.3859902 -0.4895145
+Collision detected 24.209173 24.01591 -0.35455024 -0.46806797
+Collision detected 24.3526 24.055851 -0.3181236 -0.45914006
+Collision detected 26.222687 25.716707 0.7105377 0.5944217
+Collision detected 26.38834 25.993639 0.72035545 0.71756035
+Collision detected 26.546928 26.175007 0.7184066 0.7704074
+Collision detected 26.757988 26.251596 0.7099069 0.7794551
+Collision detected 26.884132 26.299608 0.6980263 0.7818934
+Collision detected 26.994537 26.371946 0.6836257 0.7828834
+Collision detected 27.063196 26.417637 0.66738737 0.78201514
+Collision detected 27.163683 26.517982 0.6486237 0.78003407
+Collision detected 27.25778 26.640696 0.6248796 0.7755682
+Collision detected 27.34814 26.768757 0.5961075 0.7691703
+Collision detected 27.444983 26.889126 0.559567 0.76068646
+Collision detected 27.539154 26.942854 0.5097526 0.7505233
+Collision detected 33.88028 33.58439 0.5344829 0.72624665
+Collision detected 34.442535 34.806133 0.63051325 0.6382042
+Collision detected 34.674324 34.93113 0.62341404 0.6337714
+Collision detected 34.873634 35.051704 0.6176906 0.6405021
+Collision detected 34.95119 35.146187 0.618085 0.6381681
+Collision detected 34.988026 35.214172 0.6126701 0.62543386
+Collision detected 35.014706 35.279922 0.6083983 0.6272166
+Collision detected 35.043262 35.3422 0.603477 0.62019366
+Collision detected 35.07729 35.414593 0.5974907 0.61244404
+Collision detected 35.12418 35.49592 0.58975405 0.6042517
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 558, in timer_callback
+    steer, throttle, _, _, self.last_i = self.mpc(
+                                         ^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 911, in mpc
+    if (shift + e_opp1) * shift < 0.:
+       ~~~~~~~~~~~~~~~~~^~~~~~~
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/array_methods.py", line 585, in deferring_binary_op
+    return binary_op(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/ufunc_api.py", line 183, in __call__
+    return call(*args)
+           ^^^^^^^^^^^
+KeyboardInterrupt

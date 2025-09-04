@@ -1,0 +1,45 @@
+{
+  "os":  "macOS-15.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-08-31T09:10:39.331975Z",
+  "args":  [
+    "--exp_name",
+    "alpha_racer_multi",
+    "--start_ep",
+    "126",
+    "--end_ep",
+    "150",
+    "--use_wandb"
+  ],
+  "program":  "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py",
+  "codePath":  "car_ros2/car_ros2/multi_car_blocking.py",
+  "codePathLocal":  "multi_car_blocking.py",
+  "git":  {
+    "remote":  "https://github.com/sastry-group/alpha-RACER",
+    "commit":  "9e0ffc8b326a5360eeed9fea1eba7aad30168039"
+  },
+  "email":  "aryanssraut@gmail.com",
+  "root":  "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2",
+  "host":  "aryans-MacBook-Air.local",
+  "executable":  "/opt/anaconda3/envs/ros_env/bin/python3",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "236287631360"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M2",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "1rjbqu2vw7awlr69t5pdd07tb1783qwx"
+}

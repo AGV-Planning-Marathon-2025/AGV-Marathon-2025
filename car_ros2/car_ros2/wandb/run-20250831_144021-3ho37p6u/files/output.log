@@ -1,0 +1,153 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 51] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631470
+[Episode 52] Using seed 1756631470
+ep_no: 52
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.43422339805905263 0.464244505516329 0.38748573085123467 0.8850543646569923
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 120.37472 119.96239 0.6774238 0.6458384
+Collision detected 120.465454 120.20203 0.6725089 0.643843
+Collision detected 120.55313 120.321976 0.6670822 0.64089227
+Collision detected 120.58352 120.37319 0.66218805 0.6348182
+Collision detected 120.61045 120.41997 0.6583028 0.62932146
+Collision detected 120.65164 120.44351 0.6546876 0.6239492
+Collision detected 120.68517 120.466934 0.6507107 0.61860824
+Collision detected 120.70628 120.505356 0.6471636 0.613262
+Collision detected 120.72806 120.54821 0.64400953 0.60672045
+Collision detected 120.76859 120.57168 0.6412373 0.60000885
+Collision detected 120.81123 120.59556 0.63755584 0.5932481
+Collision detected 120.83524 120.63365 0.6342107 0.58640283
+Collision detected 120.86018 120.678185 0.631256 0.5781977
+Collision detected 120.91064 120.70323 0.62836653 0.5695981
+Collision detected 120.951004 120.72918 0.62460047 0.5607115
+Collision detected 120.97864 120.77468 0.6212477 0.5513035
+Collision detected 121.02548 120.81619 0.61831695 0.53990436
+Collision detected 121.07822 120.845184 0.61403626 0.52790534
+Collision detected 121.110306 120.88281 0.6100293 0.52568024
+Collision detected 121.16718 120.93887 0.6062559 0.5120696
+Collision detected 121.21812 120.97138 0.6009992 0.50816965
+Collision detected 121.25648 121.01533 0.59619796 0.4948681
+Collision detected 121.32959 121.07471 0.5906047 0.4897503
+Collision detected 121.370186 121.11389 0.58438087 0.4757893
+Collision detected 121.442604 121.18113 0.5779105 0.46055424
+Collision detected 121.494804 121.23023 0.56976634 0.44316027
+Collision detected 121.57411 121.29459 0.5610826 0.43460795
+Collision detected 121.63318 121.3597 0.54994065 0.42210397
+Collision detected 121.72751 121.44141 0.5367558 0.41010806
+Collision detected 121.80224 121.50449 0.52168477 0.3973038
+Collision detected 121.88534 121.59389 0.50278944 0.38529646
+Collision detected 121.98401 121.664665 0.48219863 0.3743904
+Collision detected 122.053246 121.7509 0.45974618 0.36322296
+Collision detected 122.13556 121.84225 0.44545972 0.354186
+Collision detected 122.21214 121.90351 0.43201962 0.34651166
+Collision detected 122.27527 121.9883 0.4158801 0.34043202
+Collision detected 122.35435 122.04131 0.40089032 0.33701816
+Collision detected 122.4079 122.11796 0.38487497 0.33455876
+Collision detected 122.48374 122.163124 0.37015092 0.33386588
+Collision detected 122.53521 122.23479 0.35471538 0.33447295
+Collision detected 122.6047 122.27708 0.34091556 0.32789266
+Collision detected 122.65969 122.336845 0.32596174 0.3213437
+Collision detected 122.7238 122.39052 0.31263196 0.31134978
+Collision detected 122.78561 122.43508 0.29724482 0.30827412
+Collision detected 122.85128 122.50677 0.28304434 0.30402982
+Collision detected 122.927986 122.5565 0.26386496 0.29993787
+Collision detected 123.033844 122.63272 0.23900166 0.2946198
+Collision detected 124.46897 124.12252 0.064766556 0.3017865
+Collision detected 124.6865 124.421585 0.042983234 0.3138865
+Ego progress:  2.2447609901428223
+Opp1 progress:  79.06529998779297
+Opp2 progress:  106.47029113769531
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 52] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631471
+[Episode 53] Using seed 1756631471
+ep_no: 53
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.43422339805905263 0.464244505516329 0.38748573085123467 0.8850543646569923
+opp1 params: 0.18108341428538113 0.3604410451043327 0.16988684481279132 0.8862670219159898
+Collision detected 26.786854 27.437853 0.54292154 0.56680685
+Collision detected 27.362755 27.63783 0.45721802 0.5027169
+Collision detected 27.651508 27.847288 0.3554444 0.43082872
+Collision detected 27.775684 28.004307 0.30242276 0.36078945
+Collision detected 27.844519 28.146994 0.27150315 0.30246103
+Collision detected 27.886534 28.291767 0.24213396 0.24819635
+Collision detected 32.97649 33.31586 0.20104359 0.33957076
+Collision detected 33.438004 33.691036 0.24608825 0.3978453
+Collision detected 33.881306 34.067562 0.28430796 0.46801475
+Collision detected 34.18318 34.412003 0.32190502 0.54601103
+Collision detected 35.36246 35.335587 0.557833 0.7877719
+Collision detected 35.68219 35.403778 0.6281616 0.7858434
+Collision detected 45.440594 45.179348 0.5260439 0.4256689
+Collision detected 45.787834 45.619263 0.5302831 0.40107238
+Collision detected 46.12303 45.89793 0.55346894 0.38550583
+Collision detected 48.434788 48.290268 0.6551034 0.4702038
+Collision detected 48.580948 48.675407 0.66672647 0.5286306
+Collision detected 48.692432 48.92633 0.6731362 0.5757312
+Collision detected 63.80458 64.48994 -0.47163317 -0.25354388
+Collision detected 64.4607 64.6457 -0.44309273 -0.16736355
+Collision detected 64.66619 64.758484 -0.3383802 -0.071633875
+Collision detected 64.755104 64.86544 -0.24538858 0.008054302
+Collision detected 64.80766 64.96958 -0.16478086 0.08132169
+Collision detected 64.85447 65.07251 -0.10868841 0.14699222
+Collision detected 67.657 67.971245 0.43298703 0.5713097
+Collision detected 68.01617 68.249886 0.42906857 0.5716671
+Collision detected 68.34367 68.51936 0.42545617 0.56570286
+Collision detected 68.57236 68.774055 0.4230903 0.5600246
+Collision detected 68.70805 69.00996 0.4231032 0.5531943
+Ego progress:  71.77033233642578
+Opp1 progress:  116.90642547607422
+Opp2 progress:  73.16414642333984
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 53] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631472
+[Episode 54] Using seed 1756631472
+ep_no: 54
+ego params:  0.3698831082628212 0.3963573419344013 0.15068714535769875 1.048506501278275
+opp params:  0.43422339805905263 0.464244505516329 0.38748573085123467 0.8850543646569923
+opp1 params: 0.18108341428538113 0.3604410451043327 0.16988684481279132 0.8862670219159898
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 482, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 238, in generate
+    t2 = self.line_point_distance(pos2d[0], pos2d[1], self.waypoint_list[t_idx,0], self.waypoint_list[t_idx,1], self.waypoint_list[(t_idx+1)%N,0], self.waypoint_list[(t_idx+1)%N,1])
+                                            ~~~~~^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/array.py", line 384, in __getitem__
+    return indexing.rewriting_take(self, idx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/indexing.py", line 639, in rewriting_take
+    result = _attempt_rewriting_take_via_slice(arr, idx, mode, out_sharding)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/indexing.py", line 624, in _attempt_rewriting_take_via_slice
+    arr = lax.squeeze(arr, tuple(int_indices))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 3544, in squeeze
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 3544, in <genexpr>
+    dimensions = tuple(sorted(canonicalize_axis(i, ndim) for i in dimensions))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/util.py", line 534, in canonicalize_axis
+    def canonicalize_axis(axis: SupportsIndex, num_dims: int) -> int:
+
+KeyboardInterrupt

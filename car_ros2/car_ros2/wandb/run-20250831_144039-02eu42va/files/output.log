@@ -1,0 +1,59 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 126] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631561
+[Episode 127] Using seed 1756631561
+ep_no: 127
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.4724951957663045 0.2671665581919989 0.38333139787831155 1.077118724195358
+opp1 params: 0.1 0.5 0.15 1.0
+Ego progress:  132.26475524902344
+Opp1 progress:  0.7306329011917114
+Opp2 progress:  130.5946502685547
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 127] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631562
+[Episode 128] Using seed 1756631562
+ep_no: 128
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.4724951957663045 0.2671665581919989 0.38333139787831155 1.077118724195358
+opp1 params: 0.2883514815133266 0.15843876649698374 0.1886476513364827 1.0110449527770344
+Collision detected 15.7187805 15.961201 -0.56449765 -0.6019948
+Collision detected 16.152355 16.155762 -0.5556852 -0.60109735
+Collision detected 16.337204 16.314838 -0.5563285 -0.6050191
+Collision detected 16.367508 16.409128 -0.55434924 -0.6086013
+Collision detected 16.411516 16.433905 -0.5528357 -0.60870373
+Collision detected 16.434982 16.471508 -0.55045366 -0.6110337
+Collision detected 16.456247 16.515484 -0.5475737 -0.61461884
+Collision detected 16.477844 16.561436 -0.54422486 -0.6188803
+Collision detected 16.5004 16.610203 -0.5403781 -0.6236652
+Collision detected 16.525488 16.663067 -0.5359484 -0.62882173
+Collision detected 16.551697 16.718199 -0.5308466 -0.634257
+Collision detected 16.581062 16.778177 -0.5249301 -0.63994426
+Collision detected 16.615025 16.841463 -0.51794183 -0.645742
+Collision detected 16.656588 16.910444 -0.5094555 -0.65164775
+Collision detected 16.706985 16.983631 -0.4988387 -0.65742296
+Collision detected 16.772137 17.062853 -0.4852539 -0.66287774
+Collision detected 16.855995 17.146263 -0.46799645 -0.66773057
+Collision detected 16.964968 17.234812 -0.45367622 -0.67169404
+Collision detected 17.097546 17.325901 -0.43428612 -0.6746263
+Collision detected 75.81775 75.5069 -0.6765371 -0.6149836
+Collision detected 75.90377 75.826225 -0.6656436 -0.6092018
+Collision detected 75.98657 76.05049 -0.65437675 -0.6061769
+Collision detected 76.04637 76.09398 -0.6436646 -0.6020539
+Collision detected 76.06723 76.14176 -0.6341364 -0.6004902
+Collision detected 76.08502 76.18997 -0.62469345 -0.60040414
+Collision detected

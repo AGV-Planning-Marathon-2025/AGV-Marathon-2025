@@ -1,0 +1,12 @@
+{"time":"2025-08-31T14:41:01.352066+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-08-31T14:41:01.899254+05:30","level":"INFO","msg":"stream: created new stream","id":"ixlyfedc"}
+{"time":"2025-08-31T14:41:01.899293+05:30","level":"INFO","msg":"stream: started","id":"ixlyfedc"}
+{"time":"2025-08-31T14:41:01.899293+05:30","level":"INFO","msg":"handler: started","stream_id":"ixlyfedc"}
+{"time":"2025-08-31T14:41:01.899304+05:30","level":"INFO","msg":"sender: started","stream_id":"ixlyfedc"}
+{"time":"2025-08-31T14:41:01.899319+05:30","level":"INFO","msg":"writer: started","stream_id":"ixlyfedc"}
+{"time":"2025-08-31T14:41:05.710069+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T14:45:33.650666+05:30","level":"INFO","msg":"stream: closing","id":"ixlyfedc"}
+{"time":"2025-08-31T14:45:34.530613+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T14:45:35.041745+05:30","level":"INFO","msg":"sender: closed","stream_id":"ixlyfedc"}
+{"time":"2025-08-31T14:45:35.042358+05:30","level":"INFO","msg":"handler: closed","stream_id":"ixlyfedc"}
+{"time":"2025-08-31T14:45:35.042408+05:30","level":"INFO","msg":"stream: closed","id":"ixlyfedc"}

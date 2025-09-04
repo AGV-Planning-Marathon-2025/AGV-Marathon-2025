@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            qe4fp66c7muxtqx0bs7yso3ddopqoayr:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M2
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                args:
+                    - --exp_name
+                    - alpha_racer_multi
+                    - --start_ep
+                    - "226"
+                    - --end_ep
+                    - "242"
+                    - --use_wandb
+                codePath: car_ros2/car_ros2/multi_car_blocking.py
+                codePathLocal: multi_car_blocking.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "236291805184"
+                email: aryanssraut@gmail.com
+                executable: /opt/anaconda3/envs/ros_env/bin/python3
+                git:
+                    commit: 9e0ffc8b326a5360eeed9fea1eba7aad30168039
+                    remote: https://github.com/sastry-group/alpha-RACER
+                host: aryans-MacBook-Air.local
+                memory:
+                    total: "17179869184"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py
+                python: CPython 3.11.13
+                root: /Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2
+                startedAt: "2025-08-31T09:11:01.080114Z"
+                writerId: qe4fp66c7muxtqx0bs7yso3ddopqoayr
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 12
+            "2":
+                - 1
+                - 12
+            "3":
+                - 13
+            "4": 3.11.13
+            "5": 0.21.3
+            "10":
+                - 20
+            "12": 0.21.3
+            "13": darwin-arm64

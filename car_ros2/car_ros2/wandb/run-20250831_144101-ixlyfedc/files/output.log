@@ -1,0 +1,72 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 226] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631682
+[Episode 227] Using seed 1756631682
+ep_no: 227
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3429855087783094 0.3335192868805861 0.4175582622511001 1.0959909453387118
+Ego progress:  139.23365783691406
+Opp1 progress:  136.02110290527344
+Opp2 progress:  128.50990295410156
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 227] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631683
+[Episode 228] Using seed 1756631683
+ep_no: 228
+ego params:  0.4082394396241781 0.3533759197933669 0.4484874020397969 0.9589193852035162
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.3429855087783094 0.3335192868805861 0.4175582622511001 1.0959909453387118
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 481, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 266, in generate
+    target_pos_list.append(jnp.array([pos[0], pos[1], psi, info['curv'], speed]))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/array_constructors.py", line 251, in array
+    arrays_out = [lax.expand_dims(arr, [0]) for arr in arrs]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/numpy/array_constructors.py", line 251, in <listcomp>
+    arrays_out = [lax.expand_dims(arr, [0]) for arr in arrs]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 3562, in expand_dims
+    return broadcast_in_dim(array, result_shape, broadcast_dims)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/lax/lax.py", line 2751, in broadcast_in_dim
+    return broadcast_in_dim_p.bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/core.py", line 612, in bind
+    return self._true_bind(*args, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/core.py", line 628, in _true_bind
+    return self.bind_with_trace(prev_trace, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/core.py", line 638, in bind_with_trace
+    return trace.process_primitive(self, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/core.py", line 1162, in process_primitive
+    return primitive.impl(*args, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/jax/_src/dispatch.py", line 90, in apply_primitive
+    outs = fun(*args)
+           ^^^^^^^^^^
+KeyboardInterrupt

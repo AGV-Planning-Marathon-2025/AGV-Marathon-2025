@@ -1,0 +1,155 @@
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_setup.py:_flush():81] Configure stats pid to 67001
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_setup.py:_flush():81] Loading settings from /Users/aryan/.config/wandb/settings
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_setup.py:_flush():81] Loading settings from /Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/wandb/settings
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/wandb/run-20250831_144026-bos86s39/logs/debug.log
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/wandb/run-20250831_144026-bos86s39/logs/debug-internal.log
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_init.py:init():813] calling init triggers
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-08-31 14:40:26,645 INFO    MainThread:67001 [wandb_init.py:init():854] starting backend
+2025-08-31 14:40:26,861 INFO    MainThread:67001 [wandb_init.py:init():857] sending inform_init request
+2025-08-31 14:40:26,892 INFO    MainThread:67001 [wandb_init.py:init():865] backend started and connected
+2025-08-31 14:40:26,895 INFO    MainThread:67001 [wandb_init.py:init():936] updated telemetry
+2025-08-31 14:40:26,939 INFO    MainThread:67001 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-08-31 14:40:27,954 INFO    MainThread:67001 [wandb_init.py:init():1011] starting run threads in backend
+2025-08-31 14:40:28,092 INFO    MainThread:67001 [wandb_run.py:_console_start():2494] atexit reg
+2025-08-31 14:40:28,092 INFO    MainThread:67001 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-08-31 14:40:28,092 INFO    MainThread:67001 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-08-31 14:40:28,093 INFO    MainThread:67001 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-08-31 14:40:28,096 INFO    MainThread:67001 [wandb_init.py:init():1057] run started, returning control to user process
+2025-08-31 14:45:57,449 INFO    wandb-AsyncioManager-main:67001 [service_client.py:_forward_responses():84] Reached EOF.
+2025-08-31 14:45:57,450 INFO    wandb-AsyncioManager-main:67001 [mailbox.py:close():137] Closing mailbox, abandoning 2 handles.
+2025-08-31 14:45:58,235 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,240 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,243 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,364 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,393 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,394 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,394 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,442 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,456 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,514 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,564 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-08-31 14:45:58,610 ERROR   wandb-AsyncioManager-main:67001 [asyncio_manager.py:fn_wrap_exceptions():183] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 181, in fn_wrap_exceptions
+    await fn()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/service/service_client.py", line 65, in _send_server_request
+    await self._writer.drain()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/asyncio/streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost

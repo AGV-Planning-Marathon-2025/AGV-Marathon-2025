@@ -42,6 +42,13 @@ import threading
 import argparse
 import scipy
 from mpc_controller import mpc
+
+import torch
+
+# Force PyTorch to use CPU
+device = torch.device("cpu")
+torch.set_default_tensor_type(torch.FloatTensor)
+
 # from stable_baselines3 import PPO
 print("DEVICE", jax.devices())
 
@@ -195,7 +202,7 @@ curv_cost = 10.
 coll_cost = 100.
 track_width = 1.
 LON_THRES = 3.
-EP_LEN = 500
+EP_LEN = 800
 
 # trajectory_type = "counter oval"
 trajectory_type = "berlin_2018"
@@ -246,6 +253,7 @@ dynamics_single.reset()
 dynamics_single_opp.reset()
 dynamics_single_opp1.reset()
 
+trajectory_type = "../../simulators/params-num.yaml"
 
 waypoint_generator = WaypointGenerator(trajectory_type, DT, H, 2.)
 waypoint_generator_opp = WaypointGenerator(trajectory_type, DT, H, 1.)
@@ -270,21 +278,40 @@ V2 = SimpleModel(39,[128,128,64],1)
 V3 = SimpleModel(39,[128,128,64],1)
 # print(torch.load('model_haha.pth').keys())
 # model.load_state_dict(torch.load('model_p.pth'))
+
 folder = 'p_models'
-if args.rel :
+if args.rel:
     folder += '_rel'
+
 suffix = ""
-if args.mpc :
+if args.mpc:
     suffix = "_mpc"
-model.load_state_dict(torch.load(folder+'/model_multi_myopic'+suffix+'.pth'))
-model.eval()
-V1.load_state_dict(torch.load('q'+folder[1:]+'/model_multi0_myopic'+suffix+'.pth'))
-V2.load_state_dict(torch.load('q'+folder[1:]+'/model_multi1_myopic'+suffix+'.pth'))
-V3.load_state_dict(torch.load('q'+folder[1:]+'/model_multi2_myopic'+suffix+'.pth'))
-# model = model
-V1.eval()
-V2.eval()
-V3.eval()
+
+def load_model_cpu(path, model):
+    # Load state dict on CPU
+    state = torch.load(path, map_location='cpu')
+    
+    # Rename keys to match current model attribute names
+    new_state = {}
+    for k, v in state.items():
+        new_key = k.replace('batch_norm', 'bn').replace('fc', 'seq')
+        new_state[new_key] = v
+    
+    model.load_state_dict(new_state)
+    
+    # Move both params and buffers to CPU
+    model.to('cpu')
+    model.eval()
+    return model
+
+# Main model
+model = load_model_cpu(folder + '/model_multi_myopic_mpc' + suffix + '.pth', model)
+
+# V models
+V1 = load_model_cpu(f'q{folder[1:]}/value_model_0_neg_extra.pth', V1)
+V2 = load_model_cpu(f'q{folder[1:]}/value_model_1_neg_extra.pth', V2)
+V3 = load_model_cpu(f'q{folder[1:]}/value_model_2_neg_extra.pth', V3)
+
 # model = model.to(DEVICE)
 model_opp = SimpleModel(39,[3*fs,3*fs,3*64],1)
 model_opp1 = SimpleModel(39,[3*fs,3*fs,3*64],1)

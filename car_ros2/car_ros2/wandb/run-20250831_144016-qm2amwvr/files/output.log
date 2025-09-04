@@ -1,0 +1,141 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 26] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631440
+[Episode 27] Using seed 1756631440
+ep_no: 27
+ego params:  0.20180501966391176 0.2726482205633757 0.3975823680530639 0.9055530623255008
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Ego progress:  119.53514099121094
+Opp1 progress:  2.5675930976867676
+Opp2 progress:  144.8540802001953
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 27] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631441
+[Episode 28] Using seed 1756631441
+ep_no: 28
+ego params:  0.20180501966391176 0.2726482205633757 0.3975823680530639 0.9055530623255008
+opp params:  0.49082211033232426 0.2174352713878383 0.2151427087369287 0.9549831429909778
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 120.23672 119.708275 0.7257483 0.7775966
+Collision detected 120.32881 119.81705 0.71623796 0.7784208
+Collision detected 120.435524 119.919174 0.70625144 0.7757763
+Collision detected 127.33727 126.95284 -0.59441066 -0.47769773
+Collision detected 127.53201 127.14449 -0.64950895 -0.61509347
+Collision detected 127.69849 127.26715 -0.67017764 -0.6891551
+Collision detected 127.82811 127.33153 -0.6734516 -0.71285033
+Collision detected 127.92864 127.3828 -0.6821569 -0.7269326
+Collision detected 128.01738 127.43343 -0.688729 -0.7364497
+Collision detected 128.05588 127.49429 -0.69587445 -0.7436217
+Collision detected 128.13623 127.537445 -0.6915216 -0.74908555
+Collision detected 128.17685 127.57842 -0.68804675 -0.7527471
+Collision detected 128.21811 127.66156 -0.6828769 -0.7562256
+Collision detected 128.28531 127.76067 -0.67792755 -0.75743777
+Collision detected 128.32745 127.79922 -0.6723981 -0.75854856
+Collision detected 128.38293 127.90359 -0.66581625 -0.7584455
+Collision detected 128.4281 127.94463 -0.6594788 -0.7577102
+Collision detected 128.47507 128.04942 -0.65169084 -0.7568214
+Collision detected 128.5171 128.14903 -0.64349294 -0.7544594
+Collision detected 128.56813 128.19559 -0.63546145 -0.75210834
+Collision detected 128.62267 128.28636 -0.6252892 -0.74910474
+Collision detected 128.65637 128.33618 -0.6150529 -0.7460905
+Collision detected 128.71674 128.4157 -0.604041 -0.7431183
+Collision detected 128.76534 128.46797 -0.59097815 -0.7401431
+Collision detected 128.82884 128.53242 -0.5884965 -0.7372443
+Collision detected 128.89265 128.5887 -0.5721143 -0.7348906
+Collision detected 128.96837 128.64212 -0.5546058 -0.7321954
+Collision detected 129.06021 128.70255 -0.5423112 -0.7306922
+Collision detected 129.14096 128.76399 -0.5255199 -0.728
+Collision detected 129.24228 128.8396 -0.50389206 -0.72619206
+Collision detected 129.34647 128.94614 -0.47635156 -0.72288793
+Collision detected 129.44289 129.08006 -0.44090158 -0.7175669
+Collision detected 129.52231 129.23637 -0.40055698 -0.7075272
+Collision detected 129.59799 129.5964 -0.3585278 -0.68649745
+Ego progress:  110.5012435913086
+Opp1 progress:  135.6998748779297
+Opp2 progress:  130.48971557617188
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 28] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631442
+[Episode 29] Using seed 1756631442
+ep_no: 29
+ego params:  0.20180501966391176 0.2726482205633757 0.3975823680530639 0.9055530623255008
+opp params:  0.49082211033232426 0.2174352713878383 0.2151427087369287 0.9549831429909778
+opp1 params: 0.4182371734489886 0.2938416249877722 0.21744024605105877 0.9373302667012594
+CasADi - 2025-08-31 14:46:01 WARNING("KeyboardInterruptException") [.../casadi/interfaces/ipopt/ipopt_nlp.cpp:114]
+Error in callback:  <built-in function Function_call> returned a result with an exception set
+[W&B] Appended episode data, total episodes: 4
+[W&B] Uploaded combined artifact with 4 episodes
+[Episode 29] Uploaded episode data to combined artifact
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+SystemError: <function DM.<lambda> at 0x143db6200> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 558, in timer_callback
+    steer, throttle, _, _, self.last_i = self.mpc(
+                                         ^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 957, in mpc
+    throttle, steer = mpc([x, y, theta, v], np.array(traj), lookahead_factor=lookahead_factor)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/mpc_controller.py", line 95, in mpc
+    solution = solver(x0=initial_guess, lbg=lbg, ubg=ubg, p=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/casadi/casadi.py", line 24049, in __call__
+    return self.call(kwargs)
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/casadi/casadi.py", line 20698, in call
+    return _casadi.Function_call(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function Function_call> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 835, in timer_callback
+    if self.use_wandb and self.wandb_run:
+                          ^^^^^^^^^^^^^^
+AttributeError: 'CarNode' object has no attribute 'wandb_run'

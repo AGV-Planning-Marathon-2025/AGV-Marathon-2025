@@ -1,0 +1,196 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Ego progress:  138.84410095214844
+Opp1 progress:  144.68931579589844
+Opp2 progress:  3.4507884979248047
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 1] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631410
+[Episode 2] Using seed 1756631410
+ep_no: 2
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.4556187746842264 0.15101549844230866 0.18332434900712494 0.8642544949651277
+Collision detected 121.77445 122.22578 0.56784767 0.7144794
+Collision detected 122.01183 122.29029 0.56287247 0.70992273
+Collision detected 122.22803 122.35819 0.5621042 0.70535636
+Collision detected 122.37315 122.40358 0.54976255 0.7005229
+Collision detected 122.44077 122.45289 0.5382884 0.69685626
+Collision detected 122.50863 122.49858 0.525882 0.6925652
+Collision detected 122.53968 122.53142 0.5239947 0.68885934
+Collision detected 122.62585 122.56278 0.51523226 0.6862488
+Collision detected 122.696915 122.60076 0.4996948 0.68397665
+Collision detected 122.80258 122.64255 0.48674873 0.68121517
+Collision detected 122.92993 122.66651 0.4766671 0.67906076
+Collision detected 123.07612 122.71598 0.4682609 0.677592
+Collision detected 123.27533 122.77382 0.4542885 0.6749149
+Ego progress:  128.70782470703125
+Opp1 progress:  6.058074474334717
+Opp2 progress:  93.37801361083984
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 2] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631411
+[Episode 3] Using seed 1756631411
+ep_no: 3
+ego params:  0.4053527849515628 0.34334410335998117 0.18712991400757348 0.9312966691027388
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.4556187746842264 0.15101549844230866 0.18332434900712494 0.8642544949651277
+Collision detected 137.28041 137.30121 0.52869135 0.77461135
+Collision detected 138.04031 138.0579 0.6777173 0.7926804
+Collision detected 138.45508 138.32864 0.6599155 0.75868016
+Collision detected 138.5369 138.44406 0.64671 0.7332483
+Collision detected 138.61746 138.48282 0.6298341 0.72015756
+Collision detected 138.69312 138.54102 0.6097618 0.7096072
+Collision detected 138.77269 138.57722 0.58496255 0.70049644
+Collision detected 138.84312 138.61626 0.5559658 0.6906618
+Collision detected 138.91634 138.6624 0.5169974 0.6815175
+Collision detected 139.00217 138.70836 0.4688104 0.6730252
+Collision detected 139.07559 138.7628 0.40844685 0.6625725
+Ego progress:  113.76740264892578
+Opp1 progress:  4.368576526641846
+Opp2 progress:  86.05999755859375
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 3] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756631412
+[Episode 4] Using seed 1756631412
+ep_no: 4
+ego params:  0.4053527849515628 0.34334410335998117 0.18712991400757348 0.9312966691027388
+opp params:  0.35992162510817716 0.16148029319749613 0.43902746426843 0.9327573581768975
+opp1 params: 0.4556187746842264 0.15101549844230866 0.18332434900712494 0.8642544949651277
+Collision detected 128.08163 128.63681 -0.48447236 -0.54607403
+Collision detected 128.39108 128.80063 -0.48207238 -0.5107523
+Collision detected 128.6278 128.98077 -0.4606861 -0.48538738
+Collision detected 128.76265 129.12639 -0.44106087 -0.4599037
+Collision detected 128.86153 129.24179 -0.42793015 -0.42952365
+Collision detected 128.91664 129.34032 -0.41723797 -0.40740582
+Collision detected 128.99518 129.41753 -0.40742457 -0.3830382
+Collision detected 129.04903 129.48921 -0.39621696 -0.35864192
+Collision detected 129.12946 129.54825 -0.38295838 -0.32906997
+Collision detected 129.18721 129.60362 -0.36780885 -0.2994292
+Collision detected 129.26755 129.66148 -0.34935683 -0.2651042
+Collision detected 129.32405 129.6954 -0.32837006 -0.2283351
+Collision detected 129.4013 129.75096 -0.30308735 -0.1886722
+Collision detected 129.44833 129.79388 -0.2752895 -0.141935
+Collision detected 129.5242 129.83344 -0.24252236 -0.092665344
+Collision detected 129.56529 129.88144 -0.20465547 -0.039560482
+Collision detected 129.6366 129.92497 -0.16092086 0.015138313
+Collision detected 129.68472 129.98082 -0.11154093 0.09149647
+Collision detected 129.75067 130.04802 -0.055236522 0.17244752
+Collision detected 130.77098 130.99597 0.4670423 0.7145228
+Collision detected 131.00679 131.09096 0.47967166 0.7248627
+Error in callback:  Failed to publish: publisher's context is invalid, at /Users/runner/conda-bld/bld/rattler-build_ros-humble-rcl_1753312401/work/ros-humble-rcl/src/work/src/rcl/publisher.c:389
+[W&B] Appended episode data, total episodes: 4
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 537, in timer_callback
+    self.pose_pub_.publish(pose)
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/rclpy/publisher.py", line 70, in publish
+    self.__publisher.publish(msg)
+rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at /Users/runner/conda-bld/bld/rattler-build_ros-humble-rcl_1753312401/work/ros-humble-rcl/src/work/src/rcl/publisher.c:389
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 832, in timer_callback
+    self._upload_current_episode()
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 348, in _upload_current_episode
+    success = self.wandb_manager.upload_combined()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aryan/MySpace/AGV/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 73, in upload_combined
+    self.run.log_artifact(artifact)
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3158, in log_artifact
+    return self._log_artifact(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3322, in _log_artifact
+    artifact._set_save_handle(handle, self._public_api().client)
+                                      ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 3350, in _public_api
+    return public.Api(overrides)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/apis/public/api.py", line 352, in __init__
+    self._configure_sentry()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/apis/public/api.py", line 356, in _configure_sentry
+    viewer = self.viewer
+             ^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/apis/public/api.py", line 780, in viewer
+    viewer = self._client.execute(self.VIEWER_QUERY).get("viewer")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 318, in wrapped_fn
+    return retrier(*args, **kargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 158, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/apis/public/api.py", line 116, in execute
+    return self._client.execute(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/site-packages/urllib3/connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/http/client.py", line 1395, in getresponse
+    response.begin()
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/http/client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/http/client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ros_env/lib/python3.11/ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

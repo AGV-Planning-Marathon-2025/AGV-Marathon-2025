@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-15.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-09-04T15:52:57.311626Z",
+  "program":  "/Users/aryan/MySpace/AGV/alpha-RACER/simulators/my_wandb.py",
+  "codePath":  "simulators/my_wandb.py",
+  "codePathLocal":  "my_wandb.py",
+  "git":  {
+    "remote":  "https://github.com/sastry-group/alpha-RACER",
+    "commit":  "9e0ffc8b326a5360eeed9fea1eba7aad30168039"
+  },
+  "email":  "aryanssraut@gmail.com",
+  "root":  "/Users/aryan/MySpace/AGV/alpha-RACER/simulators",
+  "host":  "aryans-MacBook-Air.local",
+  "executable":  "/opt/anaconda3/envs/ros_env/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "219216715776"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M2",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "uu7ez2fccvaioox95pwo06qri30tej2j"
+}
