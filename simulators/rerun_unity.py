@@ -7,17 +7,19 @@ import numpy as np
 from mlagents_envs.side_channel.engine_configuration_channel import EngineConfigurationChannel
 
 # Define the path to your Unity build
-UNITY_BUILD_PATH = "env-v0.app" # Uncomment this for MacOS
-# UNITY_BUILD_PATH = "env-v0.x86_64" # Uncomment this for Linux
+# UNITY_BUILD_PATH = "env-v0.app" # Uncomment this for MacOS
+UNITY_BUILD_PATH = "env-v0.x86_64" # Uncomment this for Linux
 # EP_START = 6 # ours-high_p
 # EP_START = 1
-EP_START = 23
+EP_START = 1
 # EP_START = 15
 # EP_START = 5
-EP_END = 34
-FPS = 50
+# EP_START = 0
+# EP_END = 1
+EP_END = 12
+FPS = 30
 START_WAIT = 5.
-FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_ours-low_data_vs_ours-low_data_grad_rel.pkl'
+FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_mpc_vs_mpc_grad.pkl'
 DT = 0.1
 DT = DT*10./FPS
 race_data = np.array(pickle.load(open(FILENAME,'rb')))
@@ -29,7 +31,7 @@ a1 = np.sum(dists1,axis=1)
 a2 = np.sum(dists2,axis=1)
 a3 = np.sum(dists3,axis=1)
 
-for k in range(34):
+for k in range(len(a1)):
     print(k, a1[k], a2[k], a3[k])
         
 def main():
@@ -62,9 +64,9 @@ def main():
             ac[0,:9] = race_data[EP_NO,0,:9]
             # ac[0,6:8] -= np.array([np.cos(ac[0,8]),np.sin(ac[0,8])])*0.18
             ac[0,3:5] += np.array([np.cos(ac[0,5]),np.sin(ac[0,5])])*0.08
-            ac[0,:2] /= 2.
-            ac[0,3:5] /= 2.
-            ac[0,6:8] /= 2.
+            ac[0,:2] /= 4.
+            ac[0,3:5] /= 4.
+            ac[0,6:8] /= 4.
             # print(ac)
             action = ActionTuple(continuous=ac)
             
@@ -83,9 +85,9 @@ def main():
             # ac[0,3:5] += np.array([np.cos(ac[0,5]),np.sin(ac[0,5])])*0.08
             # ac[0,6:8] -= np.array([np.cos(ac[0,8]+np.pi/2.),np.sin(ac[0,8]+np.pi/2.)])*0.11
 
-            ac[0,:2] /= 2.
-            ac[0,3:5] /= 2.
-            ac[0,6:8] /= 2.
+            ac[0,:2] /= 4.
+            ac[0,3:5] /= 4.
+            ac[0,6:8] /= 4.
             action = ActionTuple(continuous=ac)
             
             # Send the action to Unity and step the simulation
