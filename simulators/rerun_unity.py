@@ -10,24 +10,17 @@ from mlagents_envs.side_channel.engine_configuration_channel import EngineConfig
 # UNITY_BUILD_PATH = "env-v0.app" # Uncomment this for MacOS
 UNITY_BUILD_PATH = "env-v0.x86_64" # Uncomment this for Linux
 # EP_START = 6 # ours-high_p
-# EP_START = 1
 EP_START = 1
+# EP_START = 23
 # EP_START = 15
 # EP_START = 5
-# EP_START = 0
-# EP_END = 1
-EP_END = 12
+EP_END = 34
 FPS = 30
 START_WAIT = 5.
-<<<<<<< HEAD
-FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_mpc_vs_mpc_grad_rel.pkl'
-=======
 FILENAME = '../car_ros2/car_ros2/recorded_races/racedata_ours_vs_mpc_vs_mpc_grad.pkl'
->>>>>>> main
 DT = 0.1
 DT = DT*10./FPS
 race_data = np.array(pickle.load(open(FILENAME,'rb')))
-print(race_data.shape)
 dx = race_data[:,1:] - race_data[:,:-1]
 dists1 = np.linalg.norm(dx[:,:,:2],axis=2)
 dists2 = np.linalg.norm(dx[:,:,3:5],axis=2)

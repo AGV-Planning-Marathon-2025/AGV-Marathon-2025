@@ -22,7 +22,7 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
 ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
 lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 638452856
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 958345416
 Begin MonoManager ReloadAssembly
 - Completed reload, in  0.074 seconds
 Default vsync count 0
@@ -30,7 +30,7 @@ requesting resize 1280 x 720
 resizing window to 1280 x 720
 Desktop is 1920 x 1080 @ 60 Hz
 The tree grass Variant 1 couldn't be instanced because the prefab contains no valid mesh renderer.
-UnloadTime: 1.053938 ms
+UnloadTime: 0.824407 ms
 Delta time: 0.01
 Delta time: 0.01
 Error reading CSV file: Could not find file "/home/yug/agv-alpharacer/alpha-RACER/simulators/berlin_2018-large_raceline.csv"
@@ -8315,12 +8315,2958 @@ True
 Fewer observations (12) made than vector observation size (15). The observations will be padded.
 Got action 1378
 ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1379
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1380
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1381
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1382
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1383
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1384
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1385
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1386
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1387
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1388
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1389
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1390
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1391
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1392
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1393
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1394
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1395
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1396
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1397
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1398
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1399
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1400
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1401
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1402
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1403
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1404
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1405
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1406
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1407
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1408
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1409
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1410
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1411
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1412
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1413
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1414
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1415
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1416
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1417
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1418
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1419
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1420
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1421
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1422
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1423
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1424
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1425
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1426
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1427
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1428
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1429
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1430
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1431
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1432
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1433
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1434
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1435
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1436
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1437
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1438
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1439
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1440
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1441
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1442
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1443
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1444
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1445
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1446
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1447
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1448
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1449
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1450
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1451
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1452
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1453
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1454
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1455
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1456
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1457
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1458
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1459
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1460
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1461
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1462
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1463
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1464
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1465
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1466
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1467
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1468
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1469
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1470
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1471
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1472
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1473
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1474
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1475
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1476
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1477
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1478
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1479
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1480
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1481
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1482
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1483
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1484
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1485
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1486
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1487
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1488
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1489
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1490
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1491
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1492
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1493
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1494
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1495
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1496
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1497
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1498
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1499
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1500
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1501
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1502
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1503
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1504
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1505
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1506
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1507
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1508
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1509
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1510
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1511
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1512
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1513
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1514
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1515
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1516
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1517
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1518
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1519
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1520
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1521
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1522
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1523
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1524
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1525
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1526
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1527
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1528
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1529
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1530
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1531
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1532
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1533
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1534
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1535
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1536
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1537
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1538
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1539
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1540
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1541
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1542
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1543
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1544
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1545
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1546
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1547
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1548
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1549
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1550
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1551
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1552
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1553
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1554
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1555
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1556
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1557
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1558
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1559
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1560
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1561
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1562
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1563
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1564
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1565
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1566
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1567
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1568
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1569
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1570
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1571
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1572
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1573
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1574
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1575
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1576
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1577
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1578
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1579
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1580
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1581
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1582
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1583
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1584
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1585
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1586
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1587
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1588
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1589
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1590
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1591
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1592
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1593
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1594
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1595
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1596
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1597
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1598
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1599
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1600
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1601
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1602
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1603
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1604
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1605
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1606
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1607
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1608
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1609
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1610
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1611
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1612
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1613
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1614
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1615
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1616
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1617
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1618
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1619
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1620
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1621
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1622
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1623
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1624
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1625
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1626
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1627
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1628
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1629
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1630
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1631
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1632
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1633
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1634
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1635
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1636
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1637
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1638
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1639
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1640
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1641
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1642
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1643
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1644
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1645
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1646
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1647
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1648
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1649
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1650
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1651
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1652
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1653
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1654
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1655
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1656
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1657
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1658
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1659
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1660
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1661
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1662
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1663
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1664
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1665
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1666
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1667
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1668
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1669
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1670
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1671
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1672
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1673
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1674
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1675
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1676
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1677
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1678
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1679
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1680
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1681
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1682
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1683
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1684
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1685
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1686
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1687
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1688
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1689
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1690
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1691
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1692
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1693
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1694
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1695
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1696
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1697
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1698
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1699
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1700
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1701
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1702
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1703
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1704
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1705
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1706
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1707
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1708
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1709
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1710
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1711
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1712
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1713
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1714
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1715
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1716
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1717
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1718
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1719
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1720
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1721
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1722
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1723
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1724
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1725
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1726
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1727
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1728
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1729
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1730
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1731
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1732
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1733
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1734
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1735
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1736
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1737
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1738
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1739
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1740
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1741
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1742
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1743
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1744
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1745
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1746
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1747
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1748
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1749
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1750
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1751
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1752
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1753
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1754
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1755
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1756
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1757
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1758
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1759
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1760
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1761
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1762
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1763
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1764
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1765
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1766
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1767
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1768
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1769
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1770
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1771
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1772
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1773
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1774
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1775
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1776
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1777
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1778
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1779
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1780
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1781
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1782
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1783
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1784
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1785
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1786
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1787
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1788
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1789
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1790
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1791
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1792
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1793
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1794
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1795
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1796
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1797
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1798
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1799
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1800
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1801
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1802
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1803
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1804
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1805
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1806
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1807
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1808
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1809
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1810
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1811
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1812
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1813
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1814
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1815
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1816
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1817
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1818
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1819
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1820
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1821
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1822
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1823
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1824
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1825
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1826
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1827
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1828
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1829
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1830
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1831
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1832
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1833
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1834
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1835
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1836
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1837
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1838
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1839
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1840
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1841
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1842
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1843
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1844
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1845
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1846
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1847
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1848
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1849
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1850
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1851
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1852
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1853
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1854
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+True
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1855
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1856
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1857
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1858
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1859
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1860
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1861
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1862
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1863
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1864
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1865
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1866
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+False
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1867
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1868
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+True
+False
+False
+Fewer observations (12) made than vector observation size (15). The observations will be padded.
+Got action 1869
+ego pos: Unity.MLAgents.Actuators.ActionSegment`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
 Setting up 8 worker threads for Enlighten.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 217 frames, [8.0 KB-16.0 KB]: 2 frames, [16.0 KB-32.0 KB]: 1227 frames, [32.0 KB-64.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 389 frames, [8.0 KB-16.0 KB]: 4 frames, [16.0 KB-32.0 KB]: 1568 frames, [32.0 KB-64.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
       Initial Block Size 4.0 MB
       Current Block Size 4.0 MB
       Peak Allocated Bytes 3.6 MB
@@ -8393,7 +11339,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 19.5 KB
+      Peak Allocated Bytes 2.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -8442,9 +11388,9 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
-      Current Block Size 452.0 KB
-      Peak Allocated Bytes 451.7 KB
-      Overflow Count 4
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.4 KB
+      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 13]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -8458,17 +11404,17 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 2.4 KB
+      Peak Allocated Bytes 19.5 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 2.4 KB
+      Peak Allocated Bytes 15.6 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 15.6 KB
+      Peak Allocated Bytes 2.4 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -8497,9 +11443,9 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 2.4 KB
-      Overflow Count 0
+      Current Block Size 452.0 KB
+      Peak Allocated Bytes 451.7 KB
+      Overflow Count 4
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -8517,16 +11463,16 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 2.9 MB
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 1447 frames, [128.0 MB-256.0 MB]: 1 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 1962 frames, [128.0 MB-256.0 MB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 2
       Peak Allocated memory 140.8 MB
       Peak Large allocation bytes 128.1 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 1448 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 1963 frames
       Requested Block Size 16.0 MB
       Peak Block count 2
-      Peak Allocated memory 59.5 MB
+      Peak Allocated memory 59.6 MB
       Peak Large allocation bytes 32.0 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -8555,13 +11501,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 2.9 MB
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 MB-128.0 MB]: 1448 frames
+      Peak usage frame count: [64.0 MB-128.0 MB]: 1963 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
       Peak Allocated memory 86.2 MB
       Peak Large allocation bytes 85.4 MB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1448 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1963 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
       Peak Allocated memory 6.6 MB
@@ -8573,13 +11519,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 2.9 MB
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 1448 frames
+      Peak usage frame count: [32.0 MB-64.0 MB]: 1963 frames
       Requested Block Size 4.0 MB
       Peak Block count 9
       Peak Allocated memory 59.2 MB
       Peak Large allocation bytes 24.9 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 1447 frames, [16.0 MB-32.0 MB]: 1 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 1962 frames, [16.0 MB-32.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
       Peak Allocated memory 23.2 MB
@@ -8591,13 +11537,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 2.9 MB
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 1448 frames
+      Peak usage frame count: [0-1.0 KB]: 1963 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 1.1 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [1.0 KB-2.0 KB]: 1447 frames, [2.0 KB-4.0 KB]: 1 frames
+      Peak usage frame count: [1.0 KB-2.0 KB]: 1962 frames, [2.0 KB-4.0 KB]: 1 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 2.2 KB
