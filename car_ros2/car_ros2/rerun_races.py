@@ -59,7 +59,7 @@ EP_START = 0
 EP_END = 100
 RUN_SPEED = 2.
 # FILENAME = 'racedata_ours_vs_mpc_vs_mpc_mpc.pkl'
-FILENAME = 'recorded_races/racedata_ours_vs_mpc_vs_mpc_grad.pkl'
+FILENAME = 'recorded_races/racedata_ours_vs_mpc_vs_mpc_grad_rel.pkl'
 
 # trajectory_type = "counter oval"
 trajectory_type = "berlin_2018"

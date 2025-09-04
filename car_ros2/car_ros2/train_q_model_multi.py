@@ -28,7 +28,7 @@ else :
 # data = np.concatenate((np.expand_dims(data[0],axis=0),np.array(data[1:])[:,:-1,:]),axis = 0)
 
 discount_factor = 1.
-n_iters = 50000
+n_iters = 5000
 learning_rate = 0.001
 S = int(args.s)
 suffix = ""

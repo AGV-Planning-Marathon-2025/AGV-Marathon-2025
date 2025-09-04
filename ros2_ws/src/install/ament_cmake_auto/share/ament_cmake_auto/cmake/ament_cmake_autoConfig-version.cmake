@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_auto/ament_cmake_core/ament_cmake_autoConfig-version.cmake

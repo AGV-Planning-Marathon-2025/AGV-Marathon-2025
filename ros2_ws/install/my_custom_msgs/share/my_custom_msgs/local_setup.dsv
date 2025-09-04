@@ -1,4 +1,1 @@
-source;share/my_custom_msgs/environment/ament_prefix_path.sh
-source;share/my_custom_msgs/environment/library_path.sh
-source;share/my_custom_msgs/environment/path.sh
-source;share/my_custom_msgs/environment/pythonpath.sh
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,1 +1,1 @@
-from my_custom_msgs.msg._policy_params import PolicyParams  # noqa: F401
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/rosidl_generator_py/my_custom_msgs/msg/__init__.py

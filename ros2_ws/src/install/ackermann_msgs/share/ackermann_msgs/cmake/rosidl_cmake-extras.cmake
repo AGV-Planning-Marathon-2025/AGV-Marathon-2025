@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ackermann_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

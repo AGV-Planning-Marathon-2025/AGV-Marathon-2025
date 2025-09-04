@@ -1,8 +1,8 @@
-# Install script for directory: /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/my_custom_msgs__py
+# Install script for directory: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/my_custom_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/my_custom_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

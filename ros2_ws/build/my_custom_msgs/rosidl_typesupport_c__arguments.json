@@ -1,9 +1,9 @@
 {
   "package_name": "my_custom_msgs",
-  "output_dir": "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_typesupport_c/my_custom_msgs",
+  "output_dir": "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/rosidl_typesupport_c/my_custom_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_adapter/my_custom_msgs:msg/PolicyParams.idl"
+    "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/rosidl_adapter/my_custom_msgs:msg/PolicyParams.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -46,7 +46,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/rosidl_adapter/my_custom_msgs/msg/PolicyParams.idl",
+    "/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/rosidl_adapter/my_custom_msgs/msg/PolicyParams.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

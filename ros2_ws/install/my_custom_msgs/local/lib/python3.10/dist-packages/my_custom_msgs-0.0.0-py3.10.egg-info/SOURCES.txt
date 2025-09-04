@@ -1,8 +1,1 @@
-setup.py
-my_custom_msgs/__init__.py
-my_custom_msgs.egg-info/PKG-INFO
-my_custom_msgs.egg-info/SOURCES.txt
-my_custom_msgs.egg-info/dependency_links.txt
-my_custom_msgs.egg-info/top_level.txt
-my_custom_msgs/msg/__init__.py
-my_custom_msgs/msg/_policy_params.py
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/ament_cmake_python/my_custom_msgs/my_custom_msgs.egg-info/SOURCES.txt

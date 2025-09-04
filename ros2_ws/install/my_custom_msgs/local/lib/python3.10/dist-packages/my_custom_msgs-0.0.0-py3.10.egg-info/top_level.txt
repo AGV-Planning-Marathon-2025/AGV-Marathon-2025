@@ -1,1 +1,1 @@
-my_custom_msgs
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/ament_cmake_python/my_custom_msgs/my_custom_msgs.egg-info/top_level.txt

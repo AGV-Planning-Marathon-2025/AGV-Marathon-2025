@@ -1,7 +1,7 @@
 from copy import deepcopy
 from typing import Union
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 import numpy as np
 from car_dynamics.models_jax import DynamicBicycleModel, CarState, CarAction
 import matplotlib

@@ -1,0 +1,1 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/geometry2/ament_cmake_core/geometry2Config.cmake

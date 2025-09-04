@@ -1,0 +1,13 @@
+# Target labels
+ curl-7.81.0
+# Source files and their labels
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/curl-7.81.0
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/curl-7.81.0.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/curl-7.81.0-complete.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-build.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-configure.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-download.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-install.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-mkdir.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-patch.rule
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-update.rule

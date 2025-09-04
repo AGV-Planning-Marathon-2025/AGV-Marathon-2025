@@ -1,0 +1,3 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/resource_retriever/lib/libresource_retriever.so
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverExport.cmake
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverExport-noconfig.cmake

@@ -1,0 +1,2 @@
+configure: WARNING: Cannot find libraries for LDAP support: LDAP disabled
+configure: WARNING: OpenSSL headers and library versions do not match.

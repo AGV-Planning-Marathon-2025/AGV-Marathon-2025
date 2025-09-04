@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs
+CMAKE_SOURCE_DIR = /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/my_custom_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs
+CMAKE_BINARY_DIR = /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs /home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/my_custom_msgs /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/my_custom_msgs /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/my_custom_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

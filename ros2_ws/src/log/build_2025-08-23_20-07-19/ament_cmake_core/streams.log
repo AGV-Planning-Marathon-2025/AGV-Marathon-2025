@@ -1,0 +1,78 @@
+[0.024s] Invoking command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core
+[0.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.258s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.353s] -- ament_cmake_core 1.3.12
+[0.435s] -- Configuring done
+[0.437s] -- Generating done
+[0.438s] -- Build files have been written to: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core
+[0.441s] Invoked command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core
+[0.443s] Invoking command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake --build /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core -- -j16 -l16
+[0.489s] Invoked command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake --build /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core -- -j16 -l16
+[0.502s] Invoking command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake --install /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core
+[0.511s] -- Install configuration: ""
+[0.511s] -- Execute custom install script
+[0.512s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_index/resource_index/package_run_dependencies/ament_cmake_core
+[0.523s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_index/resource_index/parent_prefix_path/ament_cmake_core
+[0.533s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.sh
+[0.544s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.dsv
+[0.556s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/environment/path.sh
+[0.568s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/environment/path.dsv
+[0.579s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/local_setup.bash
+[0.591s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/local_setup.sh
+[0.602s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/local_setup.zsh
+[0.615s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/local_setup.dsv
+[0.627s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/package.dsv
+[0.639s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_index/resource_index/packages/ament_cmake_core
+[0.652s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake
+[0.665s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment-extras.cmake
+[0.676s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment_hooks-extras.cmake
+[0.688s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_index-extras.cmake
+[0.700s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake
+[0.714s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake
+[0.727s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake
+[0.740s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake
+[0.753s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake
+[0.765s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/package.xml
+[0.777s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/all.cmake
+[0.787s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake
+[0.797s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake
+[0.809s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake
+[0.821s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_register_extension.cmake
+[0.833s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/assert_file_exists.cmake
+[0.845s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/get_executable_path.cmake
+[0.860s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/list_append_unique.cmake
+[0.874s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/normalize_path.cmake
+[0.887s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.902s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/python.cmake
+[0.917s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/stamp.cmake
+[0.935s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/string_ends_with.cmake
+[0.947s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig-version.cmake.in
+[0.958s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig.cmake.in
+[0.970s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake
+[0.981s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_generate_environment.cmake
+[0.991s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake
+[1.004s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake
+[1.016s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake
+[1.029s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat
+[1.041s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+[1.053s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat
+[1.064s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+[1.075s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake
+[1.086s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_prefix_path.cmake
+[1.098s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake
+[1.109s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake
+[1.120s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_has_resource.cmake
+[1.132s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake
+[1.144s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake
+[1.155s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.167s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in
+[1.179s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_append_install_code.cmake
+[1.191s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake
+[1.202s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_files.cmake
+[1.214s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake
+[1.228s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake
+[1.239s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
+[1.251s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake
+[1.263s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
+[1.275s] -- Symlinking: /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target_append_uninstall_code.cmake
+[1.290s] Invoked command in '/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf_transformations:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_tools:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/examples_tf2_py:/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/install/tf2_ros_py:/opt/ros/humble CONDA_PROMPT_MODIFIER=(alpharacer) /usr/bin/cmake --install /home/yug/agv-alpharacer/alpha-RACER/ros2_ws/src/build/ament_cmake_core

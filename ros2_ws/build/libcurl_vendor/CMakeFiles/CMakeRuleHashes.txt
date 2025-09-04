@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+1add4e2f6d1ecf0f54a0a1d6f49a1e79 CMakeFiles/curl-7.81.0
+3caee114b4d9336379997717e8c4db92 CMakeFiles/curl-7.81.0-complete
+3a8ecb461076b6c6e2586a0c33acf430 CMakeFiles/libcurl_vendor_uninstall
+f80f6f22cef09da179cd3e6b23ea07ff curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-build
+462d5e6f106be3564f5e7ea3af39bd5e curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-configure
+81cfa8f5f26cd03453b448dd9458ac7c curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-download
+acbe6e42fa20f0e19f31e56f81616805 curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-install
+59d20dd73e4857b6e57bccd3a4aabad0 curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-mkdir
+8e0174acefc42c104ec0fee4b261751e curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-patch
+05d579255c43c9dabd09c5dfa014ff23 curl-7.81.0-prefix/src/curl-7.81.0-stamp/curl-7.81.0-update

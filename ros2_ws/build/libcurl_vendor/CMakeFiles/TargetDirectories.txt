@@ -1,0 +1,10 @@
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/libcurl_vendor_uninstall.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/curl-7.81.0.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/test.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/edit_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/rebuild_cache.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/list_install_components.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/install.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/install/local.dir
+/home/yug/agv-alpharacer/alpha-RACER/ros2_ws/build/libcurl_vendor/CMakeFiles/install/strip.dir
