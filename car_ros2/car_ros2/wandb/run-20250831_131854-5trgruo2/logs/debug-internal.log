@@ -1,0 +1,17 @@
+{"time":"2025-08-31T13:18:54.881394392+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T13:18:55.457854104+05:30","level":"INFO","msg":"stream: created new stream","id":"5trgruo2"}
+{"time":"2025-08-31T13:18:55.457924819+05:30","level":"INFO","msg":"stream: started","id":"5trgruo2"}
+{"time":"2025-08-31T13:18:55.45796353+05:30","level":"INFO","msg":"writer: started","stream_id":"5trgruo2"}
+{"time":"2025-08-31T13:18:55.457985401+05:30","level":"INFO","msg":"sender: started","stream_id":"5trgruo2"}
+{"time":"2025-08-31T13:18:55.458112855+05:30","level":"INFO","msg":"handler: started","stream_id":"5trgruo2"}
+{"time":"2025-08-31T13:18:59.709413273+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:19:04.679824476+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:19:09.90443006+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:19:15.436094936+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:19:20.696334447+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:19:23.410452453+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.605072059,"progress":"940B/940B"},{"desc":"uploading config.yaml","runtime_seconds":0.234568952,"progress":"1.7KB/1.7KB"}],"total_operations":2}}
+{"time":"2025-08-31T13:19:23.603120491+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T13:19:24.148357141+05:30","level":"INFO","msg":"stream: closing","id":"5trgruo2"}
+{"time":"2025-08-31T13:19:24.148398787+05:30","level":"INFO","msg":"handler: closed","stream_id":"5trgruo2"}
+{"time":"2025-08-31T13:19:24.148472367+05:30","level":"INFO","msg":"sender: closed","stream_id":"5trgruo2"}
+{"time":"2025-08-31T13:19:24.148490814+05:30","level":"INFO","msg":"stream: closed","id":"5trgruo2"}

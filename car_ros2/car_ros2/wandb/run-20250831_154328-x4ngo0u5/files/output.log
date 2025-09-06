@@ -1,0 +1,166 @@
+[W&B] Loading artifact: alpha_racer_multi_mpc_combined:latest
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[W&B] Failed to load combined artifact: No module named 'numpy._core'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes now: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 176] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635378
+[Episode 177] Using seed 1756635378
+ep_no: 177
+ego params:  0.35379381474883986 0.49315239146743195 0.35763390117130045 1.0048932450262384
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Ego progress:  136.00779724121094
+Opp1 progress:  2.6946544647216797
+Opp2 progress:  144.07337951660156
+[W&B] Appended episode data, total episodes now: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 177] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635379
+[Episode 178] Using seed 1756635379
+ep_no: 178
+ego params:  0.35379381474883986 0.49315239146743195 0.35763390117130045 1.0048932450262384
+opp params:  0.18796743458388324 0.3670665881979689 0.2838327375706202 1.034197936753518
+opp1 params: 0.1 0.5 0.15 1.0
+Ego progress:  143.08042907714844
+Opp1 progress:  126.4636459350586
+Opp2 progress:  123.30363464355469
+[W&B] Appended episode data, total episodes now: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 178] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635380
+[Episode 179] Using seed 1756635380
+ep_no: 179
+ego params:  0.35379381474883986 0.49315239146743195 0.35763390117130045 1.0048932450262384
+opp params:  0.18796743458388324 0.3670665881979689 0.2838327375706202 1.034197936753518
+opp1 params: 0.2172524233828156 0.26346318570613547 0.49569791352676396 1.085364665715387
+Collision detected 126.63591 127.06015 -0.70702285 -0.8095376
+Collision detected 126.717285 127.06905 -0.7675948 -0.80649763
+Collision detected 126.77393 127.07762 -0.78889835 -0.80351263
+Collision detected 126.78059 127.08515 -0.7892619 -0.8005835
+Collision detected 126.78541 127.092064 -0.7869158 -0.79769355
+Collision detected 126.79023 127.102615 -0.7839806 -0.794837
+Collision detected 126.79228 127.11594 -0.7812122 -0.79201865
+Collision detected 126.794205 127.1293 -0.77871865 -0.7892466
+Collision detected 126.796074 127.1428 -0.7762363 -0.7864441
+Collision detected 126.797905 127.15645 -0.7737429 -0.78338706
+Collision detected 126.79971 127.17027 -0.77123713 -0.7803844
+Collision detected 126.8015 127.18404 -0.76872396 -0.7774466
+Collision detected 126.80328 127.19093 -0.7662096 -0.7745755
+Collision detected 126.80507 127.19796 -0.7636984 -0.7717652
+Collision detected 126.806854 127.20517 -0.76119393 -0.76901394
+Collision detected 126.808655 127.21246 -0.75869954 -0.76632226
+Collision detected 126.810455 127.2244 -0.75622004 -0.76369476
+Collision detected 126.81228 127.239296 -0.7537563 -0.76113755
+Collision detected 126.81411 127.253746 -0.7513122 -0.7586561
+Collision detected 126.81599 127.26796 -0.74889034 -0.75625306
+Collision detected 126.81786 127.282394 -0.74649465 -0.75348884
+Collision detected 126.822876 127.29742 -0.74508786 -0.75073045
+Collision detected 126.825714 127.31306 -0.7430879 -0.74806076
+Collision detected 126.83072 127.32587 -0.7418648 -0.74549437
+Collision detected 126.83405 127.33338 -0.74004936 -0.74303496
+Collision detected 126.8391 127.347466 -0.73893946 -0.7406742
+Collision detected 126.84265 127.36286 -0.73725903 -0.7384206
+Collision detected 126.84774 127.37868 -0.7362623 -0.7362813
+Collision detected 126.85191 127.39495 -0.7347767 -0.7342611
+Ego progress:  100.95333862304688
+Opp1 progress:  143.00448608398438
+Opp2 progress:  115.73358154296875
+[W&B] Appended episode data, total episodes now: 4
+[W&B] Uploaded combined artifact with 4 episodes
+[Episode 179] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635381
+[Episode 180] Using seed 1756635381
+ep_no: 180
+ego params:  0.3264478583395214 0.33422877160711784 0.3147722546082005 1.0151599722011218
+opp params:  0.18796743458388324 0.3670665881979689 0.2838327375706202 1.034197936753518
+opp1 params: 0.2172524233828156 0.26346318570613547 0.49569791352676396 1.085364665715387
+Collision detected 126.66625 127.02206 -0.7472234 -0.83715135
+Collision detected 126.74524 127.04545 -0.77930653 -0.83491546
+Collision detected 126.77625 127.05707 -0.7824179 -0.8327128
+Collision detected 126.78073 127.06738 -0.7795571 -0.830589
+Collision detected 126.782364 127.07754 -0.77744627 -0.82853353
+Collision detected 126.78393 127.08771 -0.77521425 -0.8265331
+Collision detected 126.78543 127.102394 -0.7728834 -0.824577
+Collision detected 126.78688 127.122635 -0.7704911 -0.82267815
+Collision detected 126.78829 127.14298 -0.7680613 -0.82076377
+Collision detected 126.78969 127.16346 -0.7656074 -0.8184291
+Collision detected 126.79107 127.18334 -0.7631434 -0.8161465
+Collision detected 126.79245 127.194534 -0.7606774 -0.8139478
+Collision detected 126.79384 127.204575 -0.75821686 -0.8118519
+Collision detected 126.795235 127.21768 -0.7557675 -0.8098448
+Collision detected 126.79665 127.2375 -0.7533356 -0.8078776
+Collision detected 126.7981 127.25707 -0.75092757 -0.80598825
+Collision detected 126.79957 127.27681 -0.74854636 -0.8039519
+Collision detected 126.80106 127.2968 -0.74619997 -0.80155677
+Collision detected 126.8026 127.31684 -0.7438934 -0.79926884
+Collision detected 126.80739 127.33205 -0.74214065 -0.7970958
+Collision detected 126.809784 127.35477 -0.7402439 -0.7950456
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 602, in timer_callback
+    steer, throttle, _, _, self.last_i_opp = self.mpc(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 938, in mpc
+    shift = shift + (e_opp1 - shift) * bf * self.calc_shift(s, s_opp1, v, v_opp1, sf1, sf2, t) / sf1
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 979, in calc_shift
+    ttc = (s_opp - s) + (vs_opp - vs) * t
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 258, in deferring_binary_op
+    return binary_op(*args)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 602, in timer_callback
+    steer, throttle, _, _, self.last_i_opp = self.mpc(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 938, in mpc
+    shift = shift + (e_opp1 - shift) * bf * self.calc_shift(s, s_opp1, v, v_opp1, sf1, sf2, t) / sf1
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 979, in calc_shift
+    ttc = (s_opp - s) + (vs_opp - vs) * t
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 258, in deferring_binary_op
+    return binary_op(*args)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x714be438cc10>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

@@ -1,0 +1,160 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 226] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622349
+[Episode 227] Using seed 1756622349
+ep_no: 227
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.18276070088998198 0.14705237053188866 0.1283571542040592 1.053798722454689
+Collision detected 65.20491 65.32941 0.5271247 0.6961132
+Collision detected 65.4244 65.39 0.6025471 0.6904897
+Collision detected 65.53398 65.441986 0.62959313 0.6815157
+Collision detected 65.61878 65.46548 0.6439586 0.6736066
+Collision detected 65.67088 65.4856 0.6509288 0.66530514
+Collision detected 65.72841 65.50687 0.6527541 0.6567431
+Collision detected 65.78 65.52 0.65207225 0.64789903
+Collision detected 65.83149 65.54103 0.64743865 0.63822764
+Collision detected 65.894264 65.57369 0.64162654 0.62825567
+Collision detected 94.06133 93.92783 0.6993843 0.6095597
+Collision detected 94.16048 94.32006 0.6966548 0.6112172
+Collision detected 94.22826 94.42543 0.6871572 0.612383
+Collision detected 94.26136 94.51916 0.681188 0.61281365
+Collision detected 94.2871 94.60648 0.67194426 0.6129999
+Ego progress:  116.88245391845703
+Opp1 progress:  5.090362071990967
+Opp2 progress:  123.57264709472656
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 227] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622350
+[Episode 228] Using seed 1756622350
+ep_no: 228
+ego params:  0.36575203142056745 0.22241182622537847 0.44718682883449773 1.0447673415717709
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.18276070088998198 0.14705237053188866 0.1283571542040592 1.053798722454689
+Ego progress:  113.53166198730469
+Opp1 progress:  5.247289180755615
+Opp2 progress:  121.76651763916016
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 228] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622351
+[Episode 229] Using seed 1756622351
+ep_no: 229
+ego params:  0.36575203142056745 0.22241182622537847 0.44718682883449773 1.0447673415717709
+opp params:  0.49870969601883586 0.4281473552895314 0.12178600076942189 0.9347502599538121
+opp1 params: 0.18276070088998198 0.14705237053188866 0.1283571542040592 1.053798722454689
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 485, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 240, in generate
+    pt = self.waypoint_list[t_idx] + t2 * (self.waypoint_list[(t_idx+1)%N] - self.waypoint_list[t_idx])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2173, in _dynamic_slice_indices
+    d_arr = lax.convert_element_type(d, _dtype(i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 510, in convert_element_type
+    return _convert_element_type(operand, new_dtype, weak_type=False)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 131, in apply_primitive
+    in_avals, in_shardings = util.unzip2([arg_spec(a) for a in args])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 131, in <listcomp>
+    in_avals, in_shardings = util.unzip2([arg_spec(a) for a in args])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 102, in arg_spec
+    aval = xla.abstractify(x)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/xla.py", line 195, in abstractify
+    if aval_fn: return aval_fn(x)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/xla.py", line 216, in _make_shaped_array_for_numpy_array
+    dtypes.check_valid_dtype(dtype)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 512, in check_valid_dtype
+    if dtype not in _jax_dtype_set:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 485, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 240, in generate
+    pt = self.waypoint_list[t_idx] + t2 * (self.waypoint_list[(t_idx+1)%N] - self.waypoint_list[t_idx])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2173, in _dynamic_slice_indices
+    d_arr = lax.convert_element_type(d, _dtype(i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 510, in convert_element_type
+    return _convert_element_type(operand, new_dtype, weak_type=False)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 131, in apply_primitive
+    in_avals, in_shardings = util.unzip2([arg_spec(a) for a in args])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 131, in <listcomp>
+    in_avals, in_shardings = util.unzip2([arg_spec(a) for a in args])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 102, in arg_spec
+    aval = xla.abstractify(x)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/xla.py", line 195, in abstractify
+    if aval_fn: return aval_fn(x)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/xla.py", line 216, in _make_shaped_array_for_numpy_array
+    dtypes.check_valid_dtype(dtype)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 512, in check_valid_dtype
+    if dtype not in _jax_dtype_set:
+KeyboardInterrupt

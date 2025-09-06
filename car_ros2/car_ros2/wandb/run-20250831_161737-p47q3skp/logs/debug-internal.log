@@ -1,0 +1,17 @@
+{"time":"2025-08-31T16:17:37.85665193+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T16:17:38.387996353+05:30","level":"INFO","msg":"stream: created new stream","id":"p47q3skp"}
+{"time":"2025-08-31T16:17:38.388045126+05:30","level":"INFO","msg":"stream: started","id":"p47q3skp"}
+{"time":"2025-08-31T16:17:38.388081322+05:30","level":"INFO","msg":"writer: started","stream_id":"p47q3skp"}
+{"time":"2025-08-31T16:17:38.388096974+05:30","level":"INFO","msg":"handler: started","stream_id":"p47q3skp"}
+{"time":"2025-08-31T16:17:38.388130864+05:30","level":"INFO","msg":"sender: started","stream_id":"p47q3skp"}
+{"time":"2025-08-31T16:17:42.465015675+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:17:47.303850133+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:17:52.187355259+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:17:57.049876072+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:18:02.033397377+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:18:04.471725133+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.583564933,"progress":"949B/949B"},{"desc":"uploading config.yaml","runtime_seconds":0.20300231,"progress":"1.7KB/1.7KB"}],"total_operations":2}}
+{"time":"2025-08-31T16:18:05.492004016+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T16:18:05.957821823+05:30","level":"INFO","msg":"stream: closing","id":"p47q3skp"}
+{"time":"2025-08-31T16:18:05.95785187+05:30","level":"INFO","msg":"handler: closed","stream_id":"p47q3skp"}
+{"time":"2025-08-31T16:18:05.957918742+05:30","level":"INFO","msg":"sender: closed","stream_id":"p47q3skp"}
+{"time":"2025-08-31T16:18:05.957928734+05:30","level":"INFO","msg":"stream: closed","id":"p47q3skp"}

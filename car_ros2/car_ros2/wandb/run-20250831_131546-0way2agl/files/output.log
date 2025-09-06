@@ -1,0 +1,83 @@
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v1
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v1
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v2
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v2
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v3
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v3
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v4
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v4
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v5
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v5
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v6
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v6
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v7
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v7
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v8
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v8
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v9
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v9
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v10
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v10
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v11
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 3 episodes from v11
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v12
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 3 episodes from v12
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v13
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 3 episodes from v13
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v14
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 3 episodes from v14
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v15
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 3 episodes from v15
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v16
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb_merge.py", line 34, in <module>
+    merge_artifact_versions(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb_merge.py", line 15, in merge_artifact_versions
+    artifact_dir = artifact.download()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 241, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 2035, in download
+    return self._download(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 2185, in _download
+    for future in concurrent.futures.as_completed(active_futures):
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 245, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/usr/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb_merge.py", line 34, in <module>
+    merge_artifact_versions(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/wandb_merge.py", line 15, in merge_artifact_versions
+    artifact_dir = artifact.download()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/_validators.py", line 241, in wrapper
+    return method(self, *args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 2035, in download
+    return self._download(
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 2185, in _download
+    for future in concurrent.futures.as_completed(active_futures):
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 245, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/usr/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt

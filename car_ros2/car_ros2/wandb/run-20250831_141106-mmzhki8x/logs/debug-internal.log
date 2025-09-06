@@ -1,0 +1,14 @@
+{"time":"2025-08-31T14:11:07.067230998+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T14:11:07.851188295+05:30","level":"INFO","msg":"stream: created new stream","id":"mmzhki8x"}
+{"time":"2025-08-31T14:11:07.851232037+05:30","level":"INFO","msg":"stream: started","id":"mmzhki8x"}
+{"time":"2025-08-31T14:11:07.851400369+05:30","level":"INFO","msg":"writer: started","stream_id":"mmzhki8x"}
+{"time":"2025-08-31T14:11:07.851617684+05:30","level":"INFO","msg":"handler: started","stream_id":"mmzhki8x"}
+{"time":"2025-08-31T14:11:07.851653321+05:30","level":"INFO","msg":"sender: started","stream_id":"mmzhki8x"}
+{"time":"2025-08-31T14:11:12.94840258+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T14:20:09.216347262+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/mmzhki8x/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-31T15:37:18.087476478+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.633654289,"progress":"43B/43B"},{"desc":"uploading output.log","runtime_seconds":0.633640803,"progress":"46.8KB/46.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.28228147,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2025-08-31T15:37:19.011049147+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T15:37:19.495798443+05:30","level":"INFO","msg":"stream: closing","id":"mmzhki8x"}
+{"time":"2025-08-31T15:37:19.496181923+05:30","level":"INFO","msg":"handler: closed","stream_id":"mmzhki8x"}
+{"time":"2025-08-31T15:37:19.496217211+05:30","level":"INFO","msg":"sender: closed","stream_id":"mmzhki8x"}
+{"time":"2025-08-31T15:37:19.496264028+05:30","level":"INFO","msg":"stream: closed","id":"mmzhki8x"}

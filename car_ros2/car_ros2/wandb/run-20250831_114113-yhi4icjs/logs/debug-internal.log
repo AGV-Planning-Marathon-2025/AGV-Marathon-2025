@@ -1,0 +1,7 @@
+{"time":"2025-08-31T11:41:14.148288658+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T11:41:14.721111943+05:30","level":"INFO","msg":"stream: created new stream","id":"yhi4icjs"}
+{"time":"2025-08-31T11:41:14.721161415+05:30","level":"INFO","msg":"stream: started","id":"yhi4icjs"}
+{"time":"2025-08-31T11:41:14.722892179+05:30","level":"INFO","msg":"writer: started","stream_id":"yhi4icjs"}
+{"time":"2025-08-31T11:41:14.723078469+05:30","level":"INFO","msg":"sender: started","stream_id":"yhi4icjs"}
+{"time":"2025-08-31T11:41:14.722869329+05:30","level":"INFO","msg":"handler: started","stream_id":"yhi4icjs"}
+{"time":"2025-08-31T11:41:19.301203288+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}

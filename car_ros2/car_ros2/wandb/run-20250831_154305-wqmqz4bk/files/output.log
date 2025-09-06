@@ -1,0 +1,186 @@
+[W&B] Loading artifact: alpha_racer_multi_mpc_combined:latest
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[W&B] Failed to load combined artifact: No module named 'numpy._core'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes now: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 76] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635257
+[Episode 77] Using seed 1756635257
+ep_no: 77
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.47172616015159974 0.27090583946654334 0.33107343752022145 1.067794103540523
+Collision detected 65.01883 64.74 0.79711825 0.70714235
+Collision detected 65.063286 64.86323 0.7851844 0.7632692
+Collision detected 65.10876 64.911285 0.77782345 0.78552574
+Collision detected 65.13 64.97608 0.767234 0.8007239
+Collision detected 65.15392 65.0 0.753438 0.8089535
+Collision detected 65.19336 65.0 0.73870915 0.812686
+Collision detected 65.2334 65.01252 0.72768354 0.8136447
+Collision detected 65.259995 65.03986 0.714518 0.8132173
+Collision detected 65.29233 65.06887 0.69834346 0.8135154
+Collision detected 65.34259 65.099976 0.6825653 0.8140969
+Collision detected 65.39 65.13 0.66692024 0.8135528
+Ego progress:  143.13565063476562
+Opp1 progress:  140.2805938720703
+Opp2 progress:  123.48162841796875
+[W&B] Appended episode data, total episodes now: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 77] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635258
+[Episode 78] Using seed 1756635258
+ep_no: 78
+ego params:  0.4062614952639453 0.4427827024417449 0.3399417745901076 1.097254514441543
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.47172616015159974 0.27090583946654334 0.33107343752022145 1.067794103540523
+Collision detected 126.47747 126.924126 -0.79563475 -0.81465334
+Collision detected 126.52885 126.93892 -0.802138 -0.813654
+Collision detected 126.54277 126.95358 -0.7974504 -0.8127258
+Collision detected 126.54663 126.968155 -0.790147 -0.81183225
+Ego progress:  92.27778625488281
+Opp1 progress:  148.64280700683594
+Opp2 progress:  101.02406311035156
+[W&B] Appended episode data, total episodes now: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 78] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635259
+[Episode 79] Using seed 1756635259
+ep_no: 79
+ego params:  0.4062614952639453 0.4427827024417449 0.3399417745901076 1.097254514441543
+opp params:  0.44553883548913287 0.15537195289974545 0.19533853051448452 0.9185853870452085
+opp1 params: 0.47172616015159974 0.27090583946654334 0.33107343752022145 1.067794103540523
+Collision detected 121.81436 121.39021 0.6870821 0.55181676
+Collision detected 121.88566 121.704155 0.6798145 0.57191694
+Collision detected 121.97369 121.952126 0.6727951 0.58080536
+Collision detected 122.01333 122.05327 0.6663542 0.5771492
+Collision detected 122.051125 122.10769 0.6618142 0.57121617
+Collision detected 122.07368 122.16038 0.65864545 0.5617997
+Collision detected 122.09816 122.25722 0.65508753 0.54790354
+Collision detected 122.12522 122.35421 0.65182495 0.5292813
+Collision detected 122.14162 122.45004 0.64891255 0.5136892
+Collision detected 122.178345 122.55558 0.64641863 0.4982521
+Collision detected 122.22487 122.68462 0.64340866 0.4841016
+Ego progress:  142.29293823242188
+Opp1 progress:  114.6845474243164
+Opp2 progress:  130.77920532226562
+[W&B] Appended episode data, total episodes now: 4
+[W&B] Uploaded combined artifact with 4 episodes
+[Episode 79] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756635260
+[Episode 80] Using seed 1756635260
+ep_no: 80
+ego params:  0.4062614952639453 0.4427827024417449 0.3399417745901076 1.097254514441543
+opp params:  0.44553883548913287 0.15537195289974545 0.19533853051448452 0.9185853870452085
+opp1 params: 0.22922738820710667 0.19606888708329906 0.4276369429826766 1.0441727128656628
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 489, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 240, in generate
+    pt = self.waypoint_list[t_idx] + t2 * (self.waypoint_list[(t_idx+1)%N] - self.waypoint_list[t_idx])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2174, in _dynamic_slice_indices
+    result.append(lax.select(i < 0, i + d_arr, i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 914, in select
+    return select_n_p.bind(pred, on_false, on_true)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1355, in __call__
+    return results.consume_with_handlers(self.out_handler.handlers)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 489, in timer_callback
+    target_pos_tensor_opp, _, s_opp, e_opp = waypoint_generator_opp.generate(jnp.array(obs_opp[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 240, in generate
+    pt = self.waypoint_list[t_idx] + t2 * (self.waypoint_list[(t_idx+1)%N] - self.waypoint_list[t_idx])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2174, in _dynamic_slice_indices
+    result.append(lax.select(i < 0, i + d_arr, i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 914, in select
+    return select_n_p.bind(pred, on_false, on_true)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1355, in __call__
+    return results.consume_with_handlers(self.out_handler.handlers)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x75e1400f0b80>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

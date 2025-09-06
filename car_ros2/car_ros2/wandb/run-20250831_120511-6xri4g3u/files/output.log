@@ -1,0 +1,252 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 151] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622256
+[Episode 152] Using seed 1756622256
+ep_no: 152
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.20909191608745809 0.4513168196090763 0.1666458533462892 0.9904186734777508
+Collision detected 134.99747 134.7685 -0.5469659 -0.66085535
+Collision detected 135.20334 135.02728 -0.5149498 -0.6775669
+Collision detected 135.40923 135.14398 -0.48011446 -0.6750872
+Collision detected 65.08847 64.869995 0.84179413 0.77792853
+Collision detected 65.13 64.94311 0.84164953 0.80109775
+Collision detected 65.13127 64.995224 0.8387254 0.81674373
+Collision detected 65.169975 65.0 0.83402973 0.8239966
+Collision detected 65.20719 65.0 0.8309393 0.82620454
+Collision detected 65.24408 65.025475 0.8281035 0.82660776
+Collision detected 65.259995 65.05185 0.82434446 0.82555944
+Collision detected 65.286194 65.07889 0.8186542 0.8265109
+Collision detected 65.32501 65.10663 0.8130368 0.82635665
+Collision detected 65.36497 65.13 0.80891466 0.8252878
+Collision detected 65.39 65.13 0.8040572 0.8226695
+Collision detected 65.422745 65.154335 0.7972649 0.81841046
+Collision detected 65.46715 65.18794 0.7911576 0.8132993
+Collision detected 65.513336 65.22382 0.78555477 0.8111373
+Collision detected 65.542206 65.259995 0.7784792 0.80766064
+Ego progress:  134.0251922607422
+Opp1 progress:  131.5478515625
+Opp2 progress:  128.69537353515625
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 152] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622257
+[Episode 153] Using seed 1756622257
+ep_no: 153
+ego params:  0.14314770375883384 0.44382886055603255 0.2839376544034763 0.9550271508550479
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.20909191608745809 0.4513168196090763 0.1666458533462892 0.9904186734777508
+Collision detected 52.20605 52.084404 0.64641243 0.60301596
+Collision detected 52.391132 52.510506 0.63450253 0.6238928
+Collision detected 52.507458 52.580284 0.6271967 0.625449
+Collision detected 52.537853 52.638515 0.62678415 0.6258763
+Collision detected 52.558678 52.687756 0.6270322 0.62505144
+Collision detected 52.57972 52.734848 0.6272087 0.6227645
+Collision detected 52.60167 52.78375 0.6272529 0.6188591
+Collision detected 52.624775 52.835304 0.62713075 0.61314946
+Collision detected 52.649433 52.891228 0.62678957 0.60539454
+Collision detected 52.649433 52.93836 0.62678957 0.3658182
+Collision detected 52.891228 52.93836 0.60539454 0.3658182
+Collision detected 52.67674 52.947575 0.6261324 0.5820908
+Collision detected 52.70715 53.010468 0.62502277 0.55944276
+Collision detected 52.743317 53.069397 0.6231989 0.5337851
+Collision detected 52.789833 53.128963 0.6201694 0.5041376
+Collision detected 65.259995 65.350876 0.6218199 0.7888554
+Collision detected 65.42591 65.39 0.6711196 0.78420085
+Collision detected 65.42591 65.76503 0.6711196 0.7385608
+Collision detected 65.500404 65.41686 0.6837729 0.7754994
+Collision detected 65.500404 65.81643 0.6837729 0.73359406
+Collision detected 65.54275 65.437416 0.69248563 0.7659461
+Collision detected 65.54275 65.88108 0.69248563 0.72896206
+Collision detected 65.593124 65.45572 0.7001822 0.75644207
+Collision detected 65.64039 65.474 0.70776564 0.7466689
+Collision detected 65.67222 65.4925 0.71308464 0.73645616
+Collision detected 65.71773 65.511406 0.71693856 0.7258836
+Collision detected 65.764145 65.52 0.72068155 0.7148625
+Collision detected 65.80062 65.536674 0.7227413 0.70293075
+Collision detected 65.85092 65.562355 0.7236282 0.69050723
+Collision detected 65.904205 65.59289 0.7246443 0.67735046
+Collision detected 65.95203 65.63054 0.724069 0.663681
+Collision detected 66.01252 65.66484 0.7233099 0.64816654
+Collision detected 66.06991 65.72463 0.72146064 0.6306903
+Collision detected 66.13679 65.789116 0.71900946 0.6125786
+Collision detected 66.20177 65.8793 0.7157222 0.5933152
+Collision detected 66.2723 65.97748 0.71186507 0.5750335
+Collision detected 66.34128 66.090034 0.7072171 0.55866116
+Collision detected 66.412506 66.211174 0.7021114 0.5464439
+Collision detected 66.48125 66.33145 0.696411 0.54108274
+Collision detected 66.55059 66.438576 0.69052684 0.53845054
+Collision detected 66.61585 66.52387 0.68426543 0.5370321
+Collision detected 66.68015 66.585785 0.6780297 0.5375115
+Collision detected 66.74078 66.63483 0.67142683 0.53946126
+Collision detected 66.80178 66.67647 0.664645 0.54271746
+Collision detected 66.861336 66.71341 0.6573347 0.54687417
+Collision detected 66.922844 66.7501 0.6495337 0.5518722
+Collision detected 66.9846 66.786255 0.6410244 0.5578421
+Collision detected 67.04983 66.821266 0.63168895 0.5645503
+Collision detected 67.11713 66.8579 0.62127465 0.57190317
+Collision detected 67.19052 66.89603 0.60946316 0.58003294
+Collision detected 67.27009 66.93751 0.5955127 0.58916533
+Collision detected 90.47859 90.20252 0.6877023 0.61232954
+Collision detected 90.607254 90.620514 0.6763048 0.65199584
+Collision detected 90.712425 90.8046 0.6749774 0.6536445
+Collision detected 90.73198 90.89094 0.66732705 0.64863026
+Collision detected 90.751045 90.94857 0.65850085 0.6424805
+Collision detected 90.77017 91.0007 0.64940125 0.6339667
+Collision detected 90.79121 91.05264 0.6400953 0.62435323
+Collision detected 90.81518 91.10899 0.6298619 0.6129161
+Collision detected 90.84383 91.17459 0.61965954 0.600115
+Collision detected 90.88111 91.2427 0.6083681 0.575434
+Collision detected 91.23233 91.592026 0.59034 0.4228423
+Collision detected 91.375275 91.72697 0.5859358 0.35226583
+Ego progress:  120.1408920288086
+Opp1 progress:  122.76665496826172
+Opp2 progress:  132.78135681152344
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 153] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622258
+[Episode 154] Using seed 1756622258
+ep_no: 154
+ego params:  0.14314770375883384 0.44382886055603255 0.2839376544034763 0.9550271508550479
+opp params:  0.4611030862142066 0.19910426751851318 0.327145817712168 1.0965220087444163
+opp1 params: 0.20909191608745809 0.4513168196090763 0.1666458533462892 0.9904186734777508
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 485, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 238, in generate
+    t2 = self.line_point_distance(pos2d[0], pos2d[1], self.waypoint_list[t_idx,0], self.waypoint_list[t_idx,1], self.waypoint_list[(t_idx+1)%N,0], self.waypoint_list[(t_idx+1)%N,1])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2912, in _execute_trivial
+    return out_handler(in_handler(outs))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1181, in __call__
+    return self.handler(input_buffers)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in shard_args
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in <listcomp>
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 116, in shard_arg
+    return shard_arg_handlers[type(arg)](arg, devices, arg_indices, sharding)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 161, in _shard_array
+    out = batched_device_put(aval, sharding, [x[i] for i in indices], devices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 186, in batched_device_put
+    return xc.batched_device_put(aval, sharding, xs, devices, committed)  # type: ignore
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 485, in timer_callback
+    target_pos_tensor, _, s, e = waypoint_generator.generate(jnp.array(obs[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 238, in generate
+    t2 = self.line_point_distance(pos2d[0], pos2d[1], self.waypoint_list[t_idx,0], self.waypoint_list[t_idx,1], self.waypoint_list[(t_idx+1)%N,0], self.waypoint_list[(t_idx+1)%N,1])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4112, in _attempt_rewriting_take_via_slice
+    start_indices = util.promote_dtypes(*start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in promote_dtypes
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/util.py", line 275, in <listcomp>
+    return [lax._convert_element_type(x, to_dtype, weak_type) for x in args]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 549, in _convert_element_type
+    return convert_element_type_p.bind(operand, new_dtype=new_dtype,
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 2912, in _execute_trivial
+    return out_handler(in_handler(outs))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1181, in __call__
+    return self.handler(input_buffers)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in shard_args
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 140, in <listcomp>
+    return [shard_arg(arg, devices, indices[i], shardings[i])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 116, in shard_arg
+    return shard_arg_handlers[type(arg)](arg, devices, arg_indices, sharding)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 161, in _shard_array
+    out = batched_device_put(aval, sharding, [x[i] for i in indices], devices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 186, in batched_device_put
+    return xc.batched_device_put(aval, sharding, xs, devices, committed)  # type: ignore
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x773828385240>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

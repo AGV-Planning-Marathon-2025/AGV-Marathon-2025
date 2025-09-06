@@ -35,56 +35,61 @@ class WandbArtifactManager:
         self.backoff_base = backoff_base
         self.run = None
         self.data_buffer = []
-        self._init_run_and_load_existing()
+        self._initiate_run_and_load()
 
-    def _init_run_and_load_existing(self):
+    def _initiate_run_and_load(self):
+        # Initialize wandb run
         self.run = wandb.init(project=self.project, entity=self.entity, name=f"{self.artifact_name}_run", reinit=True)
         try:
-            print(f"[W&B] Loading existing artifact: {self.artifact_name}:latest")
-            self.artifact = self.run.use_artifact(f"{self.project}/{self.artifact_name}:latest", type='dataset')
-            artifact_dir = self.artifact.download(replace=True, root="tmp_wandb")
-            artifact_file_path = os.path.join(artifact_dir, "combined_data.pkl")
-            if os.path.exists(artifact_file_path):
-                with open(artifact_file_path, 'rb') as f:
+            print(f"[W&B] Loading artifact: {self.artifact_name}:latest")
+            artifact = self.run.use_artifact(f"{self.project}/{self.artifact_name}:latest", type="dataset")
+            artifact_dir = artifact.download()  # Downloads the artifact contents
+            file_path = os.path.join(artifact_dir, "combined_data.pkl")
+            if os.path.exists(file_path):
+                with open(file_path, "rb") as f:
                     self.data_buffer = pickle.load(f)
                 print(f"[W&B] Loaded combined data with {len(self.data_buffer)} previous episodes")
             else:
-                print("[W&B] combined_data.pkl not found, starting new.")
+                print("[W&B] combined_data.pkl not found. Starting new.")
                 self.data_buffer = []
         except Exception as e:
-            print(f"[W&B] No existing artifact or error: {e}")
+            print(f"[W&B] Failed to load combined artifact: {e}")
             self.data_buffer = []
 
     def append_episode(self, data):
         self.data_buffer.append(data)
-        print(f"[W&B] Appended episode data, total episodes: {len(self.data_buffer)}")
+        print(f"[W&B] Appended episode data, total episodes now: {len(self.data_buffer)}")
 
-    def upload_combined(self):
+    def upload(self):
         attempts = 0
         while attempts < self.max_retries:
             try:
-                artifact = wandb.Artifact(name=self.artifact_name, type='dataset',
-                                         description='Combined data for all episodes')
+                artifact = wandb.Artifact(name=self.artifact_name, type="dataset", description="Combined episodes dataset")
                 buf = io.BytesIO()
                 pickle.dump(self.data_buffer, buf)
                 buf.seek(0)
                 with artifact.new_file("combined_data.pkl", mode="wb") as f:
                     f.write(buf.read())
+
                 self.run.log_artifact(artifact)
+                artifact.wait()  # Wait for completion
+
+                # Assign 'latest' alias to keep single live artifact version
+                artifact.aliases = ["latest"]
+                artifact.save()
                 print(f"[W&B] Uploaded combined artifact with {len(self.data_buffer)} episodes")
                 return True
             except Exception as e:
                 attempts += 1
                 wait_time = self.backoff_base ** attempts
-                print(f"[W&B] Upload attempt {attempts} failed: {e}. Retrying in {wait_time:.1f}s")
+                print(f"[W&B] Upload attempt {attempts} failed: {e}. Retrying after {wait_time}s")
                 time.sleep(wait_time)
-        print(f"[W&B] Failed to upload combined artifact after {self.max_retries} attempts")
+        print("[W&B] Failed to upload combined artifact after maximum retries")
         return False
 
     def finish(self):
         if self.run is not None:
             self.run.finish()
-
 
 # Optional Weights & Biases
 try:
@@ -100,7 +105,7 @@ DT_torch = 0.1
 DELAY = 1
 H = 8
 i_start = 30
-EP_LEN = 500
+EP_LEN = 1000
 
 MPC = True
 VIS = True
@@ -193,27 +198,29 @@ from mpc_controller import mpc
 curr_steer = 0.
 
 # ------------------ Helper: W&B upload with retries (from bytes) ------------------ #
-def upload_artifact_from_buffer(exp_name_local, ep_no, buffer_bytes, description="", max_retries=3, backoff_base=2.0):
+def upload_artifact_from_buffer(exp_name_local, _, buffer_bytes, description="", max_retries=3, backoff_base=2.0):
     """
-    Uploads an in-memory bytes buffer as an artifact to W&B.
-    buffer_bytes: io.BytesIO (position should be at 0).
+    Uploads an in-memory bytes buffer as a single combined artifact to W&B.
     Returns True on success, False on failure.
     """
     if not args.use_wandb or wandb is None:
         return False
     attempts = 0
+    run = wandb.run  # Get the active wandb run
     while attempts < max_retries:
         try:
-            # create artifact
-            art_name = f"{exp_name_local}_ep{ep_no}"
+            art_name = f"{exp_name_local}_combined"  # fixed name for combined data artifact
             artifact = wandb.Artifact(name=art_name, type="dataset", description=description)
-            # add the in-memory buffer as a file called episode.pkl inside artifact
-            # Many wandb versions accept file_or_bytes kwarg
 
             buffer_bytes.seek(0)
-            with artifact.new_file("episode.pkl", mode="wb") as f:
+            with artifact.new_file("combined_data.pkl", mode="wb") as f:  # fixed common filename inside artifact
                 f.write(buffer_bytes.read())
-            wandb.log_artifact(artifact)
+
+            run.log_artifact(artifact)
+            artifact.wait()  # wait for upload to complete
+            artifact.aliases = ['latest']  # assign 'latest' alias for single live version
+            artifact.save()
+
             return True
         except Exception as e:
             attempts += 1
@@ -320,41 +327,38 @@ class CarNode(Node):
 
     # ---------- Utility: find first missing file for resume (local) ---------- #
     def _resume_find_first_missing_episode(self, start_ep, end_ep):
-        """
-        Looks for local files and returns first missing episode number.
-        NOTE: If you run with --use_wandb (no local files), set start_ep appropriately.
-        """
-        ep = start_ep
-        while ep <= end_ep:
-            fname = os.path.join(args.checkpoint_dir, f"{exp_name}_ep{ep}.pkl")
-            if not os.path.exists(fname):
-                return ep
-            ep += 1
-        return ep  # end + 1 means all exist
+        # Since data is stored as a single combined artifact in W&B, 
+        # there are no local per-episode files to check.
+        # Always start at the given start_ep.
+        return start_ep
 
-    # ---------- Utility: per-episode seed ---------- #
     def _set_episode_seed(self, ep_no: int):
         seed_everything(_base_seed + int(ep_no))
         print(f"[Episode {ep_no}] Using seed {_base_seed + int(ep_no)}")
 
-    # ---------- Utility: save episode buffer (either local or direct W&B) ---------- #
     def _upload_current_episode(self):
         """
-        Append the current episode's buffer to the single wandb artifact.
+        Append current episode data to combined W&B artifact and upload.
+        Clear buffer afterwards to avoid duplicates.
         """
         arr = np.array(self.buffer, dtype=np.float32)
         if self.use_wandb and self.wandb_manager is not None:
             self.wandb_manager.append_episode(arr)
-            success = self.wandb_manager.upload_combined()
+            success = self.wandb_manager.upload()
             if not success:
                 print(f"[Episode {self.ep_no}] Warning: Failed to upload combined artifact")
             else:
                 print(f"[Episode {self.ep_no}] Uploaded episode data to combined artifact")
+        # Clear buffer after upload
+        self.buffer = []
+
 
     def _save_mid_episode(self):
-        # Mid-episode checkpointing is disabled in this single-artifact workflow
+        # Disabled in combined artifact W&B workflow
         return
 
+
+    # Other utility methods (collision checking, cbf_filter, obs_state, etc.) remain unchanged
     def has_collided(self, px, py, theta, px_opp, py_opp, theta_opp, L=0.18, B=0.12):
         dx = px - px_opp
         dy = py - py_opp
@@ -369,16 +373,20 @@ class CarNode(Node):
         cost = (cost1 < 0) * (cost2 < 0) * (cost1 * cost2) + (cost3 < 0) * (cost4 < 0) * (cost3 * cost4)
         return cost
 
+
     def cbf_filter(self, s, s_opp, vs, vs_opp, sf1=0.3, sf2=0.3, lookahead_factor=1.0):
         eff_s = s_opp - s + (vs_opp - vs) * lookahead_factor
         factor = sf1 * np.exp(-sf2 * np.abs(eff_s))
         return factor
 
+
     def obs_state(self):
         return env.obs_state()
 
+
     def obs_state_opp(self):
         return env_opp.obs_state()
+
 
     def obs_state_opp1(self):
         return env_opp1.obs_state()
@@ -412,8 +420,8 @@ class CarNode(Node):
                 # Exit if finished
                 if self.ep_no > self.end_ep:
                     print(f"[Done] Reached end_ep={self.end_ep}. Shutting down.")
-                    if self.use_wandb and self.wandb_run:
-                        self.wandb_run.finish()
+                    if self.use_wandb and self.wandb_manager:
+                        self.wandb_manager.finish()
                     rclpy.shutdown()
                     return
 
@@ -832,7 +840,7 @@ class CarNode(Node):
                 self._upload_current_episode()
             except Exception as ee:
                 print("Failed to save on error:", ee)
-            if self.use_wandb and self.wandb_run:
+            if self.use_wandb and self.wandb_manager:
                 try:
                     self.wandb_manager.finish()
                 except Exception:
@@ -1100,16 +1108,8 @@ def main():
     while rclpy.ok():
         car_node.timer_callback()
     car_node.destroy_node()
-    rclpy.shutdown()
-
+    if rclpy.ok():
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-

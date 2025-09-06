@@ -1,0 +1,11 @@
+{"time":"2025-08-31T14:10:28.841939172+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T14:10:29.498356682+05:30","level":"INFO","msg":"stream: created new stream","id":"dzt96i32"}
+{"time":"2025-08-31T14:10:29.498420829+05:30","level":"INFO","msg":"stream: started","id":"dzt96i32"}
+{"time":"2025-08-31T14:10:29.498451364+05:30","level":"INFO","msg":"writer: started","stream_id":"dzt96i32"}
+{"time":"2025-08-31T14:10:29.498484765+05:30","level":"INFO","msg":"handler: started","stream_id":"dzt96i32"}
+{"time":"2025-08-31T14:10:29.498478546+05:30","level":"INFO","msg":"sender: started","stream_id":"dzt96i32"}
+{"time":"2025-08-31T14:10:34.49940238+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T14:15:00.713453076+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/dzt96i32/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-31T14:15:03.052521131+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/dzt96i32/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-31T14:17:00.714500804+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/dzt96i32/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-08-31T15:42:29.067311588+05:30","level":"INFO","msg":"stream: closing","id":"dzt96i32"}

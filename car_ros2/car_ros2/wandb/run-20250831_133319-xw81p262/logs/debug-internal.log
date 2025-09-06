@@ -1,0 +1,27 @@
+{"time":"2025-08-31T13:33:19.947603101+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T13:33:20.651364531+05:30","level":"INFO","msg":"stream: created new stream","id":"xw81p262"}
+{"time":"2025-08-31T13:33:20.651406807+05:30","level":"INFO","msg":"stream: started","id":"xw81p262"}
+{"time":"2025-08-31T13:33:20.651457187+05:30","level":"INFO","msg":"writer: started","stream_id":"xw81p262"}
+{"time":"2025-08-31T13:33:20.651576396+05:30","level":"INFO","msg":"handler: started","stream_id":"xw81p262"}
+{"time":"2025-08-31T13:33:20.651589253+05:30","level":"INFO","msg":"sender: started","stream_id":"xw81p262"}
+{"time":"2025-08-31T13:33:24.871582338+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:30.03242582+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:35.199701128+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:40.508493208+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:45.446194035+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:50.465816599+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:33:55.58134306+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:00.79567307+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:05.793483081+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:10.925558532+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:16.249942089+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:21.636030872+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:26.590595341+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:31.747921605+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:36.725342439+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:34:39.201596829+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.59994091,"progress":"2.6KB/2.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.599913239,"progress":"39B/39B"},{"desc":"uploading config.yaml","runtime_seconds":0.196929438,"progress":"1.7KB/1.7KB"}],"total_operations":3}}
+{"time":"2025-08-31T13:34:40.164606857+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T13:34:40.669272826+05:30","level":"INFO","msg":"stream: closing","id":"xw81p262"}
+{"time":"2025-08-31T13:34:40.669308673+05:30","level":"INFO","msg":"handler: closed","stream_id":"xw81p262"}
+{"time":"2025-08-31T13:34:40.669390218+05:30","level":"INFO","msg":"sender: closed","stream_id":"xw81p262"}
+{"time":"2025-08-31T13:34:40.669401259+05:30","level":"INFO","msg":"stream: closed","id":"xw81p262"}

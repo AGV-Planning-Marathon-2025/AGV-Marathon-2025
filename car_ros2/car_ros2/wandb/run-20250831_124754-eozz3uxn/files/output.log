@@ -1,0 +1,247 @@
+[W&B] Loading artifact: alpha_racer_multi_mpc_combined:latest
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+[W&B] Loaded combined data with 3 previous episodes
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes now: 4
+[W&B] Uploaded combined artifact with 4 episodes
+[Episode 176] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756624843
+[Episode 177] Using seed 1756624843
+ep_no: 177
+ego params:  0.1468308020520965 0.16748939685103062 0.4258028625583567 0.871867512467541
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 119.93406 119.56634 0.7034812 0.69498193
+Collision detected 120.041954 119.81123 0.705664 0.71126395
+Collision detected 120.10117 119.90898 0.70440555 0.71150655
+Collision detected 120.16775 119.932304 0.70053196 0.7101046
+Collision detected 120.200714 119.95934 0.6957749 0.7089441
+Collision detected 120.255714 120.00091 0.69065917 0.70776534
+Collision detected 120.30472 120.0384 0.68378663 0.7059714
+Collision detected 120.33717 120.0603 0.67686236 0.7045366
+Collision detected 120.398834 120.087776 0.6694312 0.70345205
+Collision detected 120.44212 120.13425 0.66067547 0.70231676
+Collision detected 120.479805 120.17225 0.6519529 0.70059067
+Collision detected 120.548164 120.19753 0.64210904 0.6992824
+Collision detected 120.58488 120.239 0.6312346 0.6984156
+Collision detected 120.64246 120.29283 0.6201001 0.6967354
+Collision detected 120.69897 120.32246 0.60643387 0.69524044
+Collision detected 120.74902 120.36829 0.60306877 0.69431096
+Collision detected 120.82022 120.42831 0.5870605 0.69241863
+Collision detected 120.87022 120.46513 0.5695532 0.6908392
+Collision detected 120.95413 120.53931 0.5593647 0.6891992
+Collision detected 121.02339 120.588486 0.5470682 0.68688685
+Collision detected 121.10263 120.67508 0.5296797 0.6845113
+Collision detected 121.1972 120.73382 0.5103093 0.68125325
+Collision detected 121.26189 120.832436 0.4912611 0.6766993
+Collision detected 121.357216 120.94127 0.47129774 0.67108256
+Collision detected 121.45962 121.04308 0.45029247 0.6636258
+Collision detected 121.54535 121.154495 0.43497747 0.65350175
+Collision detected 121.64048 121.27096 0.41801274 0.64049757
+Collision detected 121.75006 121.392075 0.40680903 0.62558645
+Collision detected 121.85953 121.51913 0.39132544 0.6126384
+Collision detected 121.97022 121.64915 0.36565998 0.59595335
+Collision detected 122.06233 121.78294 0.33582693 0.5871331
+Collision detected 122.16189 121.92239 0.32383785 0.57553774
+Collision detected 122.27276 122.07516 0.3151098 0.5557154
+Collision detected 122.38348 122.23814 0.2941109 0.5357501
+Collision detected 122.49055 122.38868 0.2757833 0.5159572
+Collision detected 122.57569 122.52802 0.25687596 0.49806765
+Collision detected 122.67347 122.66135 0.2413941 0.4793511
+Collision detected 122.77868 122.79826 0.23160787 0.45987725
+Collision detected 122.89044 122.94174 0.21438576 0.44337702
+Ego progress:  85.2425308227539
+Opp1 progress:  6.243906021118164
+Opp2 progress:  133.00198364257812
+[W&B] Appended episode data, total episodes now: 5
+[W&B] Uploaded combined artifact with 5 episodes
+[Episode 177] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756624844
+[Episode 178] Using seed 1756624844
+ep_no: 178
+ego params:  0.1468308020520965 0.16748939685103062 0.4258028625583567 0.871867512467541
+opp params:  0.45444034923806986 0.32122233973316106 0.43738195530633756 1.0300960753912238
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 19.596758 19.35772 -0.5785781 -0.55991715
+Collision detected 19.891768 19.812853 -0.56654006 -0.5547823
+Collision detected 20.136723 19.990025 -0.5700738 -0.54958403
+Collision detected 20.28377 20.021048 -0.5821344 -0.54622495
+Collision detected 20.39468 20.046284 -0.5888103 -0.5443702
+Collision detected 21.51716 21.264414 -0.6287552 -0.5122935
+Collision detected 21.664743 21.571213 -0.6285958 -0.5196032
+Collision detected 21.794464 21.779581 -0.6260888 -0.5277218
+Collision detected 21.892305 21.853195 -0.6211715 -0.52969205
+Collision detected 21.966055 21.884453 -0.6144858 -0.52891093
+Collision detected 22.02721 21.909739 -0.6065228 -0.52752817
+Collision detected 22.087 21.935429 -0.59802324 -0.5259466
+Collision detected 22.146904 21.962687 -0.58886796 -0.5241014
+Collision detected 22.212572 21.99092 -0.5793501 -0.52193135
+Collision detected 22.2836 22.023355 -0.56941605 -0.5194327
+Collision detected 22.364656 22.060472 -0.55962837 -0.516672
+Collision detected 22.46207 22.104342 -0.5499625 -0.51350605
+Collision detected 29.845284 29.55696 -0.6354858 -0.50414026
+Collision detected 30.040474 29.90431 -0.624279 -0.5511821
+Collision detected 30.220875 30.199446 -0.61128855 -0.5798434
+Collision detected 30.348343 30.28299 -0.60146344 -0.5808279
+Collision detected 30.423338 30.300905 -0.5946 -0.58384615
+Collision detected 30.484493 30.321789 -0.58615965 -0.5867408
+Collision detected 30.54144 30.343739 -0.57773656 -0.58995825
+Collision detected 30.596779 30.367697 -0.56815857 -0.5937793
+Collision detected 30.664244 30.394537 -0.5585962 -0.5981662
+Collision detected 30.740139 30.421024 -0.5481445 -0.6030504
+Collision detected 65.25859 64.993 0.8189754 0.81582594
+Collision detected 65.27148 65.005905 0.8155569 0.83077645
+Collision detected 65.317055 65.05892 0.8105729 0.8368106
+Collision detected 65.36211 65.10241 0.80823404 0.8447312
+Collision detected 65.39 65.13 0.8049556 0.84850556
+Collision detected 65.42564 65.13429 0.799723 0.848919
+Collision detected 65.47169 65.17222 0.7955471 0.84723675
+Ego progress:  92.61180877685547
+Opp1 progress:  126.59069061279297
+Opp2 progress:  123.95496368408203
+[W&B] Appended episode data, total episodes now: 6
+[W&B] Uploaded combined artifact with 6 episodes
+[Episode 178] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756624845
+[Episode 179] Using seed 1756624845
+ep_no: 179
+ego params:  0.1468308020520965 0.16748939685103062 0.4258028625583567 0.871867512467541
+opp params:  0.45444034923806986 0.32122233973316106 0.43738195530633756 1.0300960753912238
+opp1 params: 0.4218117552961933 0.39873101332409944 0.40866954590175014 1.0196487891069077
+Ego progress:  93.92086029052734
+Opp1 progress:  1.1219373941421509
+Opp2 progress:  142.46176147460938
+[W&B] Appended episode data, total episodes now: 7
+[W&B] Uploaded combined artifact with 7 episodes
+[Episode 179] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756624846
+[Episode 180] Using seed 1756624846
+ep_no: 180
+ego params:  0.2375720194594059 0.22812906081704393 0.38425507835907236 1.0447549940783734
+opp params:  0.45444034923806986 0.32122233973316106 0.43738195530633756 1.0300960753912238
+opp1 params: 0.4218117552961933 0.39873101332409944 0.40866954590175014 1.0196487891069077
+Collision detected 127.79856 127.04138 -0.8405206 -0.7928066
+Collision detected 127.90843 127.06358 -0.83765996 -0.79942214
+Collision detected 127.932175 127.0698 -0.83477837 -0.7989115
+Collision detected 128.03847 127.071884 -0.831827 -0.79672414
+Collision detected 128.06407 127.07685 -0.8288408 -0.7941368
+Collision detected 128.16246 127.07911 -0.8255058 -0.79130214
+Collision detected 128.18907 127.08389 -0.8222117 -0.788136
+Collision detected 128.27655 127.08569 -0.8184866 -0.78506947
+Collision detected 128.30807 127.08707 -0.81557786 -0.78219545
+Collision detected 128.34209 127.08843 -0.8117566 -0.7794594
+Ego progress:  127.92658233642578
+Opp1 progress:  140.01336669921875
+Opp2 progress:  120.49468231201172
+[W&B] Appended episode data, total episodes now: 8
+[W&B] Uploaded combined artifact with 8 episodes
+[Episode 180] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756624847
+[Episode 181] Using seed 1756624847
+ep_no: 181
+ego params:  0.2375720194594059 0.22812906081704393 0.38425507835907236 1.0447549940783734
+opp params:  0.4047856622796989 0.3942123431350345 0.24993245800804728 0.8942395144409092
+opp1 params: 0.4218117552961933 0.39873101332409944 0.40866954590175014 1.0196487891069077
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 631, in timer_callback
+    obs_opp, reward, done, info = env_opp.step(action_opp)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 370, in step_gym
+    batch_vy = jnp.array(state.vy)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2035, in array
+    out = _array_copy(object) if copy else object
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 4447, in _array_copy
+    return copy_p.bind(arr)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 4486, in _copy_impl
+    return dispatch.apply_primitive(prim, *args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1355, in __call__
+    return results.consume_with_handlers(self.out_handler.handlers)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1115, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1109, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 631, in timer_callback
+    obs_opp, reward, done, info = env_opp.step(action_opp)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/envs/car3.py", line 90, in step
+    self.state = self.sim.step_gym(self.state, action)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/models_jax/dbm.py", line 370, in step_gym
+    batch_vy = jnp.array(state.vy)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 2035, in array
+    out = _array_copy(object) if copy else object
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 4447, in _array_copy
+    return copy_p.bind(arr)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 380, in bind
+    return self.bind_with_trace(find_top_trace(args), args, params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 383, in bind_with_trace
+    out = trace.process_primitive(self, map(trace.full_raise, args), params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/core.py", line 815, in process_primitive
+    return primitive.impl(*tracers, **params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/lax.py", line 4486, in _copy_impl
+    return dispatch.apply_primitive(prim, *args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 144, in apply_primitive
+    return compiled_fun(*args)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dispatch.py", line 227, in <lambda>
+    return lambda *args, **kw: compiled(*args, **kw)[0]
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/profiler.py", line 314, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/interpreters/pxla.py", line 1355, in __call__
+    return results.consume_with_handlers(self.out_handler.handlers)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x786616f78c10>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

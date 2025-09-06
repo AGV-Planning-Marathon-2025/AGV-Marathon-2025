@@ -1,0 +1,8 @@
+{"time":"2025-08-31T12:47:55.223840181+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T12:47:55.772908282+05:30","level":"INFO","msg":"stream: created new stream","id":"eozz3uxn"}
+{"time":"2025-08-31T12:47:55.772965301+05:30","level":"INFO","msg":"stream: started","id":"eozz3uxn"}
+{"time":"2025-08-31T12:47:55.77452948+05:30","level":"INFO","msg":"handler: started","stream_id":"eozz3uxn"}
+{"time":"2025-08-31T12:47:55.774612563+05:30","level":"INFO","msg":"writer: started","stream_id":"eozz3uxn"}
+{"time":"2025-08-31T12:47:55.774919878+05:30","level":"INFO","msg":"sender: started","stream_id":"eozz3uxn"}
+{"time":"2025-08-31T12:48:00.239133426+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T13:14:52.227539779+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/eozz3uxn/file_stream\": EOF"}

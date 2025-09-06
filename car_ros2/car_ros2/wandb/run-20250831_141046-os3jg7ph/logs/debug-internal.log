@@ -1,0 +1,8 @@
+{"time":"2025-08-31T14:10:47.143980081+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T14:10:47.725925913+05:30","level":"INFO","msg":"stream: created new stream","id":"os3jg7ph"}
+{"time":"2025-08-31T14:10:47.725974966+05:30","level":"INFO","msg":"stream: started","id":"os3jg7ph"}
+{"time":"2025-08-31T14:10:47.726049104+05:30","level":"INFO","msg":"writer: started","stream_id":"os3jg7ph"}
+{"time":"2025-08-31T14:10:47.726116325+05:30","level":"INFO","msg":"sender: started","stream_id":"os3jg7ph"}
+{"time":"2025-08-31T14:10:47.726158111+05:30","level":"INFO","msg":"handler: started","stream_id":"os3jg7ph"}
+{"time":"2025-08-31T14:10:52.389833061+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T14:15:04.061667059+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mahin-sank-iit-kgp/alpha-racer-data/os3jg7ph/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}

@@ -1,0 +1,12 @@
+{"time":"2025-08-31T12:38:46.599267275+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T12:38:47.262509174+05:30","level":"INFO","msg":"stream: created new stream","id":"lwmipjmi"}
+{"time":"2025-08-31T12:38:47.262571784+05:30","level":"INFO","msg":"stream: started","id":"lwmipjmi"}
+{"time":"2025-08-31T12:38:47.262595402+05:30","level":"INFO","msg":"writer: started","stream_id":"lwmipjmi"}
+{"time":"2025-08-31T12:38:47.2626077+05:30","level":"INFO","msg":"sender: started","stream_id":"lwmipjmi"}
+{"time":"2025-08-31T12:38:47.262642428+05:30","level":"INFO","msg":"handler: started","stream_id":"lwmipjmi"}
+{"time":"2025-08-31T12:38:51.38641347+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T12:43:40.98397164+05:30","level":"INFO","msg":"stream: closing","id":"lwmipjmi"}
+{"time":"2025-08-31T12:43:42.198154323+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T12:43:42.646287931+05:30","level":"INFO","msg":"handler: closed","stream_id":"lwmipjmi"}
+{"time":"2025-08-31T12:43:42.646453468+05:30","level":"INFO","msg":"sender: closed","stream_id":"lwmipjmi"}
+{"time":"2025-08-31T12:43:42.646566598+05:30","level":"INFO","msg":"stream: closed","id":"lwmipjmi"}

@@ -1,0 +1,16 @@
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v1
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v1
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v2
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v2
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v3
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v3
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v4
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v4
+Downloading artifact version: mahin-sank-iit-kgp/alpha-racer-data/alpha_racer_multi_mpc_combined:v5
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 2 episodes from v5
+Saved combined dataset with 10 total episodes to combined_full_dataset.pkl

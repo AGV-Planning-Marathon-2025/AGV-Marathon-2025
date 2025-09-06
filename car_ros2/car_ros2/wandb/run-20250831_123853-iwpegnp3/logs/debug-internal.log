@@ -1,0 +1,12 @@
+{"time":"2025-08-31T12:38:53.631483781+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T12:38:54.234704121+05:30","level":"INFO","msg":"stream: created new stream","id":"iwpegnp3"}
+{"time":"2025-08-31T12:38:54.234855403+05:30","level":"INFO","msg":"stream: started","id":"iwpegnp3"}
+{"time":"2025-08-31T12:38:54.234929612+05:30","level":"INFO","msg":"writer: started","stream_id":"iwpegnp3"}
+{"time":"2025-08-31T12:38:54.234973005+05:30","level":"INFO","msg":"handler: started","stream_id":"iwpegnp3"}
+{"time":"2025-08-31T12:38:54.235066988+05:30","level":"INFO","msg":"sender: started","stream_id":"iwpegnp3"}
+{"time":"2025-08-31T12:38:58.479657054+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T12:43:49.953816874+05:30","level":"INFO","msg":"stream: closing","id":"iwpegnp3"}
+{"time":"2025-08-31T12:43:52.076303577+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T12:43:52.549983086+05:30","level":"INFO","msg":"handler: closed","stream_id":"iwpegnp3"}
+{"time":"2025-08-31T12:43:52.550193693+05:30","level":"INFO","msg":"sender: closed","stream_id":"iwpegnp3"}
+{"time":"2025-08-31T12:43:52.550219407+05:30","level":"INFO","msg":"stream: closed","id":"iwpegnp3"}

@@ -1,0 +1,7 @@
+{"time":"2025-08-31T12:47:34.451943865+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T12:47:34.982055252+05:30","level":"INFO","msg":"stream: created new stream","id":"nq9z9d6w"}
+{"time":"2025-08-31T12:47:34.982105353+05:30","level":"INFO","msg":"stream: started","id":"nq9z9d6w"}
+{"time":"2025-08-31T12:47:34.982147768+05:30","level":"INFO","msg":"handler: started","stream_id":"nq9z9d6w"}
+{"time":"2025-08-31T12:47:34.982153009+05:30","level":"INFO","msg":"writer: started","stream_id":"nq9z9d6w"}
+{"time":"2025-08-31T12:47:34.982181588+05:30","level":"INFO","msg":"sender: started","stream_id":"nq9z9d6w"}
+{"time":"2025-08-31T12:47:39.287222114+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}

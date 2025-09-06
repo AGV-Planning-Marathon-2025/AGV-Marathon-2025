@@ -1,0 +1,462 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 1] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622076
+[Episode 2] Using seed 1756622076
+ep_no: 2
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.12406598062268022 0.3499416545367663 0.24246856795727675 0.8957637711860141
+Ego progress:  144.8187713623047
+Opp1 progress:  3.521596908569336
+Opp2 progress:  120.84073638916016
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 2] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622077
+[Episode 3] Using seed 1756622077
+ep_no: 3
+ego params:  0.2960989874753823 0.3298227487478916 0.2637961666310922 1.0729170650096298
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.12406598062268022 0.3499416545367663 0.24246856795727675 0.8957637711860141
+Collision detected 72.194626 71.8401 0.5456507 0.40821528
+Collision detected 72.69359 72.3414 0.54322606 0.3801195
+Collision detected 73.197556 72.83402 0.5397548 0.36473897
+Collision detected 75.13104 74.786156 0.62842774 0.3817611
+Collision detected 75.48228 75.26005 0.6447439 0.41724548
+Collision detected 75.77032 75.722664 0.65184 0.4496365
+Collision detected 76.00195 76.12726 0.66691947 0.4819012
+Collision detected 76.17188 76.39369 0.67998755 0.50112695
+Ego progress:  130.15171813964844
+Opp1 progress:  136.7469024658203
+Opp2 progress:  121.47211456298828
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 3] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622078
+[Episode 4] Using seed 1756622078
+ep_no: 4
+ego params:  0.2960989874753823 0.3298227487478916 0.2637961666310922 1.0729170650096298
+opp params:  0.1424668100426264 0.18895754032266843 0.478670709729917 0.9138020165463268
+opp1 params: 0.12406598062268022 0.3499416545367663 0.24246856795727675 0.8957637711860141
+Collision detected 119.76491 120.05055 0.6401838 0.7437387
+Collision detected 120.06486 120.13987 0.633211 0.7447102
+Collision detected 120.18539 120.19962 0.6249943 0.74369246
+Collision detected 120.22454 120.27465 0.6216762 0.7428568
+Collision detected 120.275406 120.322495 0.6193988 0.741381
+Collision detected 120.306 120.383865 0.6181647 0.74073195
+Collision detected 120.33181 120.44162 0.6178878 0.7389102
+Collision detected 120.3722 120.49278 0.6183623 0.738003
+Collision detected 120.421074 120.56035 0.61817384 0.7361936
+Collision detected 120.449 120.59938 0.61837745 0.734787
+Collision detected 120.479904 120.67539 0.61916465 0.73318297
+Collision detected 120.537994 120.71727 0.61971456 0.73131645
+Collision detected 120.571075 120.78346 0.6199502 0.7298741
+Collision detected 120.6013 120.835686 0.6206958 0.72746205
+Collision detected 120.660126 120.89165 0.62135875 0.72595954
+Collision detected 120.69937 120.95543 0.6213058 0.7232575
+Collision detected 120.73128 121.00216 0.62174666 0.7211998
+Collision detected 120.79393 121.07644 0.621963 0.71856785
+Collision detected 120.83317 121.11382 0.62146837 0.71595925
+Collision detected 120.87179 121.187225 0.6214664 0.7133942
+Collision detected 120.93907 121.2334 0.6207306 0.71030647
+Collision detected 120.973755 121.29519 0.6196411 0.708031
+Collision detected 121.02871 121.35147 0.6190581 0.704549
+Collision detected 121.085526 121.40248 0.61669767 0.7020246
+Collision detected 121.12408 121.47103 0.6148171 0.69861203
+Collision detected 121.19863 121.51284 0.61221564 0.6956117
+Collision detected 121.23713 121.58727 0.60897887 0.6922866
+Collision detected 121.29961 121.628525 0.605966 0.68874013
+Collision detected 121.353134 121.699936 0.60134333 0.6854736
+Collision detected 121.405975 121.75191 0.59721386 0.6813099
+Collision detected 121.47341 121.82052 0.59138215 0.677761
+Collision detected 121.52028 121.8785 0.5855145 0.6728485
+Collision detected 121.59783 121.94789 0.5781247 0.6687113
+Collision detected 121.645424 122.010216 0.56996703 0.662924
+Collision detected 121.72891 122.08774 0.5598757 0.6575678
+Collision detected 121.78648 122.15454 0.5483333 0.6507041
+Collision detected 121.86999 122.24368 0.53322583 0.64318466
+Collision detected 121.94917 122.31802 0.5171846 0.63486636
+Collision detected 122.02246 122.40135 0.49691 0.62406516
+Collision detected 122.12594 122.50406 0.47455186 0.6119636
+Collision detected 122.23592 122.59359 0.44663543 0.59760976
+Collision detected 122.34914 122.69088 0.41878268 0.5785644
+Collision detected 122.48377 122.80689 0.39036283 0.5630312
+Collision detected 122.63033 122.93824 0.3601561 0.5439367
+Collision detected 122.78949 123.0939 0.32583588 0.5143106
+Collision detected 122.97724 123.27742 0.2965198 0.48524353
+Collision detected 123.19529 123.44965 0.27898505 0.46514034
+Collision detected 123.44869 123.67017 0.2708953 0.43988132
+Collision detected 123.71194 123.86882 0.27324086 0.42041415
+Collision detected 123.93207 124.08015 0.277939 0.40241688
+Collision detected 124.05951 124.24693 0.27549538 0.38942224
+Collision detected 124.12379 124.41238 0.27008778 0.3740257
+Collision detected 124.19185 124.579735 0.26439613 0.35732144
+Collision detected 126.541046 126.82771 -0.32074228 -0.51181954
+Collision detected 126.719 126.979935 -0.4726168 -0.6156748
+Collision detected 126.850334 127.12075 -0.5882056 -0.68183553
+Collision detected 126.92609 127.210625 -0.6286825 -0.71061254
+Collision detected 126.9474 127.27965 -0.6408132 -0.72406715
+Collision detected 126.96096 127.33163 -0.6467587 -0.7307521
+Collision detected 126.973015 127.38583 -0.65116024 -0.7365469
+Collision detected 126.989136 127.43959 -0.65498286 -0.7398262
+Collision detected 127.01377 127.504395 -0.65828013 -0.74215174
+Collision detected 127.03879 127.55303 -0.66067666 -0.7431428
+Collision detected 127.05215 127.63983 -0.662834 -0.74293387
+Collision detected 127.065796 127.68549 -0.6647522 -0.7416703
+Collision detected 127.07979 127.785706 -0.6663685 -0.73971313
+Collision detected 127.094185 127.888214 -0.6677102 -0.7361278
+Collision detected 127.11487 127.92993 -0.67403895 -0.73268914
+Collision detected 127.147156 128.02663 -0.67950636 -0.72825533
+Collision detected 127.18041 128.06908 -0.68382514 -0.7237902
+Collision detected 127.19864 128.16023 -0.6877417 -0.7188782
+Collision detected 127.216446 128.20642 -0.69113237 -0.7136301
+Collision detected 26.47019 27.009192 0.3770916 0.59294885
+Collision detected 29.21642 29.112871 -0.71006936 -0.41479507
+Collision detected 29.364494 29.367764 -0.7070812 -0.50415045
+Collision detected 29.481985 29.620174 -0.70328546 -0.5777257
+Collision detected 29.544289 29.838156 -0.70202094 -0.6303863
+Collision detected 37.808258 38.1113 -0.20488621 -0.03414485
+Collision detected 38.288033 38.497417 -0.090492174 0.05544933
+Collision detected 38.71613 38.866566 0.038714387 0.15168512
+Collision detected 38.943645 39.188004 0.12777123 0.25191075
+CasADi - 2025-08-31 12:23:34 WARNING("KeyboardInterruptException") [.../casadi/interfaces/ipopt/ipopt_nlp.cpp:132]
+Error in callback:  <built-in function Function_call> returned a result with an exception set
+Failed to save on error: setting an array element with a sequence.
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 563, in timer_callback
+    steer, throttle, _, _, self.last_i = self.mpc(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 962, in mpc
+    throttle, steer = mpc([x, y, theta, v], np.array(traj), lookahead_factor=lookahead_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/mpc_controller.py", line 95, in mpc
+    solution = solver(x0=initial_guess, lbg=lbg, ubg=ubg, p=params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 24049, in __call__
+    return self.call(kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 20698, in call
+    return _casadi.Function_call(self, *args)
+SystemError: <built-in function Function_call> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 563, in timer_callback
+    steer, throttle, _, _, self.last_i = self.mpc(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 962, in mpc
+    throttle, steer = mpc([x, y, theta, v], np.array(traj), lookahead_factor=lookahead_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/mpc_controller.py", line 95, in mpc
+    solution = solver(x0=initial_guess, lbg=lbg, ubg=ubg, p=params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 24049, in __call__
+    return self.call(kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 20698, in call
+    return _casadi.Function_call(self, *args)
+SystemError: <built-in function Function_call> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 72, in apport_excepthook
+    from apport.fileutils import likely_packaged, get_recent_crashes
+  File "/usr/lib/python3/dist-packages/apport/__init__.py", line 5, in <module>
+    from apport.report import Report
+  File "/usr/lib/python3/dist-packages/apport/report.py", line 32, in <module>
+    import apport.fileutils
+  File "/usr/lib/python3/dist-packages/apport/fileutils.py", line 28, in <module>
+    from apport.packaging_impl import impl as packaging
+  File "/usr/lib/python3/dist-packages/apport/packaging_impl.py", line 23, in <module>
+    import apt
+  File "/usr/lib/python3/dist-packages/apt/__init__.py", line 35, in <module>
+    apt_pkg.init_config()
+KeyboardInterrupt
+
+Original exception was:
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 9331, in <lambda>
+    __setattr__ = lambda self, name, value: _swig_setattr(self, DM, name, value)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 74, in _swig_setattr
+    return _swig_setattr_nondynamic(self, class_type, name, value, 0)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 58, in _swig_setattr_nondynamic
+    if type(value).__name__ == 'SwigPyObject':
+SystemError: <class 'type'> returned a result with an exception set
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 563, in timer_callback
+    steer, throttle, _, _, self.last_i = self.mpc(
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 962, in mpc
+    throttle, steer = mpc([x, y, theta, v], np.array(traj), lookahead_factor=lookahead_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/mpc_controller.py", line 95, in mpc
+    solution = solver(x0=initial_guess, lbg=lbg, ubg=ubg, p=params)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 24049, in __call__
+    return self.call(kwargs)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/casadi/casadi.py", line 20698, in call
+    return _casadi.Function_call(self, *args)
+SystemError: <built-in function Function_call> returned a result with an exception set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7810cc0e1240>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

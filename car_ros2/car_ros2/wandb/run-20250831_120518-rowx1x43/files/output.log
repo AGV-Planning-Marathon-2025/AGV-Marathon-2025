@@ -1,0 +1,346 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 176] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622287
+[Episode 177] Using seed 1756622287
+ep_no: 177
+ego params:  0.417134128225209 0.10469850738192737 0.3519502776107487 0.8878359538351072
+opp params:  0.1 0.5 0.15 1.0
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 120.95266 120.4513 0.5849394 0.6904299
+Collision detected 124.17374 123.79666 0.304917 0.5584503
+Collision detected 124.36464 124.08177 0.31402004 0.54330444
+Collision detected 124.58514 124.34643 0.32636458 0.5467506
+Collision detected 124.80203 124.62551 0.3330712 0.54843205
+Collision detected 125.01732 124.92198 0.32780954 0.5414008
+Collision detected 125.24099 125.17466 0.3057833 0.52002096
+Collision detected 125.42652 125.38099 0.26803488 0.48403132
+Collision detected 125.6132 125.52866 0.2147982 0.44493026
+Collision detected 125.76474 125.65241 0.1518512 0.40264648
+Collision detected 125.904465 125.75989 0.08286809 0.35797763
+Collision detected 126.03562 125.85832 0.009727566 0.30939728
+Collision detected 126.161476 125.94538 -0.064497866 0.2524109
+Collision detected 126.28583 126.055115 -0.14340483 0.1821399
+Collision detected 126.411316 126.18343 -0.22340523 0.090668604
+Collision detected 126.53839 126.32936 -0.30174407 -0.020645158
+Collision detected 126.665375 126.482895 -0.37591583 -0.14073317
+Collision detected 126.78623 126.62711 -0.4416249 -0.24846627
+Collision detected 126.89115 126.72731 -0.49327156 -0.32518047
+Collision detected 126.961975 126.79996 -0.52767044 -0.37332705
+Collision detected 127.03315 126.841385 -0.54938495 -0.4055303
+Collision detected 127.067894 126.88095 -0.5614927 -0.4309513
+Collision detected 127.09179 126.91599 -0.5678575 -0.4525951
+Collision detected 127.11065 126.94106 -0.57021815 -0.4726717
+Collision detected 127.13672 126.96362 -0.5698634 -0.49130252
+Collision detected 127.15582 126.984024 -0.56703895 -0.50864345
+Collision detected 127.16918 127.01909 -0.562866 -0.5249155
+Collision detected 127.19072 127.0445 -0.56359696 -0.53989834
+Collision detected 127.227425 127.06208 -0.5701888 -0.5545583
+Collision detected 127.31271 127.07983 -0.57736665 -0.5693979
+Collision detected 127.3602 127.09874 -0.59268636 -0.5847653
+Collision detected 127.43459 127.133255 -0.60603887 -0.60088843
+Collision detected 127.49033 127.17741 -0.6170922 -0.6163071
+Collision detected 127.55305 127.20251 -0.62689817 -0.63121474
+Collision detected 127.62853 127.23191 -0.63506097 -0.64509314
+Collision detected 127.68569 127.281 -0.64202917 -0.65691066
+Collision detected 127.77245 127.322685 -0.64772654 -0.6659362
+Collision detected 127.82424 127.34759 -0.6519551 -0.67427295
+Collision detected 127.9126 127.38614 -0.6559637 -0.6816759
+Collision detected 127.96367 127.42268 -0.65820634 -0.6874244
+Collision detected 128.05182 127.456635 -0.66091096 -0.69211096
+Collision detected 128.13438 127.49417 -0.66169274 -0.6964975
+Collision detected 128.18097 127.52558 -0.6536105 -0.7006935
+Collision detected 128.22714 127.556465 -0.64327085 -0.7034298
+Collision detected 128.28888 127.61845 -0.6332533 -0.70598084
+Collision detected 128.33467 127.649376 -0.622116 -0.7086651
+Collision detected 128.38316 127.682014 -0.6099087 -0.7101819
+Collision detected 128.43272 127.76465 -0.5977274 -0.71122384
+Collision detected 128.48642 127.80093 -0.5832063 -0.7119113
+Collision detected 128.52393 127.893425 -0.56800497 -0.7111055
+Collision detected 128.58768 127.938774 -0.55143636 -0.70943004
+Collision detected 128.64241 128.04088 -0.54145104 -0.7060896
+Collision detected 128.71938 128.13925 -0.5249803 -0.7004833
+Collision detected 128.79254 128.20459 -0.5032244 -0.6929938
+Collision detected 130.35533 130.13661 0.33749938 0.07223564
+Collision detected 130.51999 130.34233 0.41903117 0.19642672
+Collision detected 130.69344 130.54729 0.48645705 0.28957066
+Collision detected 130.86934 130.70189 0.5405051 0.34594396
+Collision detected 131.03636 130.80234 0.58067083 0.38432485
+Collision detected 131.18436 130.88434 0.6104283 0.41199154
+Collision detected 131.69078 131.40506 0.66526973 0.53918916
+Collision detected 131.8014 131.62097 0.6678589 0.5591343
+Collision detected 131.89842 131.80193 0.66634285 0.56035954
+Collision detected 131.97711 131.89183 0.6612925 0.5528171
+Collision detected 132.04178 131.93652 0.6535179 0.54944676
+Collision detected 132.09851 131.9688 0.64383346 0.5481074
+Collision detected 132.15442 132.00023 0.6325617 0.54692066
+Collision detected 132.21083 132.03223 0.6199985 0.54550415
+Collision detected 132.27107 132.06552 0.60601574 0.5436384
+Collision detected 132.33636 132.09996 0.5905323 0.54114765
+Collision detected 132.40863 132.138 0.5734685 0.5378588
+Collision detected 132.49219 132.1805 0.5549998 0.533587
+Collision detected 132.593 132.2301 0.5355489 0.5275919
+Collision detected 134.72816 134.37741 0.457957 0.27435678
+Collision detected 134.95161 134.69469 0.47093275 0.29413623
+Collision detected 135.15714 134.99478 0.516731 0.32794875
+Collision detected 135.33195 135.20976 0.57773167 0.3828095
+Collision detected 135.46092 135.35065 0.64819056 0.42720032
+Collision detected 135.54579 135.44678 0.6930224 0.4611518
+Collision detected 135.59915 135.52867 0.7157349 0.49332577
+Collision detected 135.63345 135.60487 0.7267876 0.5267824
+Collision detected 135.65924 135.67178 0.73278046 0.56057197
+Collision detected 135.67812 135.72462 0.73537475 0.59111977
+Collision detected 135.68796 135.78537 0.73519987 0.62678754
+Collision detected 135.69487 135.8446 0.73420185 0.65810704
+Collision detected 135.70044 135.89859 0.73274904 0.6869201
+Collision detected 135.70543 135.9518 0.731038 0.70613766
+Collision detected 135.71007 136.00497 0.72914606 0.72215587
+Collision detected 135.71426 136.0575 0.7270263 0.73487145
+Ego progress:  79.99784088134766
+Opp1 progress:  0.4860195219516754
+Opp2 progress:  103.1048812866211
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 177] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622288
+[Episode 178] Using seed 1756622288
+ep_no: 178
+ego params:  0.417134128225209 0.10469850738192737 0.3519502776107487 0.8878359538351072
+opp params:  0.2561555393383346 0.26602291770424225 0.3163716070559599 0.9995086687623763
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 24.114527 23.788557 -0.4892054 -0.47488412
+Collision detected 24.41078 24.131798 -0.42100564 -0.40084842
+Collision detected 24.691183 24.398903 -0.3368835 -0.32164675
+Collision detected 24.933407 24.57 -0.23268148 -0.26021752
+Ego progress:  104.71566009521484
+Opp1 progress:  136.9164581298828
+Opp2 progress:  132.26980590820312
+[W&B] Appended episode data, total episodes: 3
+[W&B] Uploaded combined artifact with 3 episodes
+[Episode 178] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756622289
+[Episode 179] Using seed 1756622289
+ep_no: 179
+ego params:  0.417134128225209 0.10469850738192737 0.3519502776107487 0.8878359538351072
+opp params:  0.2561555393383346 0.26602291770424225 0.3163716070559599 0.9995086687623763
+opp1 params: 0.3810478256524631 0.19065149818060267 0.37125907480826825 0.861001927045774
+Collision detected 126.92168 127.18805 -0.54600257 -0.6745223
+Collision detected 127.10069 127.218155 -0.63201356 -0.6880102
+Collision detected 127.18579 127.244354 -0.6558376 -0.69599146
+Collision detected 127.20147 127.24975 -0.66291666 -0.70033914
+Collision detected 127.21458 127.25677 -0.6687321 -0.705397
+Collision detected 127.23125 127.26004 -0.67509145 -0.7094869
+Collision detected 127.25442 127.26717 -0.6809659 -0.7145073
+Collision detected 127.27634 127.27002 -0.6861308 -0.7184357
+Collision detected 127.2972 127.276886 -0.69039756 -0.723072
+Collision detected 127.32391 127.28356 -0.6951484 -0.7274781
+Collision detected 127.34171 127.290344 -0.69975096 -0.7318531
+Collision detected 127.37296 127.29723 -0.7041396 -0.73620445
+Collision detected 127.40275 127.304214 -0.7082579 -0.74053144
+Collision detected 127.43116 127.31131 -0.7111595 -0.7448339
+Collision detected 127.45973 127.318504 -0.7140748 -0.74910825
+Collision detected 127.49633 127.32483 -0.7170714 -0.7533444
+Collision detected 127.52311 127.32867 -0.72019154 -0.75755
+Collision detected 127.54821 127.33255 -0.72249013 -0.7617248
+Collision detected 127.573586 127.340645 -0.7245698 -0.76586664
+Collision detected 127.63588 127.34892 -0.72683775 -0.7699786
+Collision detected 127.66068 127.35728 -0.7293768 -0.7740626
+Collision detected 127.68531 127.36568 -0.73071295 -0.7781198
+Collision detected 127.76405 127.3677 -0.73232496 -0.7810478
+Collision detected 127.78833 127.36976 -0.73437786 -0.7838894
+Collision detected 127.81232 127.37189 -0.73538786 -0.7867122
+Collision detected 127.896126 127.37406 -0.7365749 -0.7895175
+Collision detected 127.9212 127.3763 -0.7381941 -0.79230654
+Collision detected 127.94549 127.378586 -0.7388173 -0.7950797
+Collision detected 128.0297 127.38091 -0.7397185 -0.7978353
+Collision detected 128.05626 127.3833 -0.7407622 -0.80057335
+Collision detected 128.08235 127.385735 -0.7411102 -0.80329525
+Collision detected 128.16173 127.38822 -0.7417896 -0.806
+Collision detected 128.19043 127.39075 -0.7424179 -0.80868775
+Collision detected 128.21869 127.39331 -0.742579 -0.8113588
+Collision detected 128.28133 127.39592 -0.7350844 -0.81401235
+Collision detected 128.3026 127.39856 -0.7269564 -0.81664896
+Collision detected 128.32225 127.40772 -0.7180607 -0.8186473
+Collision detected 128.34131 127.41674 -0.7088187 -0.82042366
+Collision detected 128.36043 127.425674 -0.69963616 -0.82213545
+Collision detected 128.39844 127.43483 -0.6903622 -0.8238151
+Collision detected 128.41823 127.44391 -0.6811733 -0.8254659
+Collision detected 128.43828 127.45286 -0.6721366 -0.8270871
+Collision detected 128.4589 127.49272 -0.6622575 -0.82868075
+Collision detected 128.48021 127.502396 -0.6523735 -0.830278
+Collision detected 128.50386 127.51237 -0.64234227 -0.8318714
+Collision detected 128.52045 127.516266 -0.6321653 -0.8339441
+Collision detected 128.54654 127.525925 -0.621992 -0.83573216
+Collision detected 128.57301 127.53057 -0.6119 -0.8378361
+Collision detected 128.60904 127.54687 -0.61076397 -0.83881503
+Collision detected 128.63252 127.5526 -0.599452 -0.8405984
+Collision detected 128.64977 127.56896 -0.588197 -0.8416109
+Error in callback:  Cannot determine dtype of 0
+Failed to save on error: setting an array element with a sequence.
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 528, in dtype
+    dt = np.result_type(x)
+  File "<__array_function__ internals>", line 180, in result_type
+TypeError: Cannot interpret 'Array(0, dtype=int32)' as a data type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 487, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 226, in generate
+    d1 = np.sqrt((self.waypoint_list[t_idx-1,0]-self.waypoint_list[t_idx,0])**2 \
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2173, in _dynamic_slice_indices
+    d_arr = lax.convert_element_type(d, _dtype(i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 530, in dtype
+    raise TypeError(f"Cannot determine dtype of {x}") from err
+TypeError: Cannot determine dtype of 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 528, in dtype
+    dt = np.result_type(x)
+  File "<__array_function__ internals>", line 180, in result_type
+TypeError: Cannot interpret 'Array(0, dtype=int32)' as a data type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 487, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 226, in generate
+    d1 = np.sqrt((self.waypoint_list[t_idx-1,0]-self.waypoint_list[t_idx,0])**2 \
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2173, in _dynamic_slice_indices
+    d_arr = lax.convert_element_type(d, _dtype(i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 530, in dtype
+    raise TypeError(f"Cannot determine dtype of {x}") from err
+TypeError: Cannot determine dtype of 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 55, in apport_excepthook
+    import apt_pkg
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 528, in dtype
+    dt = np.result_type(x)
+  File "<__array_function__ internals>", line 180, in result_type
+TypeError: Cannot interpret 'Array(0, dtype=int32)' as a data type
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 487, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 226, in generate
+    d1 = np.sqrt((self.waypoint_list[t_idx-1,0]-self.waypoint_list[t_idx,0])**2 \
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/array.py", line 317, in __getitem__
+    return lax_numpy._rewriting_take(self, idx)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4128, in _rewriting_take
+    if (result := _attempt_rewriting_take_via_slice(arr, idx, mode)) is not None:
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/lax_numpy.py", line 4113, in _attempt_rewriting_take_via_slice
+    arr = lax.dynamic_slice(arr, start_indices=start_indices, slice_sizes=slice_sizes)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 105, in dynamic_slice
+    start_indices = _dynamic_slice_indices(operand, start_indices)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/lax/slicing.py", line 2173, in _dynamic_slice_indices
+    d_arr = lax.convert_element_type(d, _dtype(i))
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/dtypes.py", line 530, in dtype
+    raise TypeError(f"Cannot determine dtype of {x}") from err
+TypeError: Cannot determine dtype of 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1112, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1106, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 840, in timer_callback
+    if self.use_wandb and self.wandb_run:
+AttributeError: 'CarNode' object has no attribute 'wandb_run'
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7bc541edd090>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
+Exception ignored in atexit callback: <function shutdown at 0x7bc662b1d120>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 2191, in shutdown
+    h.release()
+  File "/usr/lib/python3.10/logging/__init__.py", line 924, in release
+    self.lock.release()
+RuntimeError: cannot release un-acquired lock

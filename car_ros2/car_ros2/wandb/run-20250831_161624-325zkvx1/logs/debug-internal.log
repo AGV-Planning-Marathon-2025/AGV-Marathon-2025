@@ -1,0 +1,17 @@
+{"time":"2025-08-31T16:16:24.839332706+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-08-31T16:16:25.416528214+05:30","level":"INFO","msg":"stream: created new stream","id":"325zkvx1"}
+{"time":"2025-08-31T16:16:25.416583905+05:30","level":"INFO","msg":"stream: started","id":"325zkvx1"}
+{"time":"2025-08-31T16:16:25.416620311+05:30","level":"INFO","msg":"writer: started","stream_id":"325zkvx1"}
+{"time":"2025-08-31T16:16:25.416639177+05:30","level":"INFO","msg":"sender: started","stream_id":"325zkvx1"}
+{"time":"2025-08-31T16:16:25.416681103+05:30","level":"INFO","msg":"handler: started","stream_id":"325zkvx1"}
+{"time":"2025-08-31T16:16:29.544326361+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:16:34.289318341+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:16:39.141046286+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:16:43.924932057+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:16:48.924542218+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-08-31T16:16:51.333906149+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.601386439,"progress":"39B/39B"},{"desc":"uploading config.yaml","runtime_seconds":0.238275396,"progress":"1.7KB/1.7KB"}],"total_operations":2}}
+{"time":"2025-08-31T16:16:51.565748322+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-31T16:16:52.041554233+05:30","level":"INFO","msg":"stream: closing","id":"325zkvx1"}
+{"time":"2025-08-31T16:16:52.041600421+05:30","level":"INFO","msg":"handler: closed","stream_id":"325zkvx1"}
+{"time":"2025-08-31T16:16:52.041701392+05:30","level":"INFO","msg":"sender: closed","stream_id":"325zkvx1"}
+{"time":"2025-08-31T16:16:52.041716695+05:30","level":"INFO","msg":"stream: closed","id":"325zkvx1"}

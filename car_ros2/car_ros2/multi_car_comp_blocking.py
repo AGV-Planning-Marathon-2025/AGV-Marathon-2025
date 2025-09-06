@@ -202,7 +202,7 @@ curv_cost = 10.
 coll_cost = 100.
 track_width = 1.
 LON_THRES = 3.
-EP_LEN = 500
+EP_LEN = 1000
 
 # trajectory_type = "counter oval"
 trajectory_type = "berlin_2018"
@@ -305,12 +305,12 @@ def load_model_cpu(path, model):
     return model
 
 # Main model
-model = load_model_cpu(folder + '/model_multi_myopic_mpc' + suffix + '.pth', model)
+model = load_model_cpu(folder + '/model_multi(2)' + '.pth', model)
 
 # V models
-V1 = load_model_cpu(f'q{folder[1:]}/value_model_0.pth', V1)
-V2 = load_model_cpu(f'q{folder[1:]}/value_model_1.pth', V2)
-V3 = load_model_cpu(f'q{folder[1:]}/value_model_2.pth', V3)
+V1 = load_model_cpu(f'q{folder[1:]}/value_model_0_neg_extra.pth', V1)
+V2 = load_model_cpu(f'q{folder[1:]}/value_model_1_neg_extra.pth', V2)
+V3 = load_model_cpu(f'q{folder[1:]}/value_model_2_neg_extra.pth', V3)
 
 # model = model.to(DEVICE)
 model_opp = SimpleModel(39,[3*fs,3*fs,3*64],1)

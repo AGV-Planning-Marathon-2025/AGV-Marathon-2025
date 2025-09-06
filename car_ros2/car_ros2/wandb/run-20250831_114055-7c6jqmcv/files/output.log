@@ -1,0 +1,111 @@
+[W&B] Loading existing artifact: alpha_racer_multi_mpc_combined:latest
+[W&B] No existing artifact or error: Artifact.download() got an unexpected keyword argument 'replace'
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Collision detected 65.75397 65.96709 0.6416295 0.75495636
+Collision detected 65.92683 66.02543 0.66059947 0.74788225
+Collision detected 66.02064 66.07257 0.66873515 0.7407182
+Collision detected 66.04898 66.117935 0.67231023 0.7347398
+Collision detected 66.07225 66.15795 0.6741451 0.72933257
+Collision detected 66.09445 66.19214 0.67504835 0.7236417
+Collision detected 66.116806 66.23049 0.6755531 0.7175358
+Collision detected 66.13946 66.269585 0.6752515 0.7114877
+Collision detected 66.16251 66.307594 0.67427427 0.704804
+Collision detected 66.18226 66.3493 0.6725769 0.6974762
+Collision detected 66.20655 66.392845 0.6701929 0.689695
+Collision detected 66.231766 66.43682 0.66716075 0.6812015
+Collision detected 66.25822 66.48548 0.66381 0.6716803
+Collision detected 66.28634 66.53771 0.6595309 0.66123843
+Collision detected 66.31475 66.59285 0.6542577 0.64929694
+Collision detected 66.34852 66.65582 0.64777863 0.6353418
+Collision detected 66.38729 66.72556 0.63978976 0.61867505
+Ego progress:  131.3527069091797
+Opp1 progress:  138.49806213378906
+Opp2 progress:  3.8744261264801025
+[W&B] Appended episode data, total episodes: 1
+[W&B] Uploaded combined artifact with 1 episodes
+[Episode 126] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756620776
+[Episode 127] Using seed 1756620776
+ep_no: 127
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.13309313251591237 0.28902790050342825 0.3676130529296054 1.0195847771857944
+opp1 params: 0.1 0.5 0.15 1.0
+Collision detected 128.68549 127.78021 -0.63552564 -0.6971837
+Collision detected 128.86525 128.13956 -0.6292386 -0.742278
+Collision detected 129.07584 128.30779 -0.61393064 -0.75159144
+Collision detected 134.47865 134.13832 -0.6271465 -0.46354783
+Collision detected 134.58948 134.49979 -0.605717 -0.5940359
+Collision detected 134.71326 134.81862 -0.58090067 -0.6628288
+Collision detected 134.8 134.85936 -0.5589884 -0.6696655
+Collision detected 134.83679 134.905 -0.5509034 -0.6749655
+Collision detected 134.86601 134.95232 -0.54546547 -0.67802674
+Collision detected 134.89586 135.00264 -0.540524 -0.6787583
+Collision detected 134.92876 135.05576 -0.53547156 -0.6773398
+Collision detected 134.96529 135.11166 -0.5301682 -0.67372084
+Collision detected 135.007 135.17128 -0.5246416 -0.6680217
+Collision detected 135.05383 135.23442 -0.5189685 -0.6602525
+Collision detected 135.10562 135.30199 -0.5132475 -0.65037185
+Collision detected 135.16252 135.37387 -0.50768393 -0.6382016
+Collision detected 135.22362 135.4517 -0.5024651 -0.6232848
+Collision detected 135.28845 135.53555 -0.4977608 -0.6047336
+Collision detected 135.3559 135.62793 -0.4937751 -0.58127487
+Collision detected 135.42656 135.73259 -0.49047348 -0.55062824
+Collision detected 135.50114 135.85735 -0.48758605 -0.50891435
+Collision detected 144.81212 145.16176 0.69892055 0.6380062
+Collision detected 144.97446 145.2962 0.6916019 0.62400997
+Collision detected 145.10413 145.43149 0.68601274 0.60884225
+Ego progress:  125.38481140136719
+Opp1 progress:  147.77085876464844
+Opp2 progress:  130.09959411621094
+[W&B] Appended episode data, total episodes: 2
+[W&B] Uploaded combined artifact with 2 episodes
+[Episode 127] Uploaded episode data to combined artifact
+[Seed] Global seed set to 1756620777
+[Episode 128] Using seed 1756620777
+ep_no: 128
+ego params:  0.2 0.2 0.24 1.0
+opp params:  0.13309313251591237 0.28902790050342825 0.3676130529296054 1.0195847771857944
+opp1 params: 0.22616779594039685 0.26711555950009935 0.40337627970124257 0.9287179130092612
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 482, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 231, in generate
+    pt = self.waypoint_list[t_idx-1] + t1 * (self.waypoint_list[t_idx] - self.waypoint_list[t_idx-1])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 254, in deferring_binary_op
+    if hasattr(other, '__jax_array__'):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1107, in <module>
+    main()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 1101, in main
+    car_node.timer_callback()
+  File "/home/mahin-sanklecha/alpha-RACER/car_ros2/car_ros2/multi_car_blocking.py", line 482, in timer_callback
+    target_pos_tensor_opp1, _, s_opp1, e_opp1 = waypoint_generator_opp1.generate(jnp.array(obs_opp1[:5]), dt=DT_torch, mu_factor=mu_factor)
+  File "/home/mahin-sanklecha/alpha-RACER/car_dynamics/car_dynamics/controllers_jax/waypoint.py", line 231, in generate
+    pt = self.waypoint_list[t_idx-1] + t1 * (self.waypoint_list[t_idx] - self.waypoint_list[t_idx-1])
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py", line 254, in deferring_binary_op
+    if hasattr(other, '__jax_array__'):
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x70902c105090>
+Traceback (most recent call last):
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/lib/service/service_connection.py", line 182, in teardown
+    self._router.join()
+  File "/home/mahin-sanklecha/.local/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:
